@@ -100,8 +100,6 @@
             }
         }
     },
-    "menuItemSupport": "වි-තැපැල් සහාය",
-    "@menuItemSupport": {},
     "menuItemHelp": "උදව්",
     "@menuItemHelp": {},
     "menuItemAbout": "පිළිබඳව",
