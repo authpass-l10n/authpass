@@ -1,3 +1,120 @@
 {
-    "@@locale": "nl"
+    "@@locale": "nl",
+    "fieldUserName": "Gebruiker",
+    "@fieldUserName": {},
+    "fieldPassword": "Wachtwoord",
+    "@fieldPassword": {},
+    "fieldWebsite": "Website",
+    "@fieldWebsite": {},
+    "fieldTitle": "Titel",
+    "@fieldTitle": {},
+    "fieldTotp": "Eenmalig wachtwoord (Tijd gebaseerd)",
+    "@fieldTotp": {
+        "description": "Label for fields of TOTP (Time based one time passwords)"
+    },
+    "english": "Engels",
+    "@english": {
+        "description": "language switcher subtitle"
+    },
+    "german": "Duits",
+    "@german": {
+        "description": "language switcher subtitle"
+    },
+    "russian": "Russisch",
+    "@russian": {
+        "description": "language switcher subtitle"
+    },
+    "ukrainian": "Oekraïens",
+    "@ukrainian": {
+        "description": "language switcher subtitle"
+    },
+    "lithuanian": "Litouws",
+    "@lithuanian": {
+        "description": "language switcher subtitle"
+    },
+    "french": "Frans",
+    "@french": {
+        "description": "language switcher subtitle"
+    },
+    "spanish": "Spaans",
+    "@spanish": {
+        "description": "language switcher subtitle"
+    },
+    "indonesian": "Indonesisch",
+    "@indonesian": {
+        "description": "language switcher subtitle"
+    },
+    "turkish": "Turks",
+    "@turkish": {
+        "description": "Language switcher subtitle"
+    },
+    "hebrew": "Hebreeuws",
+    "@hebrew": {
+        "description": "Language switcher subtitle"
+    },
+    "italian": "Italiaans",
+    "@italian": {
+        "description": "Language switcher subtitle"
+    },
+    "chineseSimplified": "Chinees, vereenvoudigd",
+    "@chineseSimplified": {
+        "description": "Language switcher subtitle"
+    },
+    "chineseTraditional": "Chinees, traditioneel",
+    "@chineseTraditional": {
+        "description": "Language switcher subtitle"
+    },
+    "portugueseBrazilian": "Portugees, Braziliaans",
+    "@portugueseBrazilian": {
+        "description": "Language switcher subtitle"
+    },
+    "slovak": "Slowaaks",
+    "@slovak": {
+        "description": "Language switcher subtitle"
+    },
+    "selectItem": "Selecteer",
+    "@selectItem": {
+        "description": "semantic label for checkboxes to select item."
+    },
+    "selectKeepassFile": "AuthPass - Selecteer KeePass Bestand",
+    "@selectKeepassFile": {
+        "context": "appbar title - select file screen"
+    },
+    "quickUnlockingFiles": "Bestanden snel ontgrendelen",
+    "@quickUnlockingFiles": {
+        "context": "select file screen"
+    },
+    "selectKeepassFileLabel": "Selecteer een KeePass (.kdbx) bestand.",
+    "@selectKeepassFileLabel": {
+        "context": "select file screen, used as label."
+    },
+    "createNewFile": "Maak nieuw bestand",
+    "@createNewFile": {
+        "description": "button on select file screen to create a new password database."
+    },
+    "openLocalFile": "Open lokaal bestand",
+    "@openLocalFile": {
+        "context": "select file screen, big button open local file."
+    },
+    "openFile": "Open bestand",
+    "@openFile": {
+        "description": "Displayed as placeholder in password list when no file is open."
+    },
+    "loadFrom": "Laad van {cloudStorageName}",
+    "@loadFrom": {
+        "placeholders": {
+            "cloudStorageName": {
+                "type": "String",
+                "example": "Dropbox"
+            }
+        }
+    },
+    "loadFromUrl": "Download vanaf URL",
+    "@loadFromUrl": {
+        "description": "deprecated"
+    },
+    "loadFromRemoteUrl": "Open kdbx vanaf URL",
+    "@loadFromRemoteUrl": {
+        "description": "Overflow menu option to load KeePass file from URL."
+    }
 }
