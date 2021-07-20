@@ -1,16 +1,16 @@
-<p>Easily and securely keep track of all your Passwords!</p>
+<p>Houd eenvoudig en veilig al je wachtwoorden bij!</p>
 
-<p>AuthPass is a stand alone password manager with support for the popular and proven Keepass (kdbx) format. 
-Store your passwords, share across all your devices and easily find them whenever you need to login.</p>
+<p>AuthPass is een lokale wachtwoordbeheerder met ondersteuning voor het populaire en bewezen Keepass (kdbx) formaat. 
+Sla uw wachtwoorden op, deel ze op al uw apparaten en vind ze gemakkelijk wanneer u wilt inloggen.</p>
 
 <ul>
-<li>All your passwords in one place.<li>
-<li>Generate secure random passwords for each of your accounts.</li>
-<li>Quick Unlock secured with biometric lock (android only right now)</li>
-<li>Keep track of your accounts across the web.</li>
-<li>App available for Mac, iOS, Android, Linux and Windows.</li>
-<li>Open Source available on https://github.com/authpass/authpass/</li>
-<li>Contributions welcome and encouraged ;-) (Always looking for developers, translators, documentation writers, UI designer, etcc. :) ), just join our discord channel.</li>
+<li>Alle wachtwoorden op één plaats.<li>
+<li>Genereer veilige en willekeurige wachtwoorden voor elke gebruikersnaam.</li>
+<li>Snelle ontgrendeling beveiligd met biometrische vergrendeling (alleen Android op dit moment)</li>
+<li>Bijhouden van je gebruikersnamen op het internet.</li>
+<li>App beschikbaar voor Mac, iOS, Android, Linux en Windows.</li>
+<li>Open Source beschikbaar op https://github. om/authpass/authpass/</li>
+<li>Bijdrages zijn welkom en aangemoedigd ;-) (Altijd zoeken we naar ontwikkelaars, vertalers, documentatieschrijvers, UI ontwerpers, etc. :) ), kom in ons discord kanaal.</li>
 </ul>
 
-<p>Join our discord channel at https://authpass.app/go/discord - In case of any Problems, Feedback, etc. or just to hang out.</p>
+<p>Neem deel aan ons discord kanaal op https://authpass. pp/go/discord - In geval van problemen, Feedback, etc. of gewoon om rond te hangen.</p>
