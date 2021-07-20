@@ -207,10 +207,6 @@
     "@menuItemOpenAnotherFile": {},
     "menuItemCheckForUpdates": "检查更新",
     "@menuItemCheckForUpdates": {},
-    "menuItemSupport": "电邮联系开发组",
-    "@menuItemSupport": {},
-    "menuItemSupportSubtitle": "发送日志/请求帮助",
-    "@menuItemSupportSubtitle": {},
     "menuItemHelp": "寻求帮助",
     "@menuItemHelp": {},
     "menuItemHelpSubtitle": "在浏览器查阅用户文档",
@@ -473,11 +469,6 @@
     "dialogContinue": "下一步",
     "@dialogContinue": {
         "description": "Dialog action to continue to next step (e.g. credential screen when finished with master password)"
-    },
-    "dialogSendErrorReport": "发送错误报告/帮助",
-    "@dialogSendErrorReport": {
-        "description": "action button in error dialogs to send email to support with log file.",
-        "context": "error dialog"
     },
     "groupFilterDescription": "选择要显示的分组",
     "@groupFilterDescription": {
