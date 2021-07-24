@@ -8,7 +8,7 @@
     "@fieldWebsite": {},
     "fieldTitle": "标题",
     "@fieldTitle": {},
-    "fieldTotp": "双重认证 (TOTP)",
+    "fieldTotp": "双重认证 (Totp)",
     "@fieldTotp": {
         "description": "Label for fields of TOTP (Time based one time passwords)"
     },
@@ -72,11 +72,15 @@
     "@slovak": {
         "description": "Language switcher subtitle"
     },
+    "dutch": "荷兰语",
+    "@dutch": {
+        "description": "Language switcher subtitle"
+    },
     "selectItem": "选择...",
     "@selectItem": {
         "description": "semantic label for checkboxes to select item."
     },
-    "selectKeepassFile": "契约 - 打开密码箱",
+    "selectKeepassFile": "奥兹之钥 - 打开密码库",
     "@selectKeepassFile": {
         "context": "appbar title - select file screen"
     },
@@ -84,7 +88,7 @@
     "@quickUnlockingFiles": {
         "context": "select file screen"
     },
-    "selectKeepassFileLabel": "你的密码库在哪儿呢？（后缀名为.kdbx）",
+    "selectKeepassFileLabel": "你的密码库在哪儿呢? (后缀名为.kdbx)",
     "@selectKeepassFileLabel": {
         "context": "select file screen, used as label."
     },
@@ -153,7 +157,7 @@
     "@preferenceAutoFillDescription": {},
     "preferenceTitle": "设置",
     "@preferenceTitle": {},
-    "aboutAppName": "Authpass-奥斯之钥",
+    "aboutAppName": "Authpass-奥兹之钥",
     "@aboutAppName": {},
     "aboutLinkFeedback": "我们欢迎反馈意见！",
     "@aboutLinkFeedback": {},
@@ -162,6 +166,8 @@
     "aboutLinkGitHub": "本项目是自由开源软件！",
     "@aboutLinkGitHub": {},
     "aboutLogFile": "日志文件： {logFilePath}",
+    "aboutLinkContributors": "显示贡献者",
+    "@aboutLinkContributors": {},
     "@aboutLogFile": {
         "placeholders": {
             "logFilePath": {
@@ -207,6 +213,14 @@
     "@menuItemOpenAnotherFile": {},
     "menuItemCheckForUpdates": "检查更新",
     "@menuItemCheckForUpdates": {},
+    "menuItemSupport": "发送日志",
+    "@menuItemSupport": {},
+    "menuItemSupportSubtitle": "通过电子邮件发送日志",
+    "@menuItemSupportSubtitle": {},
+    "menuItemForum": "支援论坛",
+    "@menuItemForum": {},
+    "menuItemForumSubtitle": "报告问题并获得帮助",
+    "@menuItemForumSubtitle": {},
     "menuItemHelp": "寻求帮助",
     "@menuItemHelp": {},
     "menuItemHelpSubtitle": "在浏览器查阅用户文档",
@@ -361,7 +375,7 @@
     "@doneCopiedField": {
         "description": ""
     },
-    "emptyPasswordVaultPlaceholder": "好了！已经没什么好怕的了！\n那么，我们来准备保护你的第一个密码吧！",
+    "emptyPasswordVaultPlaceholder": "好了！这样就已经没什么好怕的了！\n来，准备保护你的第一个密码吧！",
     "@emptyPasswordVaultPlaceholder": {
         "description": "Placeholder text shown when a user opens an empty password file."
     },
@@ -469,6 +483,15 @@
     "dialogContinue": "下一步",
     "@dialogContinue": {
         "description": "Dialog action to continue to next step (e.g. credential screen when finished with master password)"
+    },
+    "dialogSendErrorReport": "发送错误报告",
+    "@dialogSendErrorReport": {
+        "description": "action button in error dialogs to send email to support with log file.",
+        "context": "error dialog"
+    },
+    "dialogReportErrorForum": "在论坛/帮助中报告错误",
+    "@dialogReportErrorForum": {
+        "description": "action button in error dialog to open forum and create new topic."
     },
     "groupFilterDescription": "选择要显示的分组",
     "@groupFilterDescription": {
@@ -674,7 +697,7 @@
     "@iconPngSizeWarning": {
         "description": "Warning shown when user selects a large png file as custom icon."
     },
-    "notPngError": "只支持PNG (.png) 格式",
+    "notPngError": "只支持PNG格式",
     "@notPngError": {
         "description": "Error when user selects an unsupported file as custom icon."
     },
@@ -726,15 +749,15 @@
     "@onboardingBackToOnboarding": {
         "description": "Context menu entry which reverts to onboarding"
     },
-    "onboardingBackToOnboardingSubtitle": "我想再一次签订契约\n ~ ( >ω･)～☆",
+    "onboardingBackToOnboardingSubtitle": "我想重新签订契约\n ~（ >ω･）～☆",
     "@onboardingBackToOnboardingSubtitle": {
         "description": "Context menu entry which reverts to onboarding"
     },
-    "onboardingHeadline": "签订契约，\n守护密码！",
+    "onboardingHeadline": "和我签订奥兹之钥,\n管理密码吧！",
     "@onboardingHeadline": {
         "description": ""
     },
-    "onboardingQuestion": "请问您先前签订过契约吗？\n（或者说，拥有.kdbx文件吗？）",
+    "onboardingQuestion": "请问您之前用过本软件\n或者兼容的密码管理器吗？",
     "@onboardingQuestion": {
         "description": ""
     },
