@@ -88,7 +88,7 @@
     "@quickUnlockingFiles": {
         "context": "select file screen"
     },
-    "selectKeepassFileLabel": "你的密码库在哪儿呢? (后缀名为.kdbx)",
+    "selectKeepassFileLabel": "请打开一个数据库，后缀名为.kdbx",
     "@selectKeepassFileLabel": {
         "context": "select file screen, used as label."
     },
@@ -753,7 +753,7 @@
     "@onboardingBackToOnboardingSubtitle": {
         "description": "Context menu entry which reverts to onboarding"
     },
-    "onboardingHeadline": "和我签订奥兹之钥,\n管理密码吧！",
+    "onboardingHeadline": "和我签订契约,\n管理密码吧！",
     "@onboardingHeadline": {
         "description": ""
     },
