@@ -141,6 +141,10 @@
     "@preferenceAllowScreenshots": {},
     "preferenceEnableAutoFill": "Habilitar preenchimento automático",
     "@preferenceEnableAutoFill": {},
+    "dismissAutofillSuggestionBannerButton": "DISPENSAR",
+    "@dismissAutofillSuggestionBannerButton": {
+        "description": "Button that is displayed in autofill suggestion warnings to dismiss the warning"
+    },
     "preferenceAutoFillDescription": "Somente suportado em Android Oreo (8.0) ou posterior.",
     "@preferenceAutoFillDescription": {},
     "preferenceTitle": "Preferências",
