@@ -153,6 +153,10 @@
     "@preferenceAllowScreenshots": {},
     "preferenceEnableAutoFill": "Autofill aktivieren",
     "@preferenceEnableAutoFill": {},
+    "dismissAutofillSuggestionBannerButton": "Schließen",
+    "@dismissAutofillSuggestionBannerButton": {
+        "description": "Button that is displayed in autofill suggestion warnings to dismiss the warning"
+    },
     "preferenceAutoFillDescription": "Wird nur auf ab Android Oreo (8.0) unterstützt.",
     "@preferenceAutoFillDescription": {},
     "preferenceTitle": "Einstellungen",
