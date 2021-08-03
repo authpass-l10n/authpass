@@ -164,6 +164,19 @@
   "@preferenceAllowScreenshots": {},
   "preferenceEnableAutoFill": "Enable autofill",
   "@preferenceEnableAutoFill": {},
+  "enableAutofillSuggestionBanner": "You can you can fill field of other application by enabling autofill!",
+  "@enableAutofillSuggestionBanner": {
+    "description": "This text will shown as a banner on top of password list"
+  },
+  "dismissAutofillSuggestionBannerButton" : "DISMISS",
+  "@dismissAutofillSuggestionBannerButton" : {
+    "description" : "Button that is displayed in autofill suggestion warnings to dismiss the warning"
+  },
+  "enableAutofillSuggestionBannerButton" : "ENABLE!",
+  "@enableAutofillSuggestionBannerButton" : {
+    "description" : "Button that is displayed in autofill suggestion warnings to enable autofill"
+  },
+
   "preferenceAutoFillDescription": "Only supported on Android Oreo (8.0) or later.",
   "@preferenceAutoFillDescription": {},
   "preferenceTitle": "Preferences",
@@ -376,6 +389,14 @@
   "@swipeCopyUsername": {
     "description": "swipe action in password list to copy username"
   },
+  "copyUsernameNotExists": "Entry has no username defined.",
+  "@copyUsernameNotExists": {
+    "description": "Error message when trying to copy username from an entry which has none."
+  },
+  "copyPasswordNotExists": "Entry has no password defined.",
+  "@copyPasswordNotExists": {
+    "description": "Error message when trying to copy password from an entry which has none."
+  },
   "doneCopiedPassword": "Copied password to clipboard.",
   "@doneCopiedPassword": {
     "description": "snackbar confirmation that password was copied."
@@ -529,9 +550,21 @@
   "@editAction": {
     "description": "menu action: edit item (e.g. delete a group)"
   },
+  "deletePermanentlyAction": "Delete Permanently",
+  "@deletePermanentlyAction": {
+    "description": "menu action: delete an item permanently from the file (only shown for entries/groups already in the recycle bin."
+  },
+  "restoreFromRecycleBinAction": "Restore",
+  "@restoreFromRecycleBinAction": {
+    "description": "menu action: restore an entry/group which was moved into the recycle bin."
+  },
   "deleteAction": "Delete",
   "@deleteAction": {
     "description": "menu action: delete item (e.g. delete a group)"
+  },
+  "deletedEntry": "Deleted entry.",
+  "@deletedEntry": {
+    "description": "Confirmation when a password entry was deleted (ie. moved to recycle bin)"
   },
   "successfullyDeletedGroup": "Deleted group.",
   "@successfullyDeletedGroup": {
@@ -544,6 +577,17 @@
   "saveButtonLabel": "Save",
   "@saveButtonLabel": {
     "description": "save file, for example button displayed in entry details"
+  },
+  "permanentlyDeleteEntryConfirm": "This will permanently delete the password entry {title}. This can not be undone. Do you want to continue?",
+  "@permanentlyDeleteEntryConfirm": {
+    "description": "shown to force user to acknowledge delete before a entry will be permanently deleted.",
+    "placeholders":{
+      "title": {}
+    }
+  },
+  "permanentlyDeletedEntrySnackBar": "Permanently deleted entry.",
+  "@permanentlyDeletedEntrySnackBar": {
+    "description": "snackbar confirming that the entry was deleted."
   },
   "initialNewGroupName": "New Group",
   "@initialNewGroupName": {
