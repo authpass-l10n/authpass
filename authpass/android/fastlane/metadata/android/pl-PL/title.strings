@@ -1,4 +1,5 @@
-"launchscreen" = "Otwieranie sejfów z wielu serwerów: Google Drive, Dropbox i One Drive";
+"launchscreen" = "Wczytywanie sejfów z wielu serwerów\nGoogle Drive, DropBox i One Drive";
 "theme1" = "Tryb ciemny 😎️";
 "drawer2" = "Łatwe dzielenie haseł na grupy";
 "openfile2" = "Bezpiecznie przechowuj wszystkie hasła";
+"password_generator" = "Generowanie bezpiecznych haseł";
