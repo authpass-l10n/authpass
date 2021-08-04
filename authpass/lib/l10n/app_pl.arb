@@ -322,6 +322,19 @@
         "description": "label for a key file in combination with mater password",
         "context": "credential screen"
     },
+    "close": "Zamknij",
+    "@close": {
+        "description": "Tooltip/semantic label for close button"
+    },
+    "addNewPassword": "Dodaj nowe hasło",
+    "@addNewPassword": {
+        "description": "Tooltip for adding new password button (floating action button)"
+    },
+    "errorOpenFileAlreadyOpenTitle": "Plik jest już otwarty",
+    "@errorOpenFileAlreadyOpenTitle": {
+        "description": "Trying to open a database from a second file source which is already open.",
+        "context": "credential screen"
+    },
     "errorUnlockFileTitle": "Nie można otworzyć Pliku",
     "@errorUnlockFileTitle": {
         "description": "generic error when opening a file (dialog title)",
