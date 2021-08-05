@@ -60,6 +60,8 @@
     "@unableToLaunchUrlTitle": {
         "description": ""
     },
+    "menuItemGeneratePassword": "Parola oluştur",
+    "@menuItemGeneratePassword": {},
     "menuItemCheckForUpdates": "Güncellemeleri kontrol et",
     "@menuItemCheckForUpdates": {},
     "menuItemHelp": "Yardım",
@@ -199,6 +201,10 @@
     "saveButtonLabel": "Kaydet",
     "@saveButtonLabel": {
         "description": "save file, for example button displayed in entry details"
+    },
+    "webDavAuthPassword": "Şifre",
+    "@webDavAuthPassword": {
+        "description": ""
     },
     "initialNewGroupName": "Yeni Grup",
     "@initialNewGroupName": {
