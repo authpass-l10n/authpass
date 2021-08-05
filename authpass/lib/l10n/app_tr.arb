@@ -60,6 +60,8 @@
     "@unableToLaunchUrlTitle": {
         "description": ""
     },
+    "menuItemGeneratePassword": "Parola oluştur",
+    "@menuItemGeneratePassword": {},
     "menuItemCheckForUpdates": "Güncellemeleri kontrol et",
     "@menuItemCheckForUpdates": {},
     "menuItemHelp": "Yardım",
