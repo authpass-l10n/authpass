@@ -16,10 +16,6 @@
     "@selectKeepassFile": {
         "context": "appbar title - select file screen"
     },
-    "quickUnlockingFiles": "Швидке розблокування файлів",
-    "@quickUnlockingFiles": {
-        "context": "select file screen"
-    },
     "selectKeepassFileLabel": "Оберіть файл KeePass (.kdbx).",
     "@selectKeepassFileLabel": {
         "context": "select file screen, used as label."
@@ -40,10 +36,6 @@
                 "example": "Dropbox"
             }
         }
-    },
-    "loadFromUrl": "Завантажити з URL",
-    "@loadFromUrl": {
-        "description": "deprecated"
     },
     "loadFromRemoteUrl": "Відкрити kdbx з URL-адреси",
     "@loadFromRemoteUrl": {
@@ -359,6 +351,10 @@
     "saveButtonLabel": "Зберегти",
     "@saveButtonLabel": {
         "description": "save file, for example button displayed in entry details"
+    },
+    "webDavAuthPassword": "Пароль",
+    "@webDavAuthPassword": {
+        "description": ""
     },
     "initialNewGroupName": "Нова група",
     "@initialNewGroupName": {
