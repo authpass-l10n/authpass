@@ -73,10 +73,6 @@
             }
         }
     },
-    "loadFromUrl": "ඒ.ස.නි.(URL) න් බාගන්න",
-    "@loadFromUrl": {
-        "description": "deprecated"
-    },
     "labelLastOpenFiles": "අවසන්වරට විවෘත කළ ගොනු:",
     "@labelLastOpenFiles": {},
     "preferenceSelectLanguage": "භාෂාව තෝරන්න",
@@ -209,6 +205,10 @@
     "saveButtonLabel": "සුරකින්න",
     "@saveButtonLabel": {
         "description": "save file, for example button displayed in entry details"
+    },
+    "webDavAuthPassword": "මුරපදය",
+    "@webDavAuthPassword": {
+        "description": ""
     },
     "initialNewGroupName": "නව සමූහය",
     "@initialNewGroupName": {
