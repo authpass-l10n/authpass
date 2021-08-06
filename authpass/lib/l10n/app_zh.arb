@@ -806,6 +806,14 @@
     "@resetValue": {
         "description": "Preferences value modifier (Text Scale Factor/Visual Density)"
     },
+    "newGroupDialogTitle": "新建分组",
+    "@newGroupDialogTitle": {
+        "description": ""
+    },
+    "groupActionDelete": "删除",
+    "@groupActionDelete": {
+        "description": ""
+    },
     "unexpectedError": "意外错误: {error}",
     "@unexpectedError": {
         "placeholders": {
