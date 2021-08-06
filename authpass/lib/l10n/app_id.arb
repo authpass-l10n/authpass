@@ -755,6 +755,14 @@
     "@saving": {
         "description": "Saving text"
     },
+    "newGroupDialogTitle": "Grup baru",
+    "@newGroupDialogTitle": {
+        "description": ""
+    },
+    "groupActionDelete": "Hapus",
+    "@groupActionDelete": {
+        "description": ""
+    },
     "unexpectedError": "Kesalahan tak terduga: {error}",
     "@unexpectedError": {
         "placeholders": {
