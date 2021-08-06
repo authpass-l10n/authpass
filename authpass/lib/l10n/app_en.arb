@@ -80,16 +80,10 @@
   "@selectItem": {
     "description": "semantic label for checkboxes to select item."
   },
-
   "selectKeepassFile": "AuthPass - Select KeePass File",
   "@selectKeepassFile": {
     "context": "appbar title - select file screen"
   },
-  "quickUnlockingFiles": "Quick unlocking files",
-  "@quickUnlockingFiles": {
-    "context": "select file screen"
-  },
-
   "selectKeepassFileLabel": "Please select a KeePass (.kdbx) file.",
   "@selectKeepassFileLabel": {
     "context": "select file screen, used as label."
@@ -98,17 +92,37 @@
   "@createNewFile": {
     "description": "button on select file screen to create a new password database."
   },
-
   "openLocalFile": "Open\nLocal File",
   "@openLocalFile": {
     "context": "select file screen, big button open local file."
   },
-
   "openFile": "Open File",
   "@openFile": {
     "description": "Displayed as placeholder in password list when no file is open."
   },
-
+  "loadFromDropdownMenu": "Load from …",
+  "@loadFromDropdownMenu": {
+    "description": "label for dropdown menu which shows more cloud storage options."
+  },
+  "quickUnlockingFiles": "Quick unlocking files …",
+  "@quickUnlockingFiles": {
+    "description": "Status shown while we are loading files and trying to unlock them."
+  },
+  "openFileProgress": "Opening {fileName} … (${current} / ${totalCount})",
+  "@openFileProgress": {
+    "description": "Progress shown while files are loaded during quick unlock.",
+    "placeholders": {
+      "fileName": {
+        "description": "Name of the file that is currently loaded."
+      },
+      "current": {
+        "description": "The index/number of file currently loading."
+      },
+      "totalCount": {
+        "description": "Total number of files which are loading."
+      }
+    }
+  },
   "loadFrom": "Load from {cloudStorageName}",
   "@loadFrom": {
     "placeholders": {
@@ -118,32 +132,22 @@
       }
     }
   },
-  "loadFromUrl": "Download from URL",
-  "@loadFromUrl": {
-    "description": "deprecated"
-  },
   "loadFromRemoteUrl": "Open kdbx from URL",
   "@loadFromRemoteUrl": {
     "description": "Overflow menu option to load KeePass file from URL."
   },
-
   "createNewKeepass": "New to KeePass?\nCreate New Password Database",
   "@createNewKeepass": {
     "description": "deprecated"
   },
-
   "labelLastOpenFiles": "Last opened files:",
   "@labelLastOpenFiles": {},
-
   "noFilesHaveBeenOpenYet": "No files have been opened yet.",
   "@noFilesHaveBeenOpenYet": {},
-
   "preferenceSelectLanguage": "Select Language",
   "@preferenceSelectLanguage": {},
-
   "preferenceLanguage": "Language",
   "@preferenceLanguage": {},
-
   "preferenceTextScaleFactor": "Text Scale Factor",
   "@preferenceTextScaleFactor": {},
   "preferenceVisualDensity": "Visual Density",
@@ -168,15 +172,14 @@
   "@enableAutofillSuggestionBanner": {
     "description": "This text will shown as a banner on top of password list"
   },
-  "dismissAutofillSuggestionBannerButton" : "DISMISS",
-  "@dismissAutofillSuggestionBannerButton" : {
-    "description" : "Button that is displayed in autofill suggestion warnings to dismiss the warning"
+  "dismissAutofillSuggestionBannerButton": "DISMISS",
+  "@dismissAutofillSuggestionBannerButton": {
+    "description": "Button that is displayed in autofill suggestion warnings to dismiss the warning"
   },
-  "enableAutofillSuggestionBannerButton" : "ENABLE!",
-  "@enableAutofillSuggestionBannerButton" : {
-    "description" : "Button that is displayed in autofill suggestion warnings to enable autofill"
+  "enableAutofillSuggestionBannerButton": "ENABLE!",
+  "@enableAutofillSuggestionBannerButton": {
+    "description": "Button that is displayed in autofill suggestion warnings to enable autofill"
   },
-
   "preferenceAutoFillDescription": "Only supported on Android Oreo (8.0) or later.",
   "@preferenceAutoFillDescription": {},
   "preferenceTitle": "Preferences",
@@ -208,7 +211,9 @@
   "@unableToLaunchUrlDescription": {
     "description": "",
     "placeholders": {
-      "url": {"description": "URL which we tried to open."},
+      "url": {
+        "description": "URL which we tried to open."
+      },
       "openError": {
         "description": "Information about the error"
       }
@@ -227,7 +232,6 @@
       }
     }
   },
-
   "menuItemGeneratePassword": "Generate Password",
   "@menuItemGeneratePassword": {},
   "menuItemPreferences": "Preferences",
@@ -254,12 +258,10 @@
   "@actionOpenUrl": {
     "description": "tooltip for button to open URL/Website of an entry."
   },
-
   "passwordPlainText": "Reveal password",
   "@passwordPlainText": {
     "description": "Master password input: show password as plain text during input. (shown as tooltip)"
   },
-
   "generatorPassword": "Password",
   "@generatorPassword": {
     "description": "Label for generated password"
@@ -313,7 +315,6 @@
     "context": "Password generator",
     "placeholders": {
       "customMinLength": {
-
         "example": "40"
       }
     }
@@ -417,6 +418,10 @@
   "@emptyPasswordVaultButtonLabel": {
     "description": "Button shown under placeholder text when password database is empty"
   },
+  "loading": "Loading",
+  "@loading": {
+    "description": "generic loading indicator displayed during network request (e.g. when loading file list from cloud storage)"
+  },
   "loadingFile": "Loading file …",
   "@loadingFile": {
     "description": "credential screen while unlocking file."
@@ -484,6 +489,17 @@
   "@addNewPassword": {
     "description": "Tooltip for adding new password button (floating action button)"
   },
+  "errorOpenFileInvalidFileStructureTitle": "Tried to open invalid file type",
+  "@errorOpenFileInvalidFileStructureTitle": {
+    "description": "Title of error dialog when trying to open an invalid/unsupported file type"
+  },
+  "errorOpenFileInvalidFileStructureBody": "The file ({fileName}) does not appear to be a valid KDBX file. Please either choose a valid KDBX file or create a new password database.",
+  "@errorOpenFileInvalidFileStructureBody": {
+    "description": "Body of error dialog when trying to open an invalid/unsupported file type",
+    "placeholders": {
+      "fileName": {}
+    }
+  },
   "errorOpenFileAlreadyOpenTitle": "File already open",
   "@errorOpenFileAlreadyOpenTitle": {
     "description": "Trying to open a database from a second file source which is already open.",
@@ -499,7 +515,42 @@
       "newFileSource": {}
     }
   },
-
+  "loadFromUrl": "Download from Url",
+  "@loadFromUrl": {
+    "description": ""
+  },
+  "loadFromUrlEnterUrl": "Enter URL",
+  "@loadFromUrlEnterUrl": {
+    "description": "label for input box to enter url."
+  },
+  "loadFromUrlErrorEnterFullUrl": "Please enter full url starting with http:// or https://",
+  "@loadFromUrlErrorEnterFullUrl": {
+    "description": "validator error message when user does not enter a absolute url."
+  },
+  "loadFromUrlErrorInvalidUrl": "Please enter a valid url.",
+  "@loadFromUrlErrorInvalidUrl": {
+    "description": "validator error message hwen user enters a url which could not be parsed."
+  },
+  "linuxAppArmorWarning": "AuthPass requires permission to communicate with Secret Service to store credentials for cloud storage.\nPlease run the following command:",
+  "@linuxAppArmorWarning": {
+    "description": "On linux when user has not given AuthPass permission to connect to secret service he has to execute a command on the console."
+  },
+  "cancel": "Cancel",
+  "@cancel": {
+    "description": "button label for cancelling an action."
+  },
+  "errorLoadFileFromSourceTitle": "Error while opening file.",
+  "@errorLoadFileFromSourceTitle": {
+    "description": "error title when user selects a file which can't be downloaded."
+  },
+  "errorLoadFileFromSourceBody": "Unable to open {source}.\n{error}",
+  "@errorLoadFileFromSourceBody": {
+    "description": "error body when user selects a file which can't be downloaded.",
+    "placeholders": {
+      "source": {},
+      "error": {}
+    }
+  },
   "errorUnlockFileTitle": "Unable to open File",
   "@errorUnlockFileTitle": {
     "description": "generic error when opening a file (dialog title)",
@@ -515,7 +566,6 @@
       }
     }
   },
-
   "dialogContinue": "Continue",
   "@dialogContinue": {
     "description": "Dialog action to continue to next step (e.g. credential screen when finished with master password)"
@@ -578,10 +628,85 @@
   "@saveButtonLabel": {
     "description": "save file, for example button displayed in entry details"
   },
+  "webDavSettings": "WebDAV Settings",
+  "@webDavSettings": {
+    "description": "dialog title for entering WebDAV settings."
+  },
+  "webDavUrlLabel": "URL",
+  "@webDavUrlLabel": {
+    "description": ""
+  },
+  "webDavUrlHelperText": "Base Url to your WebDAV service.",
+  "@webDavUrlHelperText": {
+    "description": ""
+  },
+  "webDavUrlValidatorError": "Please enter a URL",
+  "@webDavUrlValidatorError": {
+    "description": ""
+  },
+  "webDavUrlValidatorInvalidUrlError": "Please enter a valid url with http:// or https://",
+  "@webDavUrlValidatorInvalidUrlError": {
+    "description": ""
+  },
+  "webDavAuthUser": "Username",
+  "@webDavAuthUser": {
+    "description": ""
+  },
+  "webDavAuthPassword": "Password",
+  "@webDavAuthPassword": {
+    "description": ""
+  },
+  "mergeSuccessDialogTitle": "Successfully merged password database",
+  "@mergeSuccessDialogTitle": {
+    "description": ""
+  },
+  "mergeSuccessDialogMessage": "Conflict detected while saving {fileName}, it was merged successfully with the remote file: \n\n{mergeSummary}",
+  "@mergeSuccessDialogMessage": {
+    "description": "",
+    "placeholders": {
+      "fileName": {},
+      "mergeSummary": {}
+    }
+  },
+  "forDetailsVisitUrl": "For details visit {url}",
+  "@forDetailsVisitUrl": {
+    "description": "",
+    "placeholders": {
+      "url": {}
+    }
+  },
+  "authPassCloudAuthEmailInputLabel": "Enter email address to register or sign in.",
+  "@authPassCloudAuthEmailInputLabel": {
+    "description": ""
+  },
+  "authPassCloudAuthEmailInvalid": "Please enter a valid email address.",
+  "@authPassCloudAuthEmailInvalid": {
+    "description": ""
+  },
+  "authPassCloudAuthConfirmEmailButtonLabel": "Confirm Address",
+  "@authPassCloudAuthConfirmEmailButtonLabel": {
+    "description": ""
+  },
+  "authPassCloudAuthConfirmEmail": "Please check your emails to confirm your email address.",
+  "@authPassCloudAuthConfirmEmail": {
+    "description": ""
+  },
+  "authPassCloudAuthConfirmEmailExplain": "Keep this screen open until you visited the link you received by email.",
+  "@authPassCloudAuthConfirmEmailExplain": {
+    "description": ""
+  },
+  "authPassCloudAuthResendExplain": "If you have not received an email, please check your spam folder. Otherwise you can try to request a new confirmation link.",
+  "@authPassCloudAuthResendExplain": {
+    "description": ""
+  },
+  "authPassCloudAuthResendButtonLabel": "Request a new confirmation link",
+  "@authPassCloudAuthResendButtonLabel": {
+    "description": ""
+  },
   "permanentlyDeleteEntryConfirm": "This will permanently delete the password entry {title}. This can not be undone. Do you want to continue?",
   "@permanentlyDeleteEntryConfirm": {
     "description": "shown to force user to acknowledge delete before a entry will be permanently deleted.",
-    "placeholders":{
+    "placeholders": {
       "title": {}
     }
   },
@@ -830,13 +955,13 @@
   "@onboardingNoCreate": {
     "description": ""
   },
-  "backupButton" : "SAVE TO CLOUD",
+  "backupButton": "SAVE TO CLOUD",
   "@backupButton": {
-    "description" : "Button that is displayed in backup warnings"
+    "description": "Button that is displayed in backup warnings"
   },
-  "dismissBackupButton" : "DISMISS",
-  "@dismissBackupButton" : {
-    "description" : "Button that is displayed in backup warnings to dismiss the warning"
+  "dismissBackupButton": "DISMISS",
+  "@dismissBackupButton": {
+    "description": "Button that is displayed in backup warnings to dismiss the warning"
   },
   "backupWarningMessage": "Your passwords in {databasename} are only saved locally!",
   "@backupWarningMessage": {
@@ -847,13 +972,13 @@
       }
     }
   },
-  "saveAs" : "Save In...",
-  "@saveAs" : {
-    "description" : "Save as text"
+  "saveAs": "Save In...",
+  "@saveAs": {
+    "description": "Save as text"
   },
-  "saving" : "Saving",
-  "@saving" : {
-    "description" : "Saving text"
+  "saving": "Saving",
+  "@saving": {
+    "description": "Saving text"
   },
   "increaseValue": "Increase",
   "@increaseValue": {
@@ -866,6 +991,77 @@
   "resetValue": "Reset",
   "@resetValue": {
     "description": "Preferences value modifier (Text Scale Factor/Visual Density)"
+  },
+  "cloudStorageAppBarTitle": "CloudStorage - {cloudStorageName}",
+  "@cloudStorageAppBarTitle": {
+    "description": "app bar title for opening/saving to cloud storage.",
+    "placeholders": {
+      "cloudStorageName": {
+        "example": "Dropbox"
+      }
+    }
+  },
+  "cloudStorageLogInCaption": "You will be redirected to authenticate AuthPass to access your data.",
+  "@cloudStorageLogInCaption": {
+    "description": ""
+  },
+  "cloudStorageLogInCode": "Enter code",
+  "@cloudStorageLogInCode": {
+    "description": "for oauth authentication user has to enter auth code - this is the label for the text field."
+  },
+  "launchUrlError": "Unable to launch url. Please visit {url}",
+  "@launchUrlError": {
+    "description": "",
+    "placeholders": {
+      "url": {}
+    }
+  },
+  "cloudStorageLogInActionLabel": "Login to {cloudStorageName}",
+  "@cloudStorageLogInActionLabel": {
+    "description": "when the user has not authenticated yet, he will see this button to start the login flow of a cloud storage backend.",
+    "placeholders": {
+      "cloudStorageName": {
+        "example": "Dropbox"
+      }
+    }
+  },
+  "cloudStorageAuthCodeDialogTitle": "{cloudStorageName} Authentication",
+  "@cloudStorageAuthCodeDialogTitle": {
+    "description": "",
+    "placeholders": {
+      "cloudStorageName": {
+        "example": "Dropbox"
+      }
+    }
+  },
+  "cloudStorageAuthCodeLabel": "Authentication Code",
+  "@cloudStorageAuthCodeLabel": {
+    "description": ""
+  },
+  "cloudStorageAuthErrorTitle": "Error while authenticating",
+  "@cloudStorageAuthErrorTitle": {
+    "description": ""
+  },
+  "cloudStorageAuthErrorMessage": "Error while trying to authenticate to ${cloudStorageName}: {errorMessage}",
+  "@cloudStorageAuthErrorMessage": {
+    "description": "",
+    "placeholders": {
+      "cloudStorageName": {
+        "example": "Dropbox"
+      },
+      "errorMessage": {}
+    }
+  },
+  "cloudStorageSearchBoxLabel": "Search Query",
+  "@cloudStorageSearchBoxLabel": {
+    "description": ""
+  },
+  "cloudStorageItemsInFolder": "{itemCount} items in this folder.",
+  "@cloudStorageItemsInFolder": {
+    "description": "",
+    "placeholders": {
+      "itemCount": {}
+    }
   },
   "unexpectedError": "Unexpected Error: {error}",
   "@unexpectedError": {
