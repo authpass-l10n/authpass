@@ -278,6 +278,10 @@
     "@saving": {
         "description": "Saving text"
     },
+    "newGroupDialogTitle": "නව සමූහය",
+    "@newGroupDialogTitle": {
+        "description": ""
+    },
     "unexpectedError": "අනපේක්ෂිත දෝෂයකි: {error}",
     "@unexpectedError": {
         "placeholders": {
