@@ -400,6 +400,14 @@
     "@onboardingYesOpenPasswords": {
         "description": ""
     },
+    "newGroupDialogTitle": "Нова група",
+    "@newGroupDialogTitle": {
+        "description": ""
+    },
+    "groupActionDelete": "Видалити",
+    "@groupActionDelete": {
+        "description": ""
+    },
     "unexpectedError": "Неочікувана помилка: {error}",
     "@unexpectedError": {
         "placeholders": {
