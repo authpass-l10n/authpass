@@ -806,6 +806,14 @@
     "@resetValue": {
         "description": "Preferences value modifier (Text Scale Factor/Visual Density)"
     },
+    "newGroupDialogTitle": "קבוצה חדשה",
+    "@newGroupDialogTitle": {
+        "description": ""
+    },
+    "groupActionDelete": "מחיקה",
+    "@groupActionDelete": {
+        "description": ""
+    },
     "unexpectedError": "שגיאה בלתי צפויה: {error}",
     "@unexpectedError": {
         "placeholders": {
