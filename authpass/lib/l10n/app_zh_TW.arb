@@ -783,6 +783,14 @@
     "@resetValue": {
         "description": "Preferences value modifier (Text Scale Factor/Visual Density)"
     },
+    "newGroupDialogTitle": "新群組",
+    "@newGroupDialogTitle": {
+        "description": ""
+    },
+    "groupActionDelete": "刪除",
+    "@groupActionDelete": {
+        "description": ""
+    },
     "unexpectedError": "不明錯誤：{error}",
     "@unexpectedError": {
         "placeholders": {
