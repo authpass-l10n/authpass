@@ -524,6 +524,14 @@
     "@saving": {
         "description": "Saving text"
     },
+    "newGroupDialogTitle": "Nowa grupa",
+    "@newGroupDialogTitle": {
+        "description": ""
+    },
+    "groupActionDelete": "Usuń",
+    "@groupActionDelete": {
+        "description": ""
+    },
     "unexpectedError": "Nieoczekiwany błąd: {error}",
     "@unexpectedError": {
         "placeholders": {
