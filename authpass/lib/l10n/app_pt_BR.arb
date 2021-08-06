@@ -751,6 +751,14 @@
     "@saving": {
         "description": "Saving text"
     },
+    "newGroupDialogTitle": "Novo Grupo",
+    "@newGroupDialogTitle": {
+        "description": ""
+    },
+    "groupActionDelete": "Apagar",
+    "@groupActionDelete": {
+        "description": ""
+    },
     "unexpectedError": "Erro Inesperado: {error}",
     "@unexpectedError": {
         "placeholders": {
