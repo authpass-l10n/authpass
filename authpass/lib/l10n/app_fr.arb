@@ -720,6 +720,14 @@
     "@saving": {
         "description": "Saving text"
     },
+    "newGroupDialogTitle": "Nouveau groupe",
+    "@newGroupDialogTitle": {
+        "description": ""
+    },
+    "groupActionDelete": "Supprimer",
+    "@groupActionDelete": {
+        "description": ""
+    },
     "unexpectedError": "Erreur inattendue : {error}",
     "@unexpectedError": {
         "placeholders": {
