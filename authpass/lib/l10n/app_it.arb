@@ -747,6 +747,14 @@
     "@saving": {
         "description": "Saving text"
     },
+    "newGroupDialogTitle": "Crea Gruppo",
+    "@newGroupDialogTitle": {
+        "description": ""
+    },
+    "groupActionDelete": "Elimina",
+    "@groupActionDelete": {
+        "description": ""
+    },
     "unexpectedError": "Errore imprevisto: {error}",
     "@unexpectedError": {
         "placeholders": {
