@@ -783,6 +783,14 @@
     "@resetValue": {
         "description": "Preferences value modifier (Text Scale Factor/Visual Density)"
     },
+    "newGroupDialogTitle": "Nieuwe groep",
+    "@newGroupDialogTitle": {
+        "description": ""
+    },
+    "groupActionDelete": "Verwijderen",
+    "@groupActionDelete": {
+        "description": ""
+    },
     "unexpectedError": "Onverwachte fout: {error}",
     "@unexpectedError": {
         "placeholders": {
