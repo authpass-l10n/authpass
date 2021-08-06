@@ -783,6 +783,14 @@
     "@resetValue": {
         "description": "Preferences value modifier (Text Scale Factor/Visual Density)"
     },
+    "newGroupDialogTitle": "Nuevo grupo",
+    "@newGroupDialogTitle": {
+        "description": ""
+    },
+    "groupActionDelete": "Eliminar",
+    "@groupActionDelete": {
+        "description": ""
+    },
     "unexpectedError": "Error inesperado: {error}",
     "@unexpectedError": {
         "placeholders": {
