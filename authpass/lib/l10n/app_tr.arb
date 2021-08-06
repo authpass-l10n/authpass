@@ -278,6 +278,14 @@
     "@onboardingYesOpenPasswords": {
         "description": ""
     },
+    "newGroupDialogTitle": "Yeni Grup",
+    "@newGroupDialogTitle": {
+        "description": ""
+    },
+    "groupActionDelete": "Sil",
+    "@groupActionDelete": {
+        "description": ""
+    },
     "unexpectedError": "Beklenmeyen Hata: {error}",
     "@unexpectedError": {
         "placeholders": {
