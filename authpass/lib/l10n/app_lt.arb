@@ -372,6 +372,14 @@
     "@groupListFilterAppbarTitle": {
         "description": "title in the app bar for group lists when displayed for filtering password list"
     },
+    "newGroupDialogTitle": "Nauja grupė",
+    "@newGroupDialogTitle": {
+        "description": ""
+    },
+    "groupActionDelete": "Ištrinti",
+    "@groupActionDelete": {
+        "description": ""
+    },
     "unexpectedError": "Nenumatyta klaida: {error}",
     "@unexpectedError": {
         "placeholders": {
