@@ -60,6 +60,26 @@
     "@chineseSimplified": {
         "description": "Language switcher subtitle"
     },
+    "chineseTraditional": "Chinois traditionnel",
+    "@chineseTraditional": {
+        "description": "Language switcher subtitle"
+    },
+    "portugueseBrazilian": "Portugais, Brésilien",
+    "@portugueseBrazilian": {
+        "description": "Language switcher subtitle"
+    },
+    "slovak": "Slovaque",
+    "@slovak": {
+        "description": "Language switcher subtitle"
+    },
+    "dutch": "Néerlandais",
+    "@dutch": {
+        "description": "Language switcher subtitle"
+    },
+    "selectItem": "Sélectionner",
+    "@selectItem": {
+        "description": "semantic label for checkboxes to select item."
+    },
     "selectKeepassFile": "AuthPass - Sélectionnez un fichier KeePass",
     "@selectKeepassFile": {
         "context": "appbar title - select file screen"
@@ -79,6 +99,14 @@
     "openFile": "Ouvrir un fichier",
     "@openFile": {
         "description": "Displayed as placeholder in password list when no file is open."
+    },
+    "loadFromDropdownMenu": "Charger depuis …",
+    "@loadFromDropdownMenu": {
+        "description": "label for dropdown menu which shows more cloud storage options."
+    },
+    "quickUnlockingFiles": "Déverrouillage rapide des fichiers…",
+    "@quickUnlockingFiles": {
+        "description": "Status shown while we are loading files and trying to unlock them."
     },
     "loadFrom": "Charger depuis {cloudStorageName}",
     "@loadFrom": {
@@ -142,6 +170,8 @@
     "aboutLinkGitHub": "Et également le projet Open Source",
     "@aboutLinkGitHub": {},
     "aboutLogFile": "Fichier Log : {logFilePath}",
+    "aboutLinkContributors": "Afficher les contributeurs",
+    "@aboutLinkContributors": {},
     "@aboutLogFile": {
         "placeholders": {
             "logFilePath": {
@@ -187,6 +217,14 @@
     "@menuItemOpenAnotherFile": {},
     "menuItemCheckForUpdates": "Rechercher des mises à jour",
     "@menuItemCheckForUpdates": {},
+    "menuItemSupport": "Envoyer les logs",
+    "@menuItemSupport": {},
+    "menuItemSupportSubtitle": "Envoyer les logs par email",
+    "@menuItemSupportSubtitle": {},
+    "menuItemForum": "Forum d’assistance",
+    "@menuItemForum": {},
+    "menuItemForumSubtitle": "Signaler des problèmes et obtenir de l'aide",
+    "@menuItemForumSubtitle": {},
     "menuItemHelp": "Aide",
     "@menuItemHelp": {},
     "menuItemHelpSubtitle": "Afficher la documentation",
@@ -274,6 +312,10 @@
     "@searchButtonLabel": {
         "description": "search button tooltip/semantic label"
     },
+    "filterButtonLabel": "Filtrer par groupe",
+    "@filterButtonLabel": {
+        "description": "tooltip/semantic label for filter app bar icon."
+    },
     "clear": "Supprimer",
     "@clear": {
         "description": "Remove existing group filter from password list"
@@ -329,6 +371,10 @@
     "emptyPasswordVaultButtonLabel": "Créez votre premier mot de passe",
     "@emptyPasswordVaultButtonLabel": {
         "description": "Button shown under placeholder text when password database is empty"
+    },
+    "loading": "Chargement en cours",
+    "@loading": {
+        "description": "generic loading indicator displayed during network request (e.g. when loading file list from cloud storage)"
     },
     "loadingFile": "Chargement du fichier …",
     "@loadingFile": {
@@ -389,6 +435,18 @@
         "description": "Label for the checkbox to save master password for quick unlock.",
         "context": "credential screen"
     },
+    "close": "Fermer",
+    "@close": {
+        "description": "Tooltip/semantic label for close button"
+    },
+    "addNewPassword": "Ajouter un nouveau mot de passe",
+    "@addNewPassword": {
+        "description": "Tooltip for adding new password button (floating action button)"
+    },
+    "errorOpenFileInvalidFileStructureTitle": "Tentative d'ouverture d'un type de fichier invalide",
+    "@errorOpenFileInvalidFileStructureTitle": {
+        "description": "Title of error dialog when trying to open an invalid/unsupported file type"
+    },
     "errorOpenFileAlreadyOpenTitle": "Fichier déjà ouvert",
     "@errorOpenFileAlreadyOpenTitle": {
         "description": "Trying to open a database from a second file source which is already open.",
@@ -403,6 +461,18 @@
             "openFileSource": {},
             "newFileSource": {}
         }
+    },
+    "loadFromUrlEnterUrl": "Entrez l'URL",
+    "@loadFromUrlEnterUrl": {
+        "description": "label for input box to enter url."
+    },
+    "loadFromUrlErrorInvalidUrl": "Veuillez entrer une URL valide.",
+    "@loadFromUrlErrorInvalidUrl": {
+        "description": "validator error message hwen user enters a url which could not be parsed."
+    },
+    "cancel": "Annuler",
+    "@cancel": {
+        "description": "button label for cancelling an action."
     },
     "errorUnlockFileTitle": "Ouverture de fichier impossible",
     "@errorUnlockFileTitle": {
@@ -444,9 +514,21 @@
     "@editAction": {
         "description": "menu action: edit item (e.g. delete a group)"
     },
+    "deletePermanentlyAction": "Supprimer définitivement",
+    "@deletePermanentlyAction": {
+        "description": "menu action: delete an item permanently from the file (only shown for entries/groups already in the recycle bin."
+    },
+    "restoreFromRecycleBinAction": "Restaurer",
+    "@restoreFromRecycleBinAction": {
+        "description": "menu action: restore an entry/group which was moved into the recycle bin."
+    },
     "deleteAction": "Supprimer",
     "@deleteAction": {
         "description": "menu action: delete item (e.g. delete a group)"
+    },
+    "deletedEntry": "Entrée supprimée.",
+    "@deletedEntry": {
+        "description": "Confirmation when a password entry was deleted (ie. moved to recycle bin)"
     },
     "successfullyDeletedGroup": "Groupe supprimé.",
     "@successfullyDeletedGroup": {
@@ -459,6 +541,30 @@
     "saveButtonLabel": "Sauvegarder",
     "@saveButtonLabel": {
         "description": "save file, for example button displayed in entry details"
+    },
+    "webDavSettings": "Configuration WebDAV",
+    "@webDavSettings": {
+        "description": "dialog title for entering WebDAV settings."
+    },
+    "webDavUrlLabel": "URL",
+    "@webDavUrlLabel": {
+        "description": ""
+    },
+    "webDavUrlHelperText": "Url de base de votre service WebDAV.",
+    "@webDavUrlHelperText": {
+        "description": ""
+    },
+    "webDavUrlValidatorError": "Veuillez entrer une URL",
+    "@webDavUrlValidatorError": {
+        "description": ""
+    },
+    "webDavUrlValidatorInvalidUrlError": "Veuillez entrer une url valide avec http:// ou https://",
+    "@webDavUrlValidatorInvalidUrlError": {
+        "description": ""
+    },
+    "webDavAuthUser": "Nom d'utilisateur",
+    "@webDavAuthUser": {
+        "description": ""
     },
     "webDavAuthPassword": "Mot de passe",
     "@webDavAuthPassword": {
