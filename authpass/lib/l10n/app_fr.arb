@@ -108,6 +108,21 @@
     "@quickUnlockingFiles": {
         "description": "Status shown while we are loading files and trying to unlock them."
     },
+    "openFileProgress": "Ouverture de {fileName} … (${current} / ${totalCount})",
+    "@openFileProgress": {
+        "description": "Progress shown while files are loaded during quick unlock.",
+        "placeholders": {
+            "fileName": {
+                "description": "Name of the file that is currently loaded."
+            },
+            "current": {
+                "description": "The index/number of file currently loading."
+            },
+            "totalCount": {
+                "description": "Total number of files which are loading."
+            }
+        }
+    },
     "loadFrom": "Charger depuis {cloudStorageName}",
     "@loadFrom": {
         "placeholders": {
@@ -153,9 +168,17 @@
     "@preferenceAllowScreenshots": {},
     "preferenceEnableAutoFill": "Activer la saisie automatique",
     "@preferenceEnableAutoFill": {},
+    "enableAutofillSuggestionBanner": "Vous pouvez remplir les champs de saisie d'autres applications en activant la saisie !",
+    "@enableAutofillSuggestionBanner": {
+        "description": "This text will shown as a banner on top of password list"
+    },
     "dismissAutofillSuggestionBannerButton": "IGNORER",
     "@dismissAutofillSuggestionBannerButton": {
         "description": "Button that is displayed in autofill suggestion warnings to dismiss the warning"
+    },
+    "enableAutofillSuggestionBannerButton": "ACTIVER !",
+    "@enableAutofillSuggestionBannerButton": {
+        "description": "Button that is displayed in autofill suggestion warnings to enable autofill"
     },
     "preferenceAutoFillDescription": "Uniquement supporté par Android Oreo (8.0) ou supérieur.",
     "@preferenceAutoFillDescription": {},
@@ -296,6 +319,21 @@
             }
         }
     },
+    "savedFiles": "{numFiles, plural, =1 {In fichier enregistré: {files}} other {{numFiles} fichiers enregistrés: {files}}}",
+    "@savedFiles": {
+        "description": "Message displayed when files were saved. (One or more).",
+        "context": "Password list",
+        "placeholders": {
+            "numFiles": {
+                "description": "Number of files that have been saved (at least 1)",
+                "type": "int",
+                "format": "compactLong"
+            },
+            "files": {
+                "description": "Comma separated list of vault names."
+            }
+        }
+    },
     "manageGroups": "Gestion des groupes",
     "@manageGroups": {
         "description": ""
@@ -352,6 +390,10 @@
     "@swipeCopyUsername": {
         "description": "swipe action in password list to copy username"
     },
+    "copyUsernameNotExists": "L'entrée n'a pas de nom d'utilisateur défini.",
+    "@copyUsernameNotExists": {
+        "description": "Error message when trying to copy username from an entry which has none."
+    },
     "doneCopiedPassword": "Mot de passe copié dans le presse-papier.",
     "@doneCopiedPassword": {
         "description": "snackbar confirmation that password was copied."
@@ -363,6 +405,20 @@
     "doneCopiedField": "Copié.",
     "@doneCopiedField": {
         "description": ""
+    },
+    "copiedFieldToClipboard": "{fieldName} copié.",
+    "@copiedFieldToClipboard": {
+        "description": "",
+        "placeholders": {
+            "fieldName": {}
+        }
+    },
+    "copiedFieldEmpty": "{fieldName} est vide.",
+    "@copiedFieldEmpty": {
+        "description": "Displayed when user wants to copy a field which is empty or not defined.",
+        "placeholders": {
+            "fieldName": {}
+        }
     },
     "emptyPasswordVaultPlaceholder": "Vous n'avez pas encore de mot de passe dans votre base de données.",
     "@emptyPasswordVaultPlaceholder": {
