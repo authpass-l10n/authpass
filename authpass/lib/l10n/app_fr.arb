@@ -108,21 +108,6 @@
     "@quickUnlockingFiles": {
         "description": "Status shown while we are loading files and trying to unlock them."
     },
-    "openFileProgress": "Ouverture de {fileName} … (${current} / ${totalCount})",
-    "@openFileProgress": {
-        "description": "Progress shown while files are loaded during quick unlock.",
-        "placeholders": {
-            "fileName": {
-                "description": "Name of the file that is currently loaded."
-            },
-            "current": {
-                "description": "The index/number of file currently loading."
-            },
-            "totalCount": {
-                "description": "Total number of files which are loading."
-            }
-        }
-    },
     "loadFrom": "Charger depuis {cloudStorageName}",
     "@loadFrom": {
         "placeholders": {
@@ -503,6 +488,13 @@
     "@errorOpenFileInvalidFileStructureTitle": {
         "description": "Title of error dialog when trying to open an invalid/unsupported file type"
     },
+    "errorOpenFileInvalidFileStructureBody": "Le fichier ({fileName}) ne partait pas être un fichier KDBX valide. Veuillez choisir un fichier KDBX valide ou créer une nouvelle base de donnée.",
+    "@errorOpenFileInvalidFileStructureBody": {
+        "description": "Body of error dialog when trying to open an invalid/unsupported file type",
+        "placeholders": {
+            "fileName": {}
+        }
+    },
     "errorOpenFileAlreadyOpenTitle": "Fichier déjà ouvert",
     "@errorOpenFileAlreadyOpenTitle": {
         "description": "Trying to open a database from a second file source which is already open.",
@@ -518,17 +510,41 @@
             "newFileSource": {}
         }
     },
+    "loadFromUrl": "Télécharger depuis une URL",
+    "@loadFromUrl": {
+        "description": ""
+    },
     "loadFromUrlEnterUrl": "Entrez l'URL",
     "@loadFromUrlEnterUrl": {
         "description": "label for input box to enter url."
+    },
+    "loadFromUrlErrorEnterFullUrl": "Veuillez entrer une url complète commençant par http:// ou https://",
+    "@loadFromUrlErrorEnterFullUrl": {
+        "description": "validator error message when user does not enter a absolute url."
     },
     "loadFromUrlErrorInvalidUrl": "Veuillez entrer une URL valide.",
     "@loadFromUrlErrorInvalidUrl": {
         "description": "validator error message hwen user enters a url which could not be parsed."
     },
+    "linuxAppArmorWarning": "AuthPass nécessite les autorisations de communication avec les services secrets pour sauvegarder les identifiants dans le stockage cloud.\nVeuillez exécuter les commandes suivantes:",
+    "@linuxAppArmorWarning": {
+        "description": "On linux when user has not given AuthPass permission to connect to secret service he has to execute a command on the console."
+    },
     "cancel": "Annuler",
     "@cancel": {
         "description": "button label for cancelling an action."
+    },
+    "errorLoadFileFromSourceTitle": "Erreur lors de l'ouverture du fichier.",
+    "@errorLoadFileFromSourceTitle": {
+        "description": "error title when user selects a file which can't be downloaded."
+    },
+    "errorLoadFileFromSourceBody": "Impossible d'ouvrir {source}.\n{error}",
+    "@errorLoadFileFromSourceBody": {
+        "description": "error body when user selects a file which can't be downloaded.",
+        "placeholders": {
+            "source": {},
+            "error": {}
+        }
     },
     "errorUnlockFileTitle": "Ouverture de fichier impossible",
     "@errorUnlockFileTitle": {
@@ -548,6 +564,15 @@
     "dialogContinue": "Suivant",
     "@dialogContinue": {
         "description": "Dialog action to continue to next step (e.g. credential screen when finished with master password)"
+    },
+    "dialogSendErrorReport": "Envoyer le rapport d'erreur",
+    "@dialogSendErrorReport": {
+        "description": "action button in error dialogs to send email to support with log file.",
+        "context": "error dialog"
+    },
+    "dialogReportErrorForum": "Signaler une erreur dans le Forum/Aide",
+    "@dialogReportErrorForum": {
+        "description": "action button in error dialog to open forum and create new topic."
     },
     "groupFilterDescription": "Sélectionnez les groupes à afficher (récursif)",
     "@groupFilterDescription": {
@@ -569,6 +594,35 @@
     "editAction": "Modifier",
     "@editAction": {
         "description": "menu action: edit item (e.g. delete a group)"
+    },
+    "mailboxEnableLabel": "(ré)activer",
+    "@mailboxEnableLabel": {
+        "description": ""
+    },
+    "mailboxEnableHint": "Continuer à recevoir des e-mails",
+    "@mailboxEnableHint": {
+        "description": ""
+    },
+    "mailboxDisableLabel": "Désactiver",
+    "@mailboxDisableLabel": {
+        "description": ""
+    },
+    "mailboxDisableHint": "Ne plus recevoir d'e-mails",
+    "@mailboxDisableHint": {
+        "description": ""
+    },
+    "mailListNoMail": "Vous n'avez pas encore d'e-mail.",
+    "@mailListNoMail": {
+        "description": ""
+    },
+    "mailboxLabelPrefixForEntry": "Saisie : {entryLabel}",
+    "@mailboxLabelPrefixForEntry": {
+        "description": "when a mailbox was created for a (password) entry.",
+        "placeholders": {
+            "entryLabel": {
+                "description": "The label of the entry this mailbox was created for"
+            }
+        }
     },
     "deletePermanentlyAction": "Supprimer définitivement",
     "@deletePermanentlyAction": {
