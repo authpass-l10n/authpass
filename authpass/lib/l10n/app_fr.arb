@@ -1263,7 +1263,65 @@
     "@entryAttachmentShareSubject": {
         "description": "the 'subject' passed to the system when sharing an attachment. "
     },
-    "errorDuringNetworkCall": "Eurreur pendant la requête API. {errorMessage}",
+    "entryAttachmentSaveActionLabel": "Enregistrer sur l'appareil",
+    "@entryAttachmentSaveActionLabel": {
+        "description": ""
+    },
+    "entryAttachmentRemoveActionLabel": "Supprimer",
+    "@entryAttachmentRemoveActionLabel": {
+        "description": ""
+    },
+    "entryAttachmentRemoveConfirm": "Voulez-vous vraiment supprimer {attachmentLabel}?",
+    "@entryAttachmentRemoveConfirm": {
+        "description": "",
+        "placeholders": {
+            "attachmentLabel": {}
+        }
+    },
+    "entryRenameFieldPromptTitle": "Renommer le champ",
+    "@entryRenameFieldPromptTitle": {
+        "description": ""
+    },
+    "entryRenameFieldPromptLabel": "Entrez le nouveau nom du champ",
+    "@entryRenameFieldPromptLabel": {
+        "description": ""
+    },
+    "promptDialogPasteActionTooltip": "Coller depuis le presse-papier",
+    "@promptDialogPasteActionTooltip": {
+        "description": ""
+    },
+    "promptDialogPasteHint": "Astuce : si vous avez besoin de coller, essayez le bouton à gauche ;-)",
+    "@promptDialogPasteHint": {
+        "description": "sometimes the paste shortcut is not working properly, so tell users they can use the paste button from the UI"
+    },
+    "genericErrorDialogTitle": "Erreur lors du traitement de l'action",
+    "@genericErrorDialogTitle": {
+        "description": ""
+    },
+    "genericErrorDialogBody": "Une erreur inattendue est survenue. {errorMessage}",
+    "@genericErrorDialogBody": {
+        "description": "",
+        "placeholders": {
+            "errorMessage": {}
+        }
+    },
+    "saveAsEntryLocalFile": "Fichier local",
+    "@saveAsEntryLocalFile": {
+        "description": "menu entry in the 'save as' dialog for saving as local file."
+    },
+    "fileTypePngs": "Images (png)",
+    "@fileTypePngs": {
+        "description": "When selecting custom icons, users can choose a png image. This is the name of the 'file group'"
+    },
+    "selectIconDialogAction": "SÉLECTIONNEZ UN SYMBOLE",
+    "@selectIconDialogAction": {
+        "description": ""
+    },
+    "retryDialogActionLabel": "RÉESSAYEZ",
+    "@retryDialogActionLabel": {
+        "description": ""
+    },
+    "errorDuringNetworkCall": "Erreur pendant la requête API. {errorMessage}",
     "@errorDuringNetworkCall": {
         "description": "",
         "placeholders": {
