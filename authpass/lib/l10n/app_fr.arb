@@ -1313,11 +1313,11 @@
     "@fileTypePngs": {
         "description": "When selecting custom icons, users can choose a png image. This is the name of the 'file group'"
     },
-    "selectIconDialogAction": "SÉLECTIONNEZ UN SYMBOLE",
+    "selectIconDialogAction": "SÉLECTIONNER L'ICÔNE",
     "@selectIconDialogAction": {
         "description": ""
     },
-    "retryDialogActionLabel": "RÉESSAYEZ",
+    "retryDialogActionLabel": "RÉESSAYER",
     "@retryDialogActionLabel": {
         "description": ""
     },
