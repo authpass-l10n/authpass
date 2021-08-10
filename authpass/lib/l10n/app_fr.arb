@@ -1271,13 +1271,6 @@
     "@entryAttachmentRemoveActionLabel": {
         "description": ""
     },
-    "entryAttachmentRemoveConfirm": "Voulez-vous vraiment supprimer {attachmentLabel}?",
-    "@entryAttachmentRemoveConfirm": {
-        "description": "",
-        "placeholders": {
-            "attachmentLabel": {}
-        }
-    },
     "entryRenameFieldPromptTitle": "Renommer le champ",
     "@entryRenameFieldPromptTitle": {
         "description": ""
