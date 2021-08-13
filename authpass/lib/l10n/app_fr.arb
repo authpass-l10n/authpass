@@ -1228,13 +1228,6 @@
     "@otpPromptHelperText": {
         "description": ""
     },
-    "otpErrorMessageGeneration": "Erreur lors de la génération du token : {errorMessage}",
-    "@otpErrorMessageGeneration": {
-        "description": "",
-        "placeholders": {
-            "errorMessage": {}
-        }
-    },
     "otpCopySecretActionLabel": "Copier le secret",
     "@otpCopySecretActionLabel": {
         "description": ""
@@ -1435,6 +1428,10 @@
     "@unnamedGroupPlaceholder": {
         "description": "displayed instead of a groups name, it is unnamed or it's name is empty"
     },
+    "unnamedFilePlaceholder": "(Sans nom)",
+    "@unnamedFilePlaceholder": {
+        "description": ""
+    },
     "editGroupScreenTitle": "Modifier le groupe",
     "@editGroupScreenTitle": {
         "description": ""
@@ -1461,6 +1458,14 @@
     },
     "groupActionDelete": "Supprimer",
     "@groupActionDelete": {
+        "description": ""
+    },
+    "authPassCloudShareFileActionLabel": "Partager",
+    "@authPassCloudShareFileActionLabel": {
+        "description": ""
+    },
+    "shareCodeLoadingProgress": "Chargement du fichier …",
+    "@shareCodeLoadingProgress": {
         "description": ""
     },
     "unexpectedError": "Erreur inattendue : {error}",
