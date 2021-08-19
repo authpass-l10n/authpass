@@ -657,9 +657,21 @@
             "url": {}
         }
     },
+    "authPassCloudAuthEmailInvalid": "Harap masukkan alamat email yang valid.",
+    "@authPassCloudAuthEmailInvalid": {
+        "description": ""
+    },
     "authPassCloudAuthConfirmEmailButtonLabel": "Konfirmasi alamat",
     "@authPassCloudAuthConfirmEmailButtonLabel": {
         "description": ""
+    },
+    "authPassCloudAuthResendButtonLabel": "Minta tautan konfirmasi baru",
+    "@authPassCloudAuthResendButtonLabel": {
+        "description": ""
+    },
+    "permanentlyDeletedEntrySnackBar": "Entri dihapus permanen.",
+    "@permanentlyDeletedEntrySnackBar": {
+        "description": "snackbar confirming that the entry was deleted."
     },
     "initialNewGroupName": "Grup baru",
     "@initialNewGroupName": {
@@ -933,6 +945,10 @@
     "@decreaseValue": {
         "description": "Preferences value modifier (Text Scale Factor/Visual Density)"
     },
+    "cloudStorageLogInCode": "Masukkan kode",
+    "@cloudStorageLogInCode": {
+        "description": "for oauth authentication user has to enter auth code - this is the label for the text field."
+    },
     "cloudStorageAuthCodeLabel": "Kode Otentikasi",
     "@cloudStorageAuthCodeLabel": {
         "description": ""
@@ -999,6 +1015,10 @@
     "@otpInvalidKeyTitle": {
         "description": "dialog title for an invalid key of a one time password (OTP/TOTP)"
     },
+    "otpCopySecretActionLabel": "Salin rahasia",
+    "@otpCopySecretActionLabel": {
+        "description": ""
+    },
     "otpEntryLabel": "Token sekali pakai",
     "@otpEntryLabel": {
         "description": "The label for entries which show a one time token for a TOTP"
@@ -1051,6 +1071,13 @@
     "@retryDialogActionLabel": {
         "description": ""
     },
+    "errorDuringNetworkCall": "Galat saat memanggil api. {errorMessage}",
+    "@errorDuringNetworkCall": {
+        "description": "",
+        "placeholders": {
+            "errorMessage": {}
+        }
+    },
     "passwordFilterHideDeleted": "Sembunyikan entri yang dihapus",
     "@passwordFilterHideDeleted": {
         "description": "filter name to show only password entries which are not deleted"
@@ -1066,12 +1093,39 @@
             "groupName": {}
         }
     },
+    "passwordFilterPrefixForMultipleGroups": "Filter kustom ({groupCount} Grup)",
+    "@passwordFilterPrefixForMultipleGroups": {
+        "description": "The label for a password filter for multiple groups",
+        "placeholders": {
+            "groupCount": {}
+        }
+    },
+    "menuItemAuthPassCloudAuthenticate": "Otentikasi dengan AuthPass Cloud",
+    "@menuItemAuthPassCloudAuthenticate": {
+        "description": "menu entry in password list to allow users to authenticate with AuthPass Cloud"
+    },
+    "changesSaveLocally": "Simpan secara lokal",
+    "@changesSaveLocally": {
+        "description": ""
+    },
     "clearColor": "Hapus Warna",
     "@clearColor": {
         "description": "Action to remove a selected color and reset to default."
     },
+    "databaseRenameInputLabel": "Masukkan nama basisdata",
+    "@databaseRenameInputLabel": {
+        "description": ""
+    },
+    "databasePath": "Jalur",
+    "@databasePath": {
+        "description": ""
+    },
     "databaseColor": "Warna",
     "@databaseColor": {
+        "description": ""
+    },
+    "databaseColorChoose": "Pilih warna untuk membedakan file.",
+    "@databaseColorChoose": {
         "description": ""
     },
     "databaseKdbxVersion": "Versi file KDBX",
@@ -1085,6 +1139,10 @@
             "versionName": {}
         }
     },
+    "databaseKdbxUpgradeSuccessful": "File berhasil diperbarui dan disimpan.",
+    "@databaseKdbxUpgradeSuccessful": {
+        "description": ""
+    },
     "progressStatus": "Status: {statusProgress}",
     "@progressStatus": {
         "description": "While an action is running this is displayed as status message. Don't worry too much, users should typically not see this for too long (if at all)",
@@ -1096,8 +1154,24 @@
     "@closeAndLockFile": {
         "description": ""
     },
+    "authPassHomeScreenTagline": "pengelola kata sandi, open source, tersedia di berbagai platform.",
+    "@authPassHomeScreenTagline": {
+        "description": ""
+    },
     "addNewPasswordButtonLabel": "Tambah kata sandi baru",
     "@addNewPasswordButtonLabel": {
+        "description": ""
+    },
+    "unnamedEntryPlaceholder": "(belum dinamai)",
+    "@unnamedEntryPlaceholder": {
+        "description": "displayed instead of entry label, if entry has no name or it is blank."
+    },
+    "unnamedGroupPlaceholder": "(belum dinamai)",
+    "@unnamedGroupPlaceholder": {
+        "description": "displayed instead of a groups name, it is unnamed or it's name is empty"
+    },
+    "unnamedFilePlaceholder": "(belum dinamai)",
+    "@unnamedFilePlaceholder": {
         "description": ""
     },
     "editGroupScreenTitle": "Sunting grup",
@@ -1171,6 +1245,10 @@
     "@shareCreateTokenReadOnly": {
         "description": "switch between read only and read/write"
     },
+    "shareCreateTokenReadOnlyHelpText": "Jangan perbolehkan menyimpan perubahan",
+    "@shareCreateTokenReadOnlyHelpText": {
+        "description": "help text for the switch between read only and read/write"
+    },
     "shareCreateTokenLabelText": "Deskripsi",
     "@shareCreateTokenLabelText": {
         "description": "Allows users to add a description/label to a share code."
@@ -1178,6 +1256,10 @@
     "shareCreateTokenLabelHint": "Bagikan ke teman",
     "@shareCreateTokenLabelHint": {
         "description": "the placeholder/hint text displayed when the user has not yet entered a label"
+    },
+    "shareCreateTokenLabelHelp": "Label opsional untuk membedakan share code.",
+    "@shareCreateTokenLabelHelp": {
+        "description": ""
     },
     "shareCreateTokenSuccess": "Share Code berhasil dibuat.",
     "@shareCreateTokenSuccess": {
@@ -1233,6 +1315,14 @@
     },
     "shareCodeOpenFileButtonLabel": "BUKA",
     "@shareCodeOpenFileButtonLabel": {
+        "description": ""
+    },
+    "shareCodeOpenInstallAppCaption": "Buka file ini dengan aplikasi kami?",
+    "@shareCodeOpenInstallAppCaption": {
+        "description": ""
+    },
+    "shareCodeOpenAnotherAppCaption": "Buka file ini di perangkat lain?",
+    "@shareCodeOpenAnotherAppCaption": {
         "description": ""
     },
     "shareCodeOpenInstallAppButtonLabel": "Pasang aplikasi",
