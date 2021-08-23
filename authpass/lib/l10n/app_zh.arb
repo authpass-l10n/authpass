@@ -100,6 +100,10 @@
     "@openFile": {
         "description": "Displayed as placeholder in password list when no file is open."
     },
+    "loadFromDropdownMenu": "其它来源...",
+    "@loadFromDropdownMenu": {
+        "description": "label for dropdown menu which shows more cloud storage options."
+    },
     "loadFrom": "从 {cloudStorageName} 导入",
     "@loadFrom": {
         "placeholders": {
