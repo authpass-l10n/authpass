@@ -108,7 +108,7 @@
     "@quickUnlockingFiles": {
         "description": "Status shown while we are loading files and trying to unlock them."
     },
-    "openFileProgress": "正在打开 {fileName} … \n已加载({current} / {totalCount})",
+    "openFileProgress": "正在准备 {fileName} … \n已完成({current} / {totalCount})",
     "@openFileProgress": {
         "description": "Progress shown while files are loaded during quick unlock.",
         "placeholders": {
@@ -394,7 +394,7 @@
     "@copyUsernameNotExists": {
         "description": "Error message when trying to copy username from an entry which has none."
     },
-    "copyPasswordNotExists": "这儿没密码，想要的话先去生成一个。",
+    "copyPasswordNotExists": "这里没有密码，去生成一个吧。",
     "@copyPasswordNotExists": {
         "description": "Error message when trying to copy password from an entry which has none."
     },
