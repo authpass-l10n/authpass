@@ -1125,6 +1125,10 @@
             "errorMessage": {}
         }
     },
+    "cloudStorageSearchBoxLabel": "路漫漫其修远兮...",
+    "@cloudStorageSearchBoxLabel": {
+        "description": ""
+    },
     "cloudStorageItemsInFolder": "一共有 {itemCount} 个项目。",
     "@cloudStorageItemsInFolder": {
         "description": "",
@@ -1220,6 +1224,10 @@
     "@otpPromptTitle": {
         "description": ""
     },
+    "otpPromptHelperText": "请输入一次性密码",
+    "@otpPromptHelperText": {
+        "description": ""
+    },
     "otpErrorMessageGeneration": "生成邀请码时出错： {errorMessage}",
     "@otpErrorMessageGeneration": {
         "description": "",
@@ -1227,9 +1235,13 @@
             "errorMessage": {}
         }
     },
-    "otpCopySecretActionLabel": "复制密钥",
+    "otpCopySecretActionLabel": "复制一次性密码",
     "@otpCopySecretActionLabel": {
         "description": ""
+    },
+    "otpEntryLabel": "一次性密码",
+    "@otpEntryLabel": {
+        "description": "The label for entries which show a one time token for a TOTP"
     },
     "entryFieldProtected": "受保护区域。点击以显示。",
     "@entryFieldProtected": {
