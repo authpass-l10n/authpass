@@ -1129,7 +1129,7 @@
     "@cloudStorageSearchBoxLabel": {
         "description": ""
     },
-    "cloudStorageItemsInFolder": "一共有 {itemCount} 个项目。",
+    "cloudStorageItemsInFolder": "共有 {itemCount} 个条目。",
     "@cloudStorageItemsInFolder": {
         "description": "",
         "placeholders": {
@@ -1212,7 +1212,7 @@
     "@databaseDoesNotSupportSaving": {
         "description": "keepass files loaded through a URL can't be saved."
     },
-    "otpInvalidKeyTitle": "验证码无效",
+    "otpInvalidKeyTitle": "无效密钥！",
     "@otpInvalidKeyTitle": {
         "description": "dialog title for an invalid key of a one time password (OTP/TOTP)"
     },
@@ -1220,11 +1220,11 @@
     "@otpInvalidKeyBody": {
         "description": ""
     },
-    "otpPromptTitle": "基于时间的身份验证（TOTP）",
+    "otpPromptTitle": "启用二步验证...",
     "@otpPromptTitle": {
         "description": ""
     },
-    "otpPromptHelperText": "请输入一次性密码",
+    "otpPromptHelperText": "请输入TOTP密钥",
     "@otpPromptHelperText": {
         "description": ""
     },
@@ -1235,11 +1235,11 @@
             "errorMessage": {}
         }
     },
-    "otpCopySecretActionLabel": "复制一次性密码",
+    "otpCopySecretActionLabel": "复制TOTP密钥",
     "@otpCopySecretActionLabel": {
         "description": ""
     },
-    "otpEntryLabel": "一次性密码",
+    "otpEntryLabel": "二步验证-验证码",
     "@otpEntryLabel": {
         "description": "The label for entries which show a one time token for a TOTP"
     },
@@ -1277,6 +1277,10 @@
         "placeholders": {
             "attachmentLabel": {}
         }
+    },
+    "menuItemAuthPassCloudMailboxes": "魔钥 - 代理邮箱",
+    "@menuItemAuthPassCloudMailboxes": {
+        "description": ""
     },
     "newGroupDialogTitle": "新建分组",
     "@newGroupDialogTitle": {
