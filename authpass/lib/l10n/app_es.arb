@@ -477,6 +477,17 @@
     "@addNewPassword": {
         "description": "Tooltip for adding new password button (floating action button)"
     },
+    "errorOpenFileInvalidFileStructureTitle": "Se intentó abrir un tipo de archivo inválido",
+    "@errorOpenFileInvalidFileStructureTitle": {
+        "description": "Title of error dialog when trying to open an invalid/unsupported file type"
+    },
+    "errorOpenFileInvalidFileStructureBody": "El archivo ({fileName}) parece no ser un archivo KDBX válido. Por favor, elija un archivo KDBX válido o cree una nueva base de datos para las contraseñas.",
+    "@errorOpenFileInvalidFileStructureBody": {
+        "description": "Body of error dialog when trying to open an invalid/unsupported file type",
+        "placeholders": {
+            "fileName": {}
+        }
+    },
     "errorOpenFileAlreadyOpenTitle": "Archivo ya abierto",
     "@errorOpenFileAlreadyOpenTitle": {
         "description": "Trying to open a database from a second file source which is already open.",
@@ -897,6 +908,14 @@
     "@resetValue": {
         "description": "Preferences value modifier (Text Scale Factor/Visual Density)"
     },
+    "mailDate": "Fecha",
+    "@mailDate": {
+        "description": ""
+    },
+    "mailMailbox": "Buzón",
+    "@mailMailbox": {
+        "description": ""
+    },
     "mailNoData": "Sin datos",
     "@mailNoData": {
         "description": "Message shown when email text body is empty (or can't be decoded)"
@@ -908,6 +927,10 @@
     "mailboxCreateButtonLabel": "Crear",
     "@mailboxCreateButtonLabel": {
         "description": "FAB label to create a new mailbox."
+    },
+    "mailboxNameInputDialogTitle": "Etiqueta opcional para el nuevo buzón",
+    "@mailboxNameInputDialogTitle": {
+        "description": "title of the dialog asking for a mailbox label/name"
     },
     "mailTabBarTitleMailbox": "Buzón",
     "@mailTabBarTitleMailbox": {
