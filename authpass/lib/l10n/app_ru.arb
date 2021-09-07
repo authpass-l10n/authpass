@@ -24,6 +24,10 @@
     "@selectKeepassFileLabel": {
         "context": "select file screen, used as label."
     },
+    "createNewFile": "Создать новый файл",
+    "@createNewFile": {
+        "description": "button on select file screen to create a new password database."
+    },
     "openLocalFile": "Открыть\nлокальный файл",
     "@openLocalFile": {
         "context": "select file screen, big button open local file."
