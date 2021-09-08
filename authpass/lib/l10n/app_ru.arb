@@ -638,9 +638,215 @@
             }
         }
     },
+    "mailboxLabelPrefixUnknownEntry": "Неизвестная запись: {entryUuid}",
+    "@mailboxLabelPrefixUnknownEntry": {
+        "description": "when a mailbox was created for password entry which has been deleted or is otherwise not in the currently opened password files.",
+        "placeholders": {
+            "entryUuid": {
+                "description": "The internal id of the entry which was no tfound"
+            }
+        }
+    },
+    "mailboxLabelPrefixCreatedAt": "Создано: {dateTime}",
+    "@mailboxLabelPrefixCreatedAt": {
+        "description": "When a mailbox was not created for an entry and has no label, the creation date is shown.",
+        "placeholders": {
+            "dateTime": {}
+        }
+    },
+    "masterPasswordDescription": "Мастер-пароль используется для безопасного шифрования базы данных паролей. Обязательно запомните его, восстановить его будет невозможно.",
+    "@masterPasswordDescription": {
+        "description": ""
+    },
+    "unsavedChangesWarningTitle": "Несохраненные изменения",
+    "@unsavedChangesWarningTitle": {
+        "description": ""
+    },
+    "unsavedChangesWarningBody": "Все еще есть несохраненные изменения. Вы хотите отменить изменения?",
+    "@unsavedChangesWarningBody": {
+        "description": ""
+    },
+    "unsavedChangesDiscardActionLabel": "Отменить изменения",
+    "@unsavedChangesDiscardActionLabel": {
+        "description": ""
+    },
+    "deletePermanentlyAction": "Удалить навсегда",
+    "@deletePermanentlyAction": {
+        "description": "menu action: delete an item permanently from the file (only shown for entries/groups already in the recycle bin."
+    },
+    "restoreFromRecycleBinAction": "Восстановить",
+    "@restoreFromRecycleBinAction": {
+        "description": "menu action: restore an entry/group which was moved into the recycle bin."
+    },
+    "deleteAction": "Удалить",
+    "@deleteAction": {
+        "description": "menu action: delete item (e.g. delete a group)"
+    },
+    "deletedEntry": "Запись удалена.",
+    "@deletedEntry": {
+        "description": "Confirmation when a password entry was deleted (ie. moved to recycle bin)"
+    },
+    "successfullyDeletedGroup": "Группа удалена.",
+    "@successfullyDeletedGroup": {
+        "description": "snackbar after deleting a group."
+    },
+    "undoButtonLabel": "Отменить",
+    "@undoButtonLabel": {
+        "description": "undo action label (e.g. in a snackbar after deleting a group, or some other action)"
+    },
+    "saveButtonLabel": "Сохранить",
+    "@saveButtonLabel": {
+        "description": "save file, for example button displayed in entry details"
+    },
+    "webDavSettings": "Настройки WebDAV",
+    "@webDavSettings": {
+        "description": "dialog title for entering WebDAV settings."
+    },
+    "webDavUrlValidatorError": "Пожалуйста, введите URL",
+    "@webDavUrlValidatorError": {
+        "description": ""
+    },
+    "webDavUrlValidatorInvalidUrlError": "Пожалуйста, введите правильный url с http:// или https://",
+    "@webDavUrlValidatorInvalidUrlError": {
+        "description": ""
+    },
+    "webDavAuthUser": "Имя пользователя",
+    "@webDavAuthUser": {
+        "description": ""
+    },
     "webDavAuthPassword": "Пароль",
     "@webDavAuthPassword": {
         "description": ""
+    },
+    "mergeSuccessDialogTitle": "База данных паролей успешно объединена",
+    "@mergeSuccessDialogTitle": {
+        "description": ""
+    },
+    "mergeSuccessDialogMessage": "Конфликт при сохранении {fileName}, он был успешно объединён с удаленным файлом: \n\n{mergeSummary}",
+    "@mergeSuccessDialogMessage": {
+        "description": "",
+        "placeholders": {
+            "fileName": {},
+            "mergeSummary": {}
+        }
+    },
+    "forDetailsVisitUrl": "Для получения подробной информации посетите {url}",
+    "@forDetailsVisitUrl": {
+        "description": "",
+        "placeholders": {
+            "url": {}
+        }
+    },
+    "authPassCloudAuthEmailInputLabel": "Введите адрес электронной почты для регистрации или входа.",
+    "@authPassCloudAuthEmailInputLabel": {
+        "description": ""
+    },
+    "authPassCloudAuthEmailInvalid": "Пожалуйста, введите правильный адрес электронной почты.",
+    "@authPassCloudAuthEmailInvalid": {
+        "description": ""
+    },
+    "authPassCloudAuthConfirmEmailButtonLabel": "Подтвердите адрес",
+    "@authPassCloudAuthConfirmEmailButtonLabel": {
+        "description": ""
+    },
+    "authPassCloudAuthConfirmEmail": "Пожалуйста, проверьте вашу электронную почту, чтобы подтвердить ваш адрес электронной почты.",
+    "@authPassCloudAuthConfirmEmail": {
+        "description": ""
+    },
+    "authPassCloudAuthConfirmEmailExplain": "Держите этот экран открытым, пока вы не перешли по ссылке, которую вы получили по электронной почте.",
+    "@authPassCloudAuthConfirmEmailExplain": {
+        "description": ""
+    },
+    "authPassCloudAuthResendExplain": "Если вы не получили электронное письмо, пожалуйста, проверьте папку со спамом. В противном случае вы можете попробовать запросить новую ссылку для подтверждения.",
+    "@authPassCloudAuthResendExplain": {
+        "description": ""
+    },
+    "authPassCloudAuthResendButtonLabel": "Запросить новую ссылку для подтверждения",
+    "@authPassCloudAuthResendButtonLabel": {
+        "description": ""
+    },
+    "permanentlyDeleteEntryConfirm": "Это навсегда удалит запись с паролем {title}. Это действие не может быть отменено. Вы хотите продолжить?",
+    "@permanentlyDeleteEntryConfirm": {
+        "description": "shown to force user to acknowledge delete before a entry will be permanently deleted.",
+        "placeholders": {
+            "title": {}
+        }
+    },
+    "permanentlyDeletedEntrySnackBar": "Запись окончательно удалена.",
+    "@permanentlyDeletedEntrySnackBar": {
+        "description": "snackbar confirming that the entry was deleted."
+    },
+    "initialNewGroupName": "Новая группа",
+    "@initialNewGroupName": {
+        "description": "initial name of groups when user creates a new one."
+    },
+    "deleteGroupErrorTitle": "Не удается удалить группу",
+    "@deleteGroupErrorTitle": {
+        "description": "Title of error dialog when group could not be deleted."
+    },
+    "deleteGroupErrorBodyContainsGroup": "Эта группа все еще содержит другие группы. Вы можете удалить только пустые группы.",
+    "@deleteGroupErrorBodyContainsGroup": {
+        "description": "Body of error dialog when a group can't be deleted because it is not empty."
+    },
+    "deleteGroupErrorBodyContainsEntries": "Эта группа по-прежнему содержит записи с паролем. Вы можете удалить только пустые группы.",
+    "@deleteGroupErrorBodyContainsEntries": {
+        "description": "Body of error dialog when a group can't be deleted because it is not empty."
+    },
+    "groupListAppBarTitle": "Группы",
+    "@groupListAppBarTitle": {
+        "description": "title in the app bar for the groups list"
+    },
+    "groupListFilterAppbarTitle": "Фильтр по группам",
+    "@groupListFilterAppbarTitle": {
+        "description": "title in the app bar for group lists when displayed for filtering password list"
+    },
+    "clearQuickUnlock": "Очистить Биометрическое Хранилище",
+    "@clearQuickUnlock": {
+        "description": ""
+    },
+    "clearQuickUnlockSubtitle": "Удалить сохраненные мастер-пароли",
+    "@clearQuickUnlockSubtitle": {
+        "description": ""
+    },
+    "unlock": "Разблокировать базу",
+    "@unlock": {
+        "description": ""
+    },
+    "closePasswordFiles": "заблокировать базу",
+    "@closePasswordFiles": {
+        "description": "delete quick unlock (passwords stored in biometric storage)"
+    },
+    "clearQuickUnlockSuccess": "Удалены сохраненные мастер-пароли из биометрического хранилища.",
+    "@clearQuickUnlockSuccess": {
+        "description": ""
+    },
+    "diacOptIn": "Подпишитесь на Новости о приложении, Опросы.",
+    "@diacOptIn": {},
+    "diacOptInSubtitle": "Время от времени будет отправлять сетевой запрос для получения новостей.",
+    "@diacOptInSubtitle": {},
+    "enableAutofillDebug": "Автозаполнение: Включить отладку",
+    "@enableAutofillDebug": {
+        "description": "only visible in debug build. Preference to enable Auto-Fill Debugging."
+    },
+    "enableAutofillDebugSubtitle": "Показывает информационные слои для каждого поля ввода",
+    "@enableAutofillDebugSubtitle": {
+        "description": "only visible in debug build. Preference to enable Auto-Fill Debugging."
+    },
+    "createPasswordDatabase": "Создать базу данных паролей",
+    "@createPasswordDatabase": {
+        "description": ""
+    },
+    "nameNewPasswordDatabase": "Имя вашей новой базы данных",
+    "@nameNewPasswordDatabase": {
+        "description": "creating new kdbx file, prompt"
+    },
+    "validatorNameMissing": "Пожалуйста, введите имя для вашей новой базы данных.",
+    "@validatorNameMissing": {
+        "description": "Error message when no password database name is given."
+    },
+    "masterPasswordHelpText": "Выберите мастер-пароль. Не забудьте его запомнить.",
+    "@masterPasswordHelpText": {
+        "description": "DEPRECATED FOR NOW help text for master password when creating new password database"
     },
     "inputMasterPasswordText": "Мастер-пароль",
     "@inputMasterPasswordText": {
@@ -886,6 +1092,231 @@
             "cloudStorageName": {
                 "example": "Dropbox"
             }
+        }
+    },
+    "cloudStorageAuthCodeLabel": "Код аутентификации",
+    "@cloudStorageAuthCodeLabel": {
+        "description": ""
+    },
+    "cloudStorageAuthErrorTitle": "Ошибка при аутентификации",
+    "@cloudStorageAuthErrorTitle": {
+        "description": ""
+    },
+    "cloudStorageAuthErrorMessage": "Ошибка при попытке аутентификации в {cloudStorageName}: {errorMessage}",
+    "@cloudStorageAuthErrorMessage": {
+        "description": "",
+        "placeholders": {
+            "cloudStorageName": {
+                "example": "Dropbox"
+            },
+            "errorMessage": {}
+        }
+    },
+    "cloudStorageSearchBoxLabel": "Поисковый запрос",
+    "@cloudStorageSearchBoxLabel": {
+        "description": ""
+    },
+    "cloudStorageItemsInFolder": "{itemCount} элементов в этой папке.",
+    "@cloudStorageItemsInFolder": {
+        "description": "",
+        "placeholders": {
+            "itemCount": {}
+        }
+    },
+    "mailSubject": "Тема",
+    "@mailSubject": {
+        "description": ""
+    },
+    "mailFrom": "Из",
+    "@mailFrom": {
+        "description": ""
+    },
+    "mailDate": "Дата",
+    "@mailDate": {
+        "description": ""
+    },
+    "mailMailbox": "Почтовый ящик",
+    "@mailMailbox": {
+        "description": ""
+    },
+    "mailNoData": "Нет данных",
+    "@mailNoData": {
+        "description": "Message shown when email text body is empty (or can't be decoded)"
+    },
+    "mailMailboxesTitle": "Почтовые ящики",
+    "@mailMailboxesTitle": {
+        "description": "Title of the screen showing all available mailboxes."
+    },
+    "mailboxCreateButtonLabel": "Создать",
+    "@mailboxCreateButtonLabel": {
+        "description": "FAB label to create a new mailbox."
+    },
+    "mailboxNameInputDialogTitle": "При необходимости метка для нового почтового ящика",
+    "@mailboxNameInputDialogTitle": {
+        "description": "title of the dialog asking for a mailbox label/name"
+    },
+    "mailboxNameInputLabel": "(внутренняя) Метка",
+    "@mailboxNameInputLabel": {
+        "description": "Label for the text field asking for a label for a mailbox, while creating it."
+    },
+    "mailScreenTitle": "Почта AuthPass",
+    "@mailScreenTitle": {
+        "description": "title for the screen showing available emails"
+    },
+    "mailTabBarTitleMailbox": "Почтовый ящик",
+    "@mailTabBarTitleMailbox": {
+        "description": "title for the tab showing list of mailboxes."
+    },
+    "mailTabBarTitleMail": "Почта",
+    "@mailTabBarTitleMail": {
+        "description": "title for the tab showing list of mails."
+    },
+    "mailMailboxListEmpty": "У вас еще нет почтовых ящиков.",
+    "@mailMailboxListEmpty": {
+        "description": ""
+    },
+    "mailMailboxAddressCopied": "Адрес почтового ящика скопирован в буфер обмена: {mailboxAddress}",
+    "@mailMailboxAddressCopied": {
+        "description": "Success message when mailbox email address was copied to clipboard.",
+        "placeholders": {
+            "mailboxAddress": {
+                "example": "dkasdfiasdfi@mail.authpass.app"
+            }
+        }
+    },
+    "errorWhileSavingTitle": "Ошибка при сохранении",
+    "@errorWhileSavingTitle": {
+        "description": "title for error dialog shown when an error occurs while saving"
+    },
+    "errorWhileSavingBody": "Не удалось сохранить файл: {errorMessage}",
+    "@errorWhileSavingBody": {
+        "description": "",
+        "placeholders": {
+            "errorMessage": {}
+        }
+    },
+    "databaseDoesNotSupportSaving": "Извините, эта база данных не поддерживает сохранение. Пожалуйста, откройте локальный файл базы данных. Или используйте \"Сохранить как\".",
+    "@databaseDoesNotSupportSaving": {
+        "description": "keepass files loaded through a URL can't be saved."
+    },
+    "otpInvalidKeyTitle": "Неверный ключ",
+    "@otpInvalidKeyTitle": {
+        "description": "dialog title for an invalid key of a one time password (OTP/TOTP)"
+    },
+    "otpInvalidKeyBody": "Данный ввод не является допустимым кодом TOTP base32. Пожалуйста, проверьте введённые данные.",
+    "@otpInvalidKeyBody": {
+        "description": ""
+    },
+    "otpPromptTitle": "Аутентификация на основе времени",
+    "@otpPromptTitle": {
+        "description": ""
+    },
+    "otpPromptHelperText": "Пожалуйста, введите ключ, основанный на времени.",
+    "@otpPromptHelperText": {
+        "description": ""
+    },
+    "otpErrorMessageGeneration": "Ошибка при создании кода приглашения: {errorMessage}",
+    "@otpErrorMessageGeneration": {
+        "description": "",
+        "placeholders": {
+            "errorMessage": {}
+        }
+    },
+    "otpCopySecretActionLabel": "Копировать секрет",
+    "@otpCopySecretActionLabel": {
+        "description": ""
+    },
+    "otpEntryLabel": "Одноразовый токен",
+    "@otpEntryLabel": {
+        "description": "The label for entries which show a one time token for a TOTP"
+    },
+    "entryFieldProtected": "Защищенное поле. Нажмите, чтобы открыть.",
+    "@entryFieldProtected": {
+        "description": ""
+    },
+    "entryFieldActionRevealField": "Показать защищённое поле",
+    "@entryFieldActionRevealField": {
+        "description": ""
+    },
+    "entryAttachmentOpenActionLabel": "Открыть",
+    "@entryAttachmentOpenActionLabel": {
+        "description": ""
+    },
+    "entryAttachmentShareActionLabel": "Поделиться",
+    "@entryAttachmentShareActionLabel": {
+        "description": ""
+    },
+    "entryAttachmentShareSubject": "Вложение",
+    "@entryAttachmentShareSubject": {
+        "description": "the 'subject' passed to the system when sharing an attachment. "
+    },
+    "entryAttachmentSaveActionLabel": "Сохранить на устройство",
+    "@entryAttachmentSaveActionLabel": {
+        "description": ""
+    },
+    "entryAttachmentRemoveActionLabel": "Удалить",
+    "@entryAttachmentRemoveActionLabel": {
+        "description": ""
+    },
+    "entryAttachmentRemoveConfirm": "Вы действительно хотите удалить {attachmentLabel}?",
+    "@entryAttachmentRemoveConfirm": {
+        "description": "",
+        "placeholders": {
+            "attachmentLabel": {}
+        }
+    },
+    "entryRenameFieldPromptTitle": "Переименование поля",
+    "@entryRenameFieldPromptTitle": {
+        "description": ""
+    },
+    "removerecentfile": "Скрыть",
+    "@removerecentfile": {
+        "description": ""
+    },
+    "entryRenameFieldPromptLabel": "Введите новое имя для поля",
+    "@entryRenameFieldPromptLabel": {
+        "description": ""
+    },
+    "promptDialogPasteActionTooltip": "Вставить из буфера обмена",
+    "@promptDialogPasteActionTooltip": {
+        "description": ""
+    },
+    "promptDialogPasteHint": "Подсказка: Если вам нужно вставить, попробуйте кнопку слева ;-)",
+    "@promptDialogPasteHint": {
+        "description": "sometimes the paste shortcut is not working properly, so tell users they can use the paste button from the UI"
+    },
+    "genericErrorDialogTitle": "Ошибка при обработке действия",
+    "@genericErrorDialogTitle": {
+        "description": ""
+    },
+    "genericErrorDialogBody": "Произошла непредвиденная ошибка. {errorMessage}",
+    "@genericErrorDialogBody": {
+        "description": "",
+        "placeholders": {
+            "errorMessage": {}
+        }
+    },
+    "saveAsEntryLocalFile": "Локальный файл",
+    "@saveAsEntryLocalFile": {
+        "description": "menu entry in the 'save as' dialog for saving as local file."
+    },
+    "fileTypePngs": "Изображения (png)",
+    "@fileTypePngs": {
+        "description": "When selecting custom icons, users can choose a png image. This is the name of the 'file group'"
+    },
+    "selectIconDialogAction": "ВЫБЕРИТЕ ЗНАЧОК",
+    "@selectIconDialogAction": {
+        "description": ""
+    },
+    "retryDialogActionLabel": "Повторить попытку",
+    "@retryDialogActionLabel": {
+        "description": ""
+    },
+    "errorDuringNetworkCall": "Ошибка во время api вызова. {errorMessage}",
+    "@errorDuringNetworkCall": {
+        "description": "",
+        "placeholders": {
+            "errorMessage": {}
         }
     },
     "passwordFilterHideDeleted": "Скрыть удалённые записи",
