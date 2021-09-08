@@ -3,19 +3,64 @@
 "playstore_short_description","Защищайте ваши пароли и учетные записи на всех платформах и устройствах.","Short description in play store.","80",""
 "apple-appstore-title","AuthPass – Менеджер паролей","","30",""
 "apple-appstore-subtitle","","apple-appstore-subtitle -- Used as subtitle in Apple App Store, feel free to be creative ;-) Does not have to match english original, must just be a catchy phrase for the app store.","30",""
-"apple-appstore-description","","apple-appstore-description --- see my comment, this is essentially the same as the playstore_full_description just slight modifications for apple.","4000",""
+"apple-appstore-description","Легко и безопасно отслеживайте все ваши пароли!
+
+AuthPass - это самостоятельный менеджер паролей с поддержкой популярного и проверенного в безопасности формата KeePas. Храните ваши пароли, делитесь ими со всех ваших устройств и легко находите их всякий раз, когда вам нужно войти в систему.
+
+• Все ваши пароли в одном месте.
+• Создавайте случайные пароли для каждого вашего аккаунта.
+• Быстрая разблокировка, обеспеченная биометрическим замком.
+• Следите за вашими аккаунтами по сети.
+• Приложение доступно на всех платформах. Среди них Mac, iPhone и iPad.
+• Открытие нескольких файлов паролей одновременно (например, один для работы, один для персональных - или даже поделиться вашими паролями с коллегами)
+• Сохраните одноразовый пароль на основе времени для 2fa (Двухфакторная аутентификация).
+• Прикреплять бинарные файлы к записям паролей. (например, оффлайн TANs, etc).
+• Открытый исходный код доступен на https://github. om/authpass/authpass/
+• Темная тема ; )
+
+
+=== ПОД ВАШИМ КОНТРОЛЕМ ===
+
+AuthPass сохраняет все ваши пароли в формате Keepass именно там, где вы этого хотите. Он не отправляет ваши пароли на наши серверы. Но AuthPass поддерживает сохранение на:
+
+• Любой локальный поставщик документов, например iCloud.
+• Интеграция с Google Drive
+• Корневая Dropbox Интеграция
+• Поддержка Native WebDAV для хранения в вашем собственном NextCloud или OwnCloud (или аналогично)
+• Встроенная интеграция с Microsoft OneDrive
+
+
+===ПОЛНОФУНКЦИОНАЛЬНЫЙ, БЕЗ РЕКЛАМЫ, БЕЗ ПОДПИСКИ ===
+
+В проекте с открытым исходным кодом нет искусственных ограничений функций, нет рекламы и нет требований к платежам.
+Вклад приветствуется и поощряется :-) (Всегда ищу разработчиков, переводчиков, авторов документации, дизайнеров пользовательского интерфейса и т. Д. :) ), Просто присоединяйтесь к нашему каналу discord: https://authpass.app/go/discord.
+
+
+=== В СТАДИИ АКТИВНОЙ РАЗРАБОТКИ===
+
+Это проект с открытым исходным кодом, который все еще находится в процессе разработки, добавляя возможности. Мы будем рады вашему отзыву по электронной почте или по адресу https://github. om/authpass/authpass/issues/
+
+Также присоединяйтесь к сообществу на нашем канале discord https://authpass.app/go/discord
+","apple-appstore-description --- see my comment, this is essentially the same as the playstore_full_description just slight modifications for apple.","4000",""
 "apple-appstore-keywords","","apple-appstore-keywords - Keywords used for searching in the apple app store. Does not have to be a 1:1 translation, choose keywords that mak sense.","100",""
 
 "microsoft-store-windows","","Windows Store listing description https://docs.microsoft.com/en-us/windows/uwp/publish/write-a-great-app-description","",""
-"microsoft-store-windows-short-descriptoin","","short description for windows store 
+"microsoft-store-windows-short-descriptoin","Защищайте ваши пароли и учетные записи на всех платформах и устройствах. Бесплатный и открытый менеджер паролей с поддержкой файлов паролей kdbx.","short description for windows store 
 A shorter, catchy description that may be used in the top of your product’s Store listing
 Recommended length: 270 characters or fewer
 ","1000",""
-"microsoft-store-windows-features","","Short summaries of your product's key features
+"microsoft-store-windows-features","* Безопасно храните ваши пароли
+* Open Source
+* Поддержка стандартных файлов KeePass (kdbx)
+* Синхронизация между вашими устройствами с сервисами хранения данных.","Short summaries of your product's key features
 Displayed as bulleted list
 Up to 20 app features
 (max 200 characters each)","",""
-"microsoft-store-windows-search-terms","","search terms for the microsoft store
+"microsoft-store-windows-search-terms","* менеджер паролей
+* authpass
+* kdbx
+* keepass
+* генератор паролей","search terms for the microsoft store
 
 Up to 7 search terms
 40 character limit for each search term
