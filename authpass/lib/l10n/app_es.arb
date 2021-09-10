@@ -1537,6 +1537,10 @@
     "@shareCodeInputHelperText": {
         "description": ""
     },
+    "shareCodeOpenScreenTitle": "Cargando archivo con código compartido",
+    "@shareCodeOpenScreenTitle": {
+        "description": ""
+    },
     "shareCodeLoadingProgress": "Cargando archivo …",
     "@shareCodeLoadingProgress": {
         "description": ""
@@ -1551,6 +1555,10 @@
     },
     "shareCodeOpenInstallAppButtonLabel": "Instalar Aplicación",
     "@shareCodeOpenInstallAppButtonLabel": {
+        "description": ""
+    },
+    "shareCodeOpenShowCodeButtonLabel": "Mostrar código compartido",
+    "@shareCodeOpenShowCodeButtonLabel": {
         "description": ""
     },
     "changeMasterPasswordActionLabel": "Cambiar contraseña maestra",
@@ -1589,13 +1597,41 @@
     "@shortcutCopyPassword": {
         "description": ""
     },
+    "shortcutCopyTotp": "Copiar TOTP",
+    "@shortcutCopyTotp": {
+        "description": ""
+    },
+    "shortcutMoveUp": "Seleccione la contraseña anterior",
+    "@shortcutMoveUp": {
+        "description": ""
+    },
+    "shortcutMoveDown": "Seleccione la siguiente contraseña",
+    "@shortcutMoveDown": {
+        "description": ""
+    },
     "shortcutGeneratePassword": "Generar contraseña",
     "@shortcutGeneratePassword": {
+        "description": ""
+    },
+    "shortcutCopyUrl": "Copiar URL",
+    "@shortcutCopyUrl": {
         "description": ""
     },
     "shortcutOpenUrl": "Abrir URL",
     "@shortcutOpenUrl": {
         "description": ""
+    },
+    "shortcutCancelSearch": "Cancelar búsqueda",
+    "@shortcutCancelSearch": {
+        "description": ""
+    },
+    "shortcutShortcutHelp": "Ayuda de atajo de teclado",
+    "@shortcutShortcutHelp": {
+        "description": ""
+    },
+    "shortcutHelpTitle": "Atajos de teclado",
+    "@shortcutHelpTitle": {
+        "description": "title of dialog showing keyboard shortcuts."
     },
     "unexpectedError": "Error inesperado: {error}",
     "@unexpectedError": {
