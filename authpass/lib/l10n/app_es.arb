@@ -180,6 +180,18 @@
     "@preferenceAutoFillDescription": {},
     "preferenceTitle": "Preferencias",
     "@preferenceTitle": {},
+    "preferenceEnableSystemWideShortcuts": "Habilitar accesos directos del sistema",
+    "@preferenceEnableSystemWideShortcuts": {
+        "description": ""
+    },
+    "preferencesSearchFields": "Personalizar campos de búsqueda",
+    "@preferencesSearchFields": {
+        "description": ""
+    },
+    "preferencesSearchFieldPromptTitle": "Campos de búsqueda",
+    "@preferencesSearchFieldPromptTitle": {
+        "description": ""
+    },
     "aboutAppName": "AuthPass",
     "@aboutAppName": {},
     "aboutLinkFeedback": "¡Agradecemos cualquier tipo de comentarios!",
@@ -1160,6 +1172,10 @@
     "@mailboxNameInputDialogTitle": {
         "description": "title of the dialog asking for a mailbox label/name"
     },
+    "mailboxNameInputLabel": "(Interno) Etiqueta",
+    "@mailboxNameInputLabel": {
+        "description": "Label for the text field asking for a label for a mailbox, while creating it."
+    },
     "mailTabBarTitleMailbox": "Buzón",
     "@mailTabBarTitleMailbox": {
         "description": "title for the tab showing list of mailboxes."
@@ -1281,6 +1297,10 @@
     "promptDialogPasteHint": "Sugerencia: Si necesita pegar, pruebe el botón de la izquierda ;-)",
     "@promptDialogPasteHint": {
         "description": "sometimes the paste shortcut is not working properly, so tell users they can use the paste button from the UI"
+    },
+    "genericErrorDialogTitle": "Error al manejar la acción",
+    "@genericErrorDialogTitle": {
+        "description": ""
     },
     "genericErrorDialogBody": "Se encontró un error inesperado. {errorMessage}",
     "@genericErrorDialogBody": {
