@@ -184,6 +184,22 @@
     "@preferenceAutoFillDescription": {},
     "preferenceTitle": "Paramètres",
     "@preferenceTitle": {},
+    "preferenceEnableSystemWideShortcuts": "Activer les raccourcis dans tout le système",
+    "@preferenceEnableSystemWideShortcuts": {
+        "description": ""
+    },
+    "preferenceEnableSystemWideShortcutsHelp": "Enregistrer ctrl+alt+f dans le système comme un raccourci pour ouvrir la recherche.",
+    "@preferenceEnableSystemWideShortcutsHelp": {
+        "description": ""
+    },
+    "preferencesSearchFields": "Personnaliser les champs de recherche",
+    "@preferencesSearchFields": {
+        "description": ""
+    },
+    "preferencesSearchFieldPromptTitle": "Champs de recherche",
+    "@preferencesSearchFieldPromptTitle": {
+        "description": ""
+    },
     "aboutAppName": "AuthPass",
     "@aboutAppName": {},
     "aboutLinkFeedback": "Tout type de commentaire est le bienvenu !",
