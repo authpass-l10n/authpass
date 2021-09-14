@@ -184,6 +184,18 @@
     "@preferenceAutoFillDescription": {},
     "preferenceTitle": "Настройки",
     "@preferenceTitle": {},
+    "preferenceEnableSystemWideShortcuts": "Включить общесистемные ярлыки",
+    "@preferenceEnableSystemWideShortcuts": {
+        "description": ""
+    },
+    "preferenceEnableSystemWideShortcutsHelp": "Регистрирует сочетание клавиш ctrl+alt+f в качестве общесистемного ярлыка для открытия поиска.",
+    "@preferenceEnableSystemWideShortcutsHelp": {
+        "description": ""
+    },
+    "preferencesSearchFields": "Настройка полей поиска",
+    "@preferencesSearchFields": {
+        "description": ""
+    },
     "aboutAppName": "AuthPass",
     "@aboutAppName": {},
     "aboutLinkFeedback": "Мы рады любым отзывам!",
