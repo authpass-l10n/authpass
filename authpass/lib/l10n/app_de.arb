@@ -100,6 +100,10 @@
     "@openFile": {
         "description": "Displayed as placeholder in password list when no file is open."
     },
+    "loadFromDropdownMenu": "Lade von …",
+    "@loadFromDropdownMenu": {
+        "description": "label for dropdown menu which shows more cloud storage options."
+    },
     "loadFrom": "Lade von {cloudStorageName}",
     "@loadFrom": {
         "placeholders": {
