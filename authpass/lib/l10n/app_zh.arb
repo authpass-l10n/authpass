@@ -1290,6 +1290,13 @@
     "@groupActionDelete": {
         "description": ""
     },
+    "shareDialogTitle": "发送 {fileName}",
+    "@shareDialogTitle": {
+        "description": "",
+        "placeholders": {
+            "fileName": {}
+        }
+    },
     "shareCodeLoadingProgress": "召唤真理之匙...",
     "@shareCodeLoadingProgress": {
         "description": ""
