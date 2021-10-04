@@ -1278,6 +1278,10 @@
             "attachmentLabel": {}
         }
     },
+    "promptDialogPasteHint": "小贴士：试试用左侧的那个按钮粘贴吧 >w< !!",
+    "@promptDialogPasteHint": {
+        "description": "sometimes the paste shortcut is not working properly, so tell users they can use the paste button from the UI"
+    },
     "menuItemAuthPassCloudMailboxes": "魔钥 - 代理邮箱",
     "@menuItemAuthPassCloudMailboxes": {
         "description": ""
