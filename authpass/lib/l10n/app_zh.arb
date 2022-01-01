@@ -184,6 +184,14 @@
     "@preferenceAutoFillDescription": {},
     "preferenceTitle": "设置",
     "@preferenceTitle": {},
+    "preferencesSearchFields": "自定义搜索范围",
+    "@preferencesSearchFields": {
+        "description": ""
+    },
+    "preferencesSearchFieldPromptTitle": "搜索范围",
+    "@preferencesSearchFieldPromptTitle": {
+        "description": ""
+    },
     "aboutAppName": "Authpass-魔钥",
     "@aboutAppName": {},
     "aboutLinkFeedback": "我们欢迎反馈意见！",
@@ -1278,9 +1286,29 @@
             "attachmentLabel": {}
         }
     },
+    "removerecentfile": "移除",
+    "@removerecentfile": {
+        "description": ""
+    },
+    "promptDialogPasteActionTooltip": "从剪贴板中粘贴",
+    "@promptDialogPasteActionTooltip": {
+        "description": ""
+    },
     "promptDialogPasteHint": "小贴士：试试用左侧的那个按钮粘贴吧 >w< !!",
     "@promptDialogPasteHint": {
         "description": "sometimes the paste shortcut is not working properly, so tell users they can use the paste button from the UI"
+    },
+    "saveAsEntryLocalFile": "本地文件",
+    "@saveAsEntryLocalFile": {
+        "description": "menu entry in the 'save as' dialog for saving as local file."
+    },
+    "fileTypePngs": "图像(png)",
+    "@fileTypePngs": {
+        "description": "When selecting custom icons, users can choose a png image. This is the name of the 'file group'"
+    },
+    "selectIconDialogAction": "选择图标",
+    "@selectIconDialogAction": {
+        "description": ""
     },
     "menuItemAuthPassCloudMailboxes": "魔钥 - 代理邮箱",
     "@menuItemAuthPassCloudMailboxes": {
@@ -1300,6 +1328,10 @@
         "placeholders": {
             "fileName": {}
         }
+    },
+    "shareFileActionLabel": "分享",
+    "@shareFileActionLabel": {
+        "description": ""
     },
     "shareCodeLoadingProgress": "召唤真理之匙...",
     "@shareCodeLoadingProgress": {
