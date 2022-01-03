@@ -168,7 +168,7 @@
     "@preferenceAllowScreenshots": {},
     "preferenceEnableAutoFill": "Abilita riempimento automatico",
     "@preferenceEnableAutoFill": {},
-    "enableAutofillSuggestionBanner": "Puoi riempire il campo di un'altra applicazione abilitando l'auto-compilazione!",
+    "enableAutofillSuggestionBanner": "Puoi riempire il campo di altre applicazioni abilitando l'auto-riempimento!",
     "@enableAutofillSuggestionBanner": {
         "description": "This text will shown as a banner on top of password list"
     },
@@ -200,11 +200,11 @@
     "@preferencesSearchFieldPromptTitle": {
         "description": ""
     },
-    "preferencesSearchFieldPromptLabel": "Elenco di campi separati da virgole da utilizzare nella ricerca di una lista di password.",
+    "preferencesSearchFieldPromptLabel": "Elenco di campi separati da virgole da usare nella ricerca di una lista di password.",
     "@preferencesSearchFieldPromptLabel": {
         "description": ""
     },
-    "preferencesSearchFieldPromptHelp": "Usa {wildCardCharacter} per tutti, lascia vuoto per predefinito ({defaultSearchFields})",
+    "preferencesSearchFieldPromptHelp": "Usa {wildCardCharacter} per tutti, lascia vuoto per impostazione predefinita ({defaultSearchFields})",
     "@preferencesSearchFieldPromptHelp": {
         "description": "",
         "placeholders": {
@@ -221,7 +221,7 @@
     "aboutLinkGitHub": "E supportare il progetto su GitHub",
     "@aboutLinkGitHub": {},
     "aboutLogFile": "File di log: {logFilePath}",
-    "aboutLinkContributors": "Mostra Collaboratori",
+    "aboutLinkContributors": "Mostra collaboratori",
     "@aboutLinkContributors": {},
     "@aboutLogFile": {
         "placeholders": {
@@ -272,7 +272,7 @@
     "@menuItemSupport": {},
     "menuItemSupportSubtitle": "Invia i log via email",
     "@menuItemSupportSubtitle": {},
-    "menuItemForum": "Forum Di Supporto",
+    "menuItemForum": "Forum di supporto",
     "@menuItemForum": {},
     "menuItemForumSubtitle": "Segnala problemi e ottieni assistenza",
     "@menuItemForumSubtitle": {},
@@ -418,11 +418,11 @@
     "@swipeCopyUsername": {
         "description": "swipe action in password list to copy username"
     },
-    "copyUsernameNotExists": "La voce non ha un nome utente definito.",
+    "copyUsernameNotExists": "La voce non ha alcun nome utente definito.",
     "@copyUsernameNotExists": {
         "description": "Error message when trying to copy username from an entry which has none."
     },
-    "copyPasswordNotExists": "La voce non ha una password definita.",
+    "copyPasswordNotExists": "La voce non ha alcuna password definita.",
     "@copyPasswordNotExists": {
         "description": "Error message when trying to copy password from an entry which has none."
     },
@@ -527,7 +527,7 @@
     "@close": {
         "description": "Tooltip/semantic label for close button"
     },
-    "addNewPassword": "Aggiungi Nuova Password",
+    "addNewPassword": "Aggiungi nuova password",
     "@addNewPassword": {
         "description": "Tooltip for adding new password button (floating action button)"
     },
