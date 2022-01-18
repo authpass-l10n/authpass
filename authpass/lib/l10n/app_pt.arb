@@ -1,3 +1,169 @@
 {
-    "@@locale": "pt"
+    "@@locale": "pt",
+    "fieldUserName": "Usuário",
+    "@fieldUserName": {},
+    "fieldPassword": "Palavra-passe",
+    "@fieldPassword": {},
+    "fieldWebsite": "Website",
+    "@fieldWebsite": {},
+    "fieldTitle": "Título",
+    "@fieldTitle": {},
+    "fieldTotp": "Senha Única (Baseado no Tempo)",
+    "@fieldTotp": {
+        "description": "Label for fields of TOTP (Time based one time passwords)"
+    },
+    "english": "Inglês",
+    "@english": {
+        "description": "language switcher subtitle"
+    },
+    "german": "Alemão",
+    "@german": {
+        "description": "language switcher subtitle"
+    },
+    "russian": "Russo",
+    "@russian": {
+        "description": "language switcher subtitle"
+    },
+    "ukrainian": "Ucraniano",
+    "@ukrainian": {
+        "description": "language switcher subtitle"
+    },
+    "lithuanian": "Lituano",
+    "@lithuanian": {
+        "description": "language switcher subtitle"
+    },
+    "french": "Francês",
+    "@french": {
+        "description": "language switcher subtitle"
+    },
+    "spanish": "Espanhol",
+    "@spanish": {
+        "description": "language switcher subtitle"
+    },
+    "indonesian": "Indonésio",
+    "@indonesian": {
+        "description": "language switcher subtitle"
+    },
+    "turkish": "Turco",
+    "@turkish": {
+        "description": "Language switcher subtitle"
+    },
+    "hebrew": "Hebraico",
+    "@hebrew": {
+        "description": "Language switcher subtitle"
+    },
+    "italian": "Italiano",
+    "@italian": {
+        "description": "Language switcher subtitle"
+    },
+    "chineseSimplified": "Chinês simplificado",
+    "@chineseSimplified": {
+        "description": "Language switcher subtitle"
+    },
+    "chineseTraditional": "Chinês tradicional",
+    "@chineseTraditional": {
+        "description": "Language switcher subtitle"
+    },
+    "portugueseBrazilian": "Português brasileiro",
+    "@portugueseBrazilian": {
+        "description": "Language switcher subtitle"
+    },
+    "slovak": "Eslovaco",
+    "@slovak": {
+        "description": "Language switcher subtitle"
+    },
+    "dutch": "Holandês",
+    "@dutch": {
+        "description": "Language switcher subtitle"
+    },
+    "selectItem": "Selecionar",
+    "@selectItem": {
+        "description": "semantic label for checkboxes to select item."
+    },
+    "selectKeepassFile": "AuthPass - Selecionar arquivo KeePass",
+    "@selectKeepassFile": {
+        "context": "appbar title - select file screen"
+    },
+    "selectKeepassFileLabel": "Por favor, selecione um arquivo KeePass (.kdbx)",
+    "@selectKeepassFileLabel": {
+        "context": "select file screen, used as label."
+    },
+    "createNewFile": "Criar novo arquivo",
+    "@createNewFile": {
+        "description": "button on select file screen to create a new password database."
+    },
+    "openLocalFile": "Abrir\nArquivo Local",
+    "@openLocalFile": {
+        "context": "select file screen, big button open local file."
+    },
+    "openFile": "Abrir arquivo",
+    "@openFile": {
+        "description": "Displayed as placeholder in password list when no file is open."
+    },
+    "loadFromDropdownMenu": "Carregar de …",
+    "@loadFromDropdownMenu": {
+        "description": "label for dropdown menu which shows more cloud storage options."
+    },
+    "quickUnlockingFiles": "Desbloqueio rápido de arquivos …",
+    "@quickUnlockingFiles": {
+        "description": "Status shown while we are loading files and trying to unlock them."
+    },
+    "openFileProgress": "Abrindo {fileName} … ({current} / {totalCount})",
+    "@openFileProgress": {
+        "description": "Progress shown while files are loaded during quick unlock.",
+        "placeholders": {
+            "fileName": {
+                "description": "Name of the file that is currently loaded."
+            },
+            "current": {
+                "description": "The index/number of file currently loading."
+            },
+            "totalCount": {
+                "description": "Total number of files which are loading."
+            }
+        }
+    },
+    "loadFrom": "Carregar de {cloudStorageName}",
+    "@loadFrom": {
+        "placeholders": {
+            "cloudStorageName": {
+                "type": "String",
+                "example": "Dropbox"
+            }
+        }
+    },
+    "loadFromRemoteUrl": "Abrir kdbx de URL",
+    "@loadFromRemoteUrl": {
+        "description": "Overflow menu option to load KeePass file from URL."
+    },
+    "createNewKeepass": "Novo no KeePass?\nCriar nova base de dados de senhas",
+    "@createNewKeepass": {
+        "description": "deprecated"
+    },
+    "labelLastOpenFiles": "Últimos arquivos abertos:",
+    "@labelLastOpenFiles": {},
+    "noFilesHaveBeenOpenYet": "Nenhum arquivo foi aberto ainda.",
+    "@noFilesHaveBeenOpenYet": {},
+    "preferenceSelectLanguage": "Selecione o idioma",
+    "@preferenceSelectLanguage": {},
+    "preferenceLanguage": "Língua",
+    "@preferenceLanguage": {},
+    "preferenceTextScaleFactor": "Fator de Escala de Texto",
+    "@preferenceTextScaleFactor": {},
+    "preferenceVisualDensity": "Densidade visual",
+    "@preferenceVisualDensity": {},
+    "preferenceTheme": "Tema",
+    "@preferenceTheme": {},
+    "preferenceThemeLight": "Claro",
+    "@preferenceThemeLight": {},
+    "preferenceThemeDark": "Escuro",
+    "@preferenceThemeDark": {},
+    "preferenceSystemDefault": "Padrão do Sistema",
+    "@preferenceSystemDefault": {},
+    "preferenceDefault": "Predefinição",
+    "@preferenceDefault": {},
+    "lockAllFiles": "Bloquear todos os arquivos abertos",
+    "@lockAllFiles": {},
+    "preferenceAllowScreenshots": "Permitir capturas de tela do App",
+    "@preferenceAllowScreenshots": {}
 }
