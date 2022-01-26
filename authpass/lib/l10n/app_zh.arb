@@ -1407,7 +1407,7 @@
             "fileName": {}
         }
     },
-    "changesSaveLocally": "在本地保存",
+    "changesSaveLocally": "保存到本地",
     "@changesSaveLocally": {
         "description": ""
     },
