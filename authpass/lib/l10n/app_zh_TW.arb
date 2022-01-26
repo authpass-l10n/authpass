@@ -72,6 +72,10 @@
     "@slovak": {
         "description": "Language switcher subtitle"
     },
+    "dutch": "荷蘭語",
+    "@dutch": {
+        "description": "Language switcher subtitle"
+    },
     "selectItem": "選取",
     "@selectItem": {
         "description": "semantic label for checkboxes to select item."
@@ -95,6 +99,10 @@
     "openFile": "開啟檔案",
     "@openFile": {
         "description": "Displayed as placeholder in password list when no file is open."
+    },
+    "quickUnlockingFiles": "快速解鎖…",
+    "@quickUnlockingFiles": {
+        "description": "Status shown while we are loading files and trying to unlock them."
     },
     "loadFrom": "開啟雲端檔案 {cloudStorageName}",
     "@loadFrom": {
@@ -158,6 +166,8 @@
     "aboutLinkGitHub": "還有開源專案",
     "@aboutLinkGitHub": {},
     "aboutLogFile": "記錄檔： {logFilePath}",
+    "aboutLinkContributors": "顯示貢獻者",
+    "@aboutLinkContributors": {},
     "@aboutLogFile": {
         "placeholders": {
             "logFilePath": {
@@ -203,6 +213,14 @@
     "@menuItemOpenAnotherFile": {},
     "menuItemCheckForUpdates": "檢查更新",
     "@menuItemCheckForUpdates": {},
+    "menuItemSupport": "發送日誌",
+    "@menuItemSupport": {},
+    "menuItemSupportSubtitle": "通過電子郵件發送日誌",
+    "@menuItemSupportSubtitle": {},
+    "menuItemForum": "支援論壇",
+    "@menuItemForum": {},
+    "menuItemForumSubtitle": "報告問題並獲得幫助",
+    "@menuItemForumSubtitle": {},
     "menuItemHelp": "說明",
     "@menuItemHelp": {},
     "menuItemHelpSubtitle": "開啟說明文件",
@@ -345,6 +363,14 @@
     "@swipeCopyUsername": {
         "description": "swipe action in password list to copy username"
     },
+    "copyUsernameNotExists": "此條目沒有定義用戶名。",
+    "@copyUsernameNotExists": {
+        "description": "Error message when trying to copy username from an entry which has none."
+    },
+    "copyPasswordNotExists": "此條目沒有定義密碼。",
+    "@copyPasswordNotExists": {
+        "description": "Error message when trying to copy password from an entry which has none."
+    },
     "doneCopiedPassword": "已將密碼複製到剪貼簿。",
     "@doneCopiedPassword": {
         "description": "snackbar confirmation that password was copied."
@@ -357,6 +383,20 @@
     "@doneCopiedField": {
         "description": ""
     },
+    "copiedFieldToClipboard": "{fieldName} 已被複製",
+    "@copiedFieldToClipboard": {
+        "description": "",
+        "placeholders": {
+            "fieldName": {}
+        }
+    },
+    "copiedFieldEmpty": "{fieldName} 為空。",
+    "@copiedFieldEmpty": {
+        "description": "Displayed when user wants to copy a field which is empty or not defined.",
+        "placeholders": {
+            "fieldName": {}
+        }
+    },
     "emptyPasswordVaultPlaceholder": "目前資料庫中沒有任何密碼。",
     "@emptyPasswordVaultPlaceholder": {
         "description": "Placeholder text shown when a user opens an empty password file."
@@ -364,6 +404,10 @@
     "emptyPasswordVaultButtonLabel": "記下第一組密碼",
     "@emptyPasswordVaultButtonLabel": {
         "description": "Button shown under placeholder text when password database is empty"
+    },
+    "loading": "正在加載",
+    "@loading": {
+        "description": "generic loading indicator displayed during network request (e.g. when loading file list from cloud storage)"
     },
     "loadingFile": "檔案讀取中 …",
     "@loadingFile": {
@@ -447,6 +491,10 @@
             "newFileSource": {}
         }
     },
+    "loadFromUrl": "從網址下載",
+    "@loadFromUrl": {
+        "description": ""
+    },
     "errorUnlockFileTitle": "無法開啟檔案",
     "@errorUnlockFileTitle": {
         "description": "generic error when opening a file (dialog title)",
@@ -503,9 +551,63 @@
     "@saveButtonLabel": {
         "description": "save file, for example button displayed in entry details"
     },
+    "webDavSettings": "WebDAV設定",
+    "@webDavSettings": {
+        "description": "dialog title for entering WebDAV settings."
+    },
+    "webDavUrlLabel": "網址",
+    "@webDavUrlLabel": {
+        "description": ""
+    },
     "webDavAuthPassword": "密碼",
     "@webDavAuthPassword": {
         "description": ""
+    },
+    "forDetailsVisitUrl": "有關詳細信息，請訪問 {url}",
+    "@forDetailsVisitUrl": {
+        "description": "",
+        "placeholders": {
+            "url": {}
+        }
+    },
+    "authPassCloudAuthEmailInputLabel": "輸入電子郵件地址以註冊或登錄。",
+    "@authPassCloudAuthEmailInputLabel": {
+        "description": ""
+    },
+    "authPassCloudAuthEmailInvalid": "請輸入有效的電子郵件地址。",
+    "@authPassCloudAuthEmailInvalid": {
+        "description": ""
+    },
+    "authPassCloudAuthConfirmEmailButtonLabel": "確認地址",
+    "@authPassCloudAuthConfirmEmailButtonLabel": {
+        "description": ""
+    },
+    "authPassCloudAuthConfirmEmail": "請檢查您的電子郵件以確認您的電子郵件地址。",
+    "@authPassCloudAuthConfirmEmail": {
+        "description": ""
+    },
+    "authPassCloudAuthConfirmEmailExplain": "將此界面保持開啟，直到您已訪問通過電子郵件收到的鏈接。",
+    "@authPassCloudAuthConfirmEmailExplain": {
+        "description": ""
+    },
+    "authPassCloudAuthResendExplain": "如果您沒有收到電子郵件，請檢查您的垃圾郵件文件夾。 否則，您可以嘗試請求新的確認鏈接。",
+    "@authPassCloudAuthResendExplain": {
+        "description": ""
+    },
+    "authPassCloudAuthResendButtonLabel": "請求新的確認鏈接",
+    "@authPassCloudAuthResendButtonLabel": {
+        "description": ""
+    },
+    "permanentlyDeleteEntryConfirm": "這將永久刪除密碼條目 {title} 。這不能被撤消。確認要繼續嗎？",
+    "@permanentlyDeleteEntryConfirm": {
+        "description": "shown to force user to acknowledge delete before a entry will be permanently deleted.",
+        "placeholders": {
+            "title": {}
+        }
+    },
+    "permanentlyDeletedEntrySnackBar": "條目已被永久刪除",
+    "@permanentlyDeletedEntrySnackBar": {
+        "description": "snackbar confirming that the entry was deleted."
     },
     "initialNewGroupName": "新群組",
     "@initialNewGroupName": {
