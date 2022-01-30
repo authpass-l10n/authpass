@@ -319,7 +319,7 @@
     "@characterSetNumeric": {
         "context": "Password generator"
     },
-    "characterSetUmlauts": "变音字母 (ä)",
+    "characterSetUmlauts": "ASCII扩展字符 (ä)",
     "@characterSetUmlauts": {
         "context": "Password generator"
     },
