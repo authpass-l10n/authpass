@@ -290,7 +290,7 @@
     "@passwordPlainText": {
         "description": "Master password input: show password as plain text during input. (shown as tooltip)"
     },
-    "generatorPassword": "新鲜出炉的随机密码~",
+    "generatorPassword": "生成的密码",
     "@generatorPassword": {
         "description": "Label for generated password"
     },
@@ -1112,7 +1112,7 @@
             }
         }
     },
-    "cloudStorageLogInCaption": "正在跳转，请在稍后的界面授权访问云存储~",
+    "cloudStorageLogInCaption": "即将为您打开AuthPass验证界面，验证后即可获取您的数据",
     "@cloudStorageLogInCaption": {
         "description": ""
     },
@@ -1258,7 +1258,7 @@
     "@otpInvalidKeyBody": {
         "description": ""
     },
-    "otpPromptTitle": "启用两步验证...",
+    "otpPromptTitle": "基于时间的身份认证",
     "@otpPromptTitle": {
         "description": ""
     },
