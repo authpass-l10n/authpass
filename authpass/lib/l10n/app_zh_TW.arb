@@ -616,6 +616,22 @@
     "@mailListNoMail": {
         "description": ""
     },
+    "mailboxLabelPrefixUnknownEntry": "未知條目: {entryUuid}",
+    "@mailboxLabelPrefixUnknownEntry": {
+        "description": "when a mailbox was created for password entry which has been deleted or is otherwise not in the currently opened password files.",
+        "placeholders": {
+            "entryUuid": {
+                "description": "The internal id of the entry which was no tfound"
+            }
+        }
+    },
+    "mailboxLabelPrefixCreatedAt": "創建於: {dateTime}",
+    "@mailboxLabelPrefixCreatedAt": {
+        "description": "When a mailbox was not created for an entry and has no label, the creation date is shown.",
+        "placeholders": {
+            "dateTime": {}
+        }
+    },
     "masterPasswordDescription": "主密碼用於安全地加密您的密碼數據庫。 請務必記住它，它無法被恢復。",
     "@masterPasswordDescription": {
         "description": ""
@@ -1037,6 +1053,15 @@
             "url": {}
         }
     },
+    "cloudStorageLogInActionLabel": "登錄到 {cloudStorageName}",
+    "@cloudStorageLogInActionLabel": {
+        "description": "when the user has not authenticated yet, he will see this button to start the login flow of a cloud storage backend.",
+        "placeholders": {
+            "cloudStorageName": {
+                "example": "Dropbox"
+            }
+        }
+    },
     "cloudStorageAuthCodeLabel": "驗證碼",
     "@cloudStorageAuthCodeLabel": {
         "description": ""
@@ -1170,6 +1195,26 @@
     },
     "entryRenameFieldPromptTitle": "重命名字段",
     "@entryRenameFieldPromptTitle": {
+        "description": ""
+    },
+    "removerecentfile": "隱藏",
+    "@removerecentfile": {
+        "description": ""
+    },
+    "entryRenameFieldPromptLabel": "輸入字段的新名稱",
+    "@entryRenameFieldPromptLabel": {
+        "description": ""
+    },
+    "promptDialogPasteActionTooltip": "從剪貼板粘貼",
+    "@promptDialogPasteActionTooltip": {
+        "description": ""
+    },
+    "promptDialogPasteHint": "提示：如果您需要粘貼，不妨嘗試左邊的按鈕 ;-)",
+    "@promptDialogPasteHint": {
+        "description": "sometimes the paste shortcut is not working properly, so tell users they can use the paste button from the UI"
+    },
+    "genericErrorDialogTitle": "處理動作時出錯",
+    "@genericErrorDialogTitle": {
         "description": ""
     },
     "newGroupDialogTitle": "新群組",
