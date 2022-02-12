@@ -1217,6 +1217,17 @@
     "@genericErrorDialogTitle": {
         "description": ""
     },
+    "genericErrorDialogBody": "發生意外錯誤：{errorMessage}",
+    "@genericErrorDialogBody": {
+        "description": "",
+        "placeholders": {
+            "errorMessage": {}
+        }
+    },
+    "saveAsEntryLocalFile": "本機檔案",
+    "@saveAsEntryLocalFile": {
+        "description": "menu entry in the 'save as' dialog for saving as local file."
+    },
     "newGroupDialogTitle": "新群組",
     "@newGroupDialogTitle": {
         "description": ""
