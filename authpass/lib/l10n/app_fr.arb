@@ -1569,9 +1569,25 @@
     "@shortcutGeneratePassword": {
         "description": ""
     },
+    "shortcutCopyUrl": "Copier l'URL",
+    "@shortcutCopyUrl": {
+        "description": ""
+    },
     "shortcutOpenUrl": "Ouvrir l'URL",
     "@shortcutOpenUrl": {
         "description": ""
+    },
+    "shortcutCancelSearch": "Annuler la recherche",
+    "@shortcutCancelSearch": {
+        "description": ""
+    },
+    "shortcutShortcutHelp": "Aide pour les Raccourcis clavier",
+    "@shortcutShortcutHelp": {
+        "description": ""
+    },
+    "shortcutHelpTitle": "Raccourcis clavier",
+    "@shortcutHelpTitle": {
+        "description": "title of dialog showing keyboard shortcuts."
     },
     "unexpectedError": "Erreur inattendue : {error}",
     "@unexpectedError": {
