@@ -180,6 +180,18 @@
     "@enableAutofillSuggestionBannerButton": {
         "description": "Button that is displayed in autofill suggestion warnings to enable autofill"
     },
+    "preferenceAutoFillDescription": "Suportado somente no Android Oreo (8.0) ou superior.",
+    "@preferenceAutoFillDescription": {},
+    "preferenceTitle": "Preferências",
+    "@preferenceTitle": {},
+    "preferencesSearchFields": "Personalizar os Campos de Pesquisa",
+    "@preferencesSearchFields": {
+        "description": ""
+    },
+    "preferencesSearchFieldPromptTitle": "Campos de pesquisa",
+    "@preferencesSearchFieldPromptTitle": {
+        "description": ""
+    },
     "autofillFilterPrefix": "Filtro:",
     "@autofillFilterPrefix": {
         "description": "Label displayed for android auto fill"
