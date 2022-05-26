@@ -51,5 +51,33 @@
     "hebrew": "Heprea",
     "@hebrew": {
         "description": "Language switcher subtitle"
+    },
+    "italian": "Italia",
+    "@italian": {
+        "description": "Language switcher subtitle"
+    },
+    "chineseSimplified": "Kiina Yksinkertaistettu",
+    "@chineseSimplified": {
+        "description": "Language switcher subtitle"
+    },
+    "chineseTraditional": "Kiina Perinteinen",
+    "@chineseTraditional": {
+        "description": "Language switcher subtitle"
+    },
+    "portugueseBrazilian": "Portugali, Brasilia",
+    "@portugueseBrazilian": {
+        "description": "Language switcher subtitle"
+    },
+    "slovak": "Slovakia",
+    "@slovak": {
+        "description": "Language switcher subtitle"
+    },
+    "dutch": "Hollanti",
+    "@dutch": {
+        "description": "Language switcher subtitle"
+    },
+    "selectItem": "Valitse",
+    "@selectItem": {
+        "description": "semantic label for checkboxes to select item."
     }
 }
