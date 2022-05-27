@@ -192,6 +192,87 @@
     "@preferencesSearchFieldPromptTitle": {
         "description": ""
     },
+    "menuItemAbout": "Sobre",
+    "@menuItemAbout": {},
+    "actionOpenUrl": "Abrir URL",
+    "@actionOpenUrl": {
+        "description": "tooltip for button to open URL/Website of an entry."
+    },
+    "passwordPlainText": "Mostrar senha",
+    "@passwordPlainText": {
+        "description": "Master password input: show password as plain text during input. (shown as tooltip)"
+    },
+    "generatorPassword": "Senha",
+    "@generatorPassword": {
+        "description": "Label for generated password"
+    },
+    "generatePassword": "Gerar Senha",
+    "@generatePassword": {
+        "description": "screen title for password generator"
+    },
+    "doneButtonLabel": "Concluído",
+    "@doneButtonLabel": {
+        "description": "generic button label for 'Done' action."
+    },
+    "useAsDefault": "Usar como Padrão",
+    "@useAsDefault": {
+        "description": "Button Label for Password generator settings: use as defaults",
+        "context": "Password generator"
+    },
+    "characterSetLowerCase": "Minúsculas (a-z)",
+    "@characterSetLowerCase": {
+        "context": "Password generator"
+    },
+    "characterSetUpperCase": "Maiúsculas (A-Z)",
+    "@characterSetUpperCase": {
+        "context": "Password generator"
+    },
+    "characterSetNumeric": "Números (0-9)",
+    "@characterSetNumeric": {
+        "context": "Password generator"
+    },
+    "characterSetUmlauts": "Trema (ä)",
+    "@characterSetUmlauts": {
+        "context": "Password generator"
+    },
+    "characterSetSpecial": "Caracteres especiais (@%+)",
+    "@characterSetSpecial": {
+        "context": "Password generator"
+    },
+    "length": "Tamanho",
+    "@length": {
+        "description": "Length of password",
+        "context": "Password generator"
+    },
+    "customLength": "Tamanho personalizado",
+    "@customLength": {
+        "description": "Label for custom length field",
+        "context": "Password generator"
+    },
+    "manageGroups": "Gerenciar Grupos",
+    "@manageGroups": {
+        "description": ""
+    },
+    "lockFiles": "Bloquear Arquivos",
+    "@lockFiles": {
+        "description": "Close all files and return to start screen."
+    },
+    "searchHint": "Pesquisar",
+    "@searchHint": {
+        "description": "Placeholder in the password list search box"
+    },
+    "searchButtonLabel": "Pesquisar",
+    "@searchButtonLabel": {
+        "description": "search button tooltip/semantic label"
+    },
+    "filterButtonLabel": "Filtrar por grupo",
+    "@filterButtonLabel": {
+        "description": "tooltip/semantic label for filter app bar icon."
+    },
+    "clear": "Limpar",
+    "@clear": {
+        "description": "Remove existing group filter from password list"
+    },
     "autofillFilterPrefix": "Filtro:",
     "@autofillFilterPrefix": {
         "description": "Label displayed for android auto fill"
@@ -430,6 +511,10 @@
     "groupFilterDescription": "Selecionar quais grupos a exibir (recursivamente)",
     "@groupFilterDescription": {
         "description": "Description shown in the group list for filtering (e.g. app drawer)",
+        "context": "group filter"
+    },
+    "groupFilterSelectAll": "Selecionar todos",
+    "@groupFilterSelectAll": {
         "context": "group filter"
     },
     "unlock": "Desbloquear arquivos",
