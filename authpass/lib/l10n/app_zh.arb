@@ -132,7 +132,7 @@
             }
         }
     },
-    "loadFromRemoteUrl": "从链接打开KDBX密码库",
+    "loadFromRemoteUrl": "从链接打开KDBX文件",
     "@loadFromRemoteUrl": {
         "description": "Overflow menu option to load KeePass file from URL."
     },
@@ -200,11 +200,11 @@
     "@preferencesSearchFieldPromptTitle": {
         "description": ""
     },
-    "preferencesSearchFieldPromptLabel": "允许搜索的字段列表，用逗号分隔",
+    "preferencesSearchFieldPromptLabel": "允许搜索的字段列表，用半角逗号分隔",
     "@preferencesSearchFieldPromptLabel": {
         "description": ""
     },
-    "preferencesSearchFieldPromptHelp": "使用 {wildCardCharacter} 代表所有字段，留空({defaultSearchFields}) 则使用默认字段",
+    "preferencesSearchFieldPromptHelp": "使用 {wildCardCharacter} 代表所有字段，留空则使用默认字段 ({defaultSearchFields})",
     "@preferencesSearchFieldPromptHelp": {
         "description": "",
         "placeholders": {
@@ -337,7 +337,7 @@
         "description": "Label for custom length field",
         "context": "Password generator"
     },
-    "customLengthHelperText": "请输入大于 > {customMinLength} 的整数",
+    "customLengthHelperText": "请输入大于 {customMinLength} 的整数",
     "@customLengthHelperText": {
         "description": "Help text for custom length field",
         "context": "Password generator",
@@ -503,7 +503,7 @@
         "description": "",
         "context": "credential screen"
     },
-    "masterPasswordEmptyValidator": "欢迎回来！在这里输入主密码",
+    "masterPasswordEmptyValidator": "欢迎回来！请在这里输入主密码",
     "@masterPasswordEmptyValidator": {
         "description": "",
         "context": "credential screen"
@@ -695,11 +695,11 @@
     "@unsavedChangesWarningTitle": {
         "description": ""
     },
-    "unsavedChangesWarningBody": "更改没被保存，要取消更改吗？",
+    "unsavedChangesWarningBody": "存在未保存的修改，要取消修改吗？",
     "@unsavedChangesWarningBody": {
         "description": ""
     },
-    "unsavedChangesDiscardActionLabel": "放弃更改",
+    "unsavedChangesDiscardActionLabel": "放弃修改",
     "@unsavedChangesDiscardActionLabel": {
         "description": ""
     },
@@ -806,7 +806,7 @@
     "@authPassCloudAuthResendButtonLabel": {
         "description": ""
     },
-    "permanentlyDeleteEntryConfirm": "这将永久删除 <{title}> 条目，且不能撤消。确定要这么做吗？",
+    "permanentlyDeleteEntryConfirm": "这将永久删除 {title} 条目，且不能撤消。确定要这么做吗？",
     "@permanentlyDeleteEntryConfirm": {
         "description": "shown to force user to acknowledge delete before a entry will be permanently deleted.",
         "placeholders": {
@@ -901,7 +901,7 @@
     "@createDatabaseAction": {
         "description": "Label for button to create new database"
     },
-    "databaseExistsError": "已经有同名的文件了呀~",
+    "databaseExistsError": "已有同名文件存在",
     "@databaseExistsError": {
         "description": "dialog title for error message when creating a new database with a name which already exists."
     },
@@ -922,7 +922,7 @@
     "@preferenceDynamicLoadIcons": {
         "description": "preferences: dynamically load website icons"
     },
-    "preferenceDynamicLoadIconsSubtitle": "将会向 {urlFieldName} 发送未加密的http请求来获取网页图标",
+    "preferenceDynamicLoadIconsSubtitle": "将会向{urlFieldName}发送未加密的http请求来获取网页图标",
     "@preferenceDynamicLoadIconsSubtitle": {
         "description": "preferences: dynamically load website icons help text.",
         "placeholders": {
@@ -1054,7 +1054,7 @@
     "@onboardingHeadline": {
         "description": ""
     },
-    "onboardingQuestion": "您之前用过本软件\n或者其他兼容KeePass的密码管理器吗？\n（KeepassDX、KeepassXC等）",
+    "onboardingQuestion": "您之前用过本软件\n或其他兼容KeePass的密码管理器吗？\n（如KeepassDX、KeepassXC等）",
     "@onboardingQuestion": {
         "description": ""
     },
@@ -1062,7 +1062,7 @@
     "@onboardingYesOpenPasswords": {
         "description": ""
     },
-    "onboardingNoCreate": "从零开始",
+    "onboardingNoCreate": "新建KDBX密码库",
     "@onboardingNoCreate": {
         "description": ""
     },
