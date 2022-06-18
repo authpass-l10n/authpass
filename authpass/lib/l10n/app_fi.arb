@@ -79,5 +79,9 @@
     "selectItem": "Valitse",
     "@selectItem": {
         "description": "semantic label for checkboxes to select item."
+    },
+    "selectKeepassFile": "AuthPass - Valitse KeePass tiedosto",
+    "@selectKeepassFile": {
+        "context": "appbar title - select file screen"
     }
 }
