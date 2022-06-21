@@ -168,6 +168,10 @@
     "@preferenceAllowScreenshots": {},
     "preferenceEnableAutoFill": "Habilitar autocompletar",
     "@preferenceEnableAutoFill": {},
+    "enableAutofillSuggestionBanner": "¡Puedes rellenar los espacios en otras aplicaciones habilitando el llenado automático!",
+    "@enableAutofillSuggestionBanner": {
+        "description": "This text will shown as a banner on top of password list"
+    },
     "dismissAutofillSuggestionBannerButton": "DESCARTAR",
     "@dismissAutofillSuggestionBannerButton": {
         "description": "Button that is displayed in autofill suggestion warnings to dismiss the warning"
@@ -184,6 +188,10 @@
     "@preferenceEnableSystemWideShortcuts": {
         "description": ""
     },
+    "preferenceEnableSystemWideShortcutsHelp": "Registra CTRL + ALT + F como un atajo general para abrir el buscador.",
+    "@preferenceEnableSystemWideShortcutsHelp": {
+        "description": ""
+    },
     "preferencesSearchFields": "Personalizar campos de búsqueda",
     "@preferencesSearchFields": {
         "description": ""
@@ -191,6 +199,18 @@
     "preferencesSearchFieldPromptTitle": "Campos de búsqueda",
     "@preferencesSearchFieldPromptTitle": {
         "description": ""
+    },
+    "preferencesSearchFieldPromptLabel": "Lista de espacios separados por una coma para usar en la búsqueda de la lista de contraseñas.",
+    "@preferencesSearchFieldPromptLabel": {
+        "description": ""
+    },
+    "preferencesSearchFieldPromptHelp": "Utilizar {wildCardCharacter} para todo, dejar vacío por defecto ({defaultSearchFields})",
+    "@preferencesSearchFieldPromptHelp": {
+        "description": "",
+        "placeholders": {
+            "wildCardCharacter": {},
+            "defaultSearchFields": {}
+        }
     },
     "aboutAppName": "AuthPass",
     "@aboutAppName": {},
@@ -250,7 +270,7 @@
     "@menuItemCheckForUpdates": {},
     "menuItemSupport": "Enviar bitácoras",
     "@menuItemSupport": {},
-    "menuItemSupportSubtitle": "Enviar registros por email",
+    "menuItemSupportSubtitle": "Enviar registros por correo electrónico",
     "@menuItemSupportSubtitle": {},
     "menuItemForum": "Foro de Soporte",
     "@menuItemForum": {},
@@ -552,6 +572,10 @@
     "loadFromUrlErrorInvalidUrl": "Por favor, introduzca una url válida.",
     "@loadFromUrlErrorInvalidUrl": {
         "description": "validator error message hwen user enters a url which could not be parsed."
+    },
+    "linuxAppArmorWarning": "AuthPass requiere su permiso para comunicarse con el Servicio Secreto para almacenar las credenciales del almacenamiento en la nube.\n\nPor favor, ejecute el siguiente comando:",
+    "@linuxAppArmorWarning": {
+        "description": "On linux when user has not given AuthPass permission to connect to secret service he has to execute a command on the console."
     },
     "cancel": "Cancelar",
     "@cancel": {
@@ -938,6 +962,16 @@
             }
         }
     },
+    "sizeBytesStoredAuthPassCloud": "{count} bytes, almacenados en AuthPass Cloud",
+    "@sizeBytesStoredAuthPassCloud": {
+        "description": "",
+        "placeholders": {
+            "count": {
+                "description": "file size in bytes",
+                "example": "123"
+            }
+        }
+    },
     "sizeBytes": "{count} bytes",
     "@sizeBytes": {
         "description": "",
@@ -1176,6 +1210,10 @@
     "@mailboxNameInputLabel": {
         "description": "Label for the text field asking for a label for a mailbox, while creating it."
     },
+    "mailScreenTitle": "Correo electrónico de AuthPass",
+    "@mailScreenTitle": {
+        "description": "title for the screen showing available emails"
+    },
     "mailTabBarTitleMailbox": "Buzón",
     "@mailTabBarTitleMailbox": {
         "description": "title for the tab showing list of mailboxes."
@@ -1358,6 +1396,10 @@
     "@menuItemAuthPassCloudAuthenticate": {
         "description": "menu entry in password list to allow users to authenticate with AuthPass Cloud"
     },
+    "menuItemAuthPassCloudMailboxes": "Buzones de AuthPass",
+    "@menuItemAuthPassCloudMailboxes": {
+        "description": ""
+    },
     "changesWithoutSaving": "Has realizado cambios en \"{fileName}\", que no soporta realizar cambios.",
     "@changesWithoutSaving": {
         "description": "",
@@ -1537,6 +1579,10 @@
     "@shareCreateTokenSuccess": {
         "description": "snackbar when share code was created successfully."
     },
+    "sharePresentDialogTitle": "Compartir archivo con código secreto compartido",
+    "@sharePresentDialogTitle": {
+        "description": ""
+    },
     "sharePresentDialogHelp": "Usando el siguiente código compartido los usuarios pueden acceder al archivo de contraseñas. Necesitarán la contraseña y/o el archivo de clave para abrirlo.",
     "@sharePresentDialogHelp": {
         "description": ""
@@ -1545,16 +1591,44 @@
     "@sharePresentToken": {
         "description": ""
     },
+    "sharePresentCopied": "El código compartido se copió al portapapeles.",
+    "@sharePresentCopied": {
+        "description": ""
+    },
+    "authPassCloudOpenWithShareCodeTooltip": "Abrir con Compartir Código",
+    "@authPassCloudOpenWithShareCodeTooltip": {
+        "description": "Allows users to open cloud files using a share code/token."
+    },
     "authPassCloudShareFileActionLabel": "Compartir",
     "@authPassCloudShareFileActionLabel": {
         "description": ""
+    },
+    "preferenceAuthPassCloudAttachmentTitle": "Usar adjuntos en AuthPass Cloud",
+    "@preferenceAuthPassCloudAttachmentTitle": {
+        "description": ""
+    },
+    "preferenceAuthPassCloudAttachmentSubtitle": "Almacenar adjuntos encriptados en AuthPass Cloud por separado.",
+    "@preferenceAuthPassCloudAttachmentSubtitle": {
+        "description": ""
+    },
+    "shareCodeInputDialogTitle": "Introduzca el Código Secreto Compartido",
+    "@shareCodeInputDialogTitle": {
+        "description": "input dialog for inputting secret share code to access password file in AuthPassCloud"
     },
     "shareCodeInputDialogScan": "Escanear código QR",
     "@shareCodeInputDialogScan": {
         "description": "button label for triggering QR code scanner"
     },
+    "shareCodeInputLabel": "Código Secreto Compartido",
+    "@shareCodeInputLabel": {
+        "description": ""
+    },
     "shareCodeInputHelperText": "Si ha recibido un código para compartir, por favor pégalo arriba.",
     "@shareCodeInputHelperText": {
+        "description": ""
+    },
+    "shareCodeOpen": "¿Recibió un Código Compartido para AuthPass Cloud?",
+    "@shareCodeOpen": {
         "description": ""
     },
     "shareCodeOpenScreenTitle": "Cargando archivo con código compartido",
@@ -1567,6 +1641,10 @@
     },
     "shareCodeOpenFileButtonLabel": "ABRIR",
     "@shareCodeOpenFileButtonLabel": {
+        "description": ""
+    },
+    "shareCodeOpenInstallAppCaption": "¿Desea abrir este archivo con una de nuestras aplicaciones nativas?",
+    "@shareCodeOpenInstallAppCaption": {
         "description": ""
     },
     "shareCodeOpenAnotherAppCaption": "¿Desea abrir este archivo en otro dispositivo?",
