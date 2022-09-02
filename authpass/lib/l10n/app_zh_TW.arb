@@ -1,1282 +1,1282 @@
 {
-    "@@locale": "zh_TW",
-    "fieldUserName": "帳號名稱",
-    "@fieldUserName": {},
-    "fieldPassword": "密碼",
-    "@fieldPassword": {},
-    "fieldWebsite": "網站",
-    "@fieldWebsite": {},
-    "fieldTitle": "顯示標題",
-    "@fieldTitle": {},
-    "fieldTotp": "單次密碼（OTP，依時間變化）",
-    "@fieldTotp": {
-        "description": "Label for fields of TOTP (Time based one time passwords)"
-    },
-    "english": "英文",
-    "@english": {
-        "description": "language switcher subtitle"
-    },
-    "german": "德文",
-    "@german": {
-        "description": "language switcher subtitle"
-    },
-    "russian": "俄文",
-    "@russian": {
-        "description": "language switcher subtitle"
-    },
-    "ukrainian": "烏克蘭文",
-    "@ukrainian": {
-        "description": "language switcher subtitle"
-    },
-    "lithuanian": "立陶宛文",
-    "@lithuanian": {
-        "description": "language switcher subtitle"
-    },
-    "french": "法文",
-    "@french": {
-        "description": "language switcher subtitle"
-    },
-    "spanish": "西班牙文",
-    "@spanish": {
-        "description": "language switcher subtitle"
-    },
-    "indonesian": "印尼文",
-    "@indonesian": {
-        "description": "language switcher subtitle"
-    },
-    "turkish": "土耳其文",
-    "@turkish": {
-        "description": "Language switcher subtitle"
-    },
-    "hebrew": "希伯來文",
-    "@hebrew": {
-        "description": "Language switcher subtitle"
-    },
-    "italian": "義大利文",
-    "@italian": {
-        "description": "Language switcher subtitle"
-    },
-    "chineseSimplified": "簡體中文",
-    "@chineseSimplified": {
-        "description": "Language switcher subtitle"
-    },
-    "chineseTraditional": "正體中文",
-    "@chineseTraditional": {
-        "description": "Language switcher subtitle"
-    },
-    "portugueseBrazilian": "葡萄牙文（巴西）",
-    "@portugueseBrazilian": {
-        "description": "Language switcher subtitle"
-    },
-    "slovak": "斯洛伐克語",
-    "@slovak": {
-        "description": "Language switcher subtitle"
-    },
-    "dutch": "荷蘭語",
-    "@dutch": {
-        "description": "Language switcher subtitle"
-    },
-    "selectItem": "選取",
-    "@selectItem": {
-        "description": "semantic label for checkboxes to select item."
-    },
-    "selectKeepassFile": "AuthPass - 選取 KeePass 格式檔",
-    "@selectKeepassFile": {
-        "context": "appbar title - select file screen"
-    },
-    "selectKeepassFileLabel": "請選擇 KeePass（.kdbx）格式檔。",
-    "@selectKeepassFileLabel": {
-        "context": "select file screen, used as label."
-    },
-    "createNewFile": "建立新密碼檔",
-    "@createNewFile": {
-        "description": "button on select file screen to create a new password database."
-    },
-    "openLocalFile": "開啟\n本機檔案",
-    "@openLocalFile": {
-        "context": "select file screen, big button open local file."
-    },
-    "openFile": "開啟檔案",
-    "@openFile": {
-        "description": "Displayed as placeholder in password list when no file is open."
-    },
-    "loadFromDropdownMenu": "從其他來源加載...",
-    "@loadFromDropdownMenu": {
-        "description": "label for dropdown menu which shows more cloud storage options."
-    },
-    "quickUnlockingFiles": "快速解鎖…",
-    "@quickUnlockingFiles": {
-        "description": "Status shown while we are loading files and trying to unlock them."
-    },
-    "openFileProgress": "{fileName}",
-    "@openFileProgress": {
-        "description": "Progress shown while files are loaded during quick unlock.",
-        "placeholders": {
-            "fileName": {
-                "description": "Name of the file that is currently loaded."
-            },
-            "current": {
-                "description": "The index/number of file currently loading."
-            },
-            "totalCount": {
-                "description": "Total number of files which are loading."
-            }
-        }
-    },
-    "loadFrom": "開啟雲端檔案 {cloudStorageName}",
-    "@loadFrom": {
-        "placeholders": {
-            "cloudStorageName": {
-                "type": "String",
-                "example": "Dropbox"
-            }
-        }
-    },
-    "loadFromRemoteUrl": "自 URL 開啟 kdbx 檔",
-    "@loadFromRemoteUrl": {
-        "description": "Overflow menu option to load KeePass file from URL."
-    },
-    "createNewKeepass": "KeePass 新手嗎？\n建立新的檔案資料庫",
-    "@createNewKeepass": {
-        "description": "deprecated"
-    },
-    "labelLastOpenFiles": "上次開啟檔案：",
-    "@labelLastOpenFiles": {},
-    "noFilesHaveBeenOpenYet": "尚未開啟任何檔案。",
-    "@noFilesHaveBeenOpenYet": {},
-    "preferenceSelectLanguage": "選擇語言",
-    "@preferenceSelectLanguage": {},
-    "preferenceLanguage": "語言設定",
-    "@preferenceLanguage": {},
-    "preferenceTextScaleFactor": "文字尺寸",
-    "@preferenceTextScaleFactor": {},
-    "preferenceVisualDensity": "行距",
-    "@preferenceVisualDensity": {},
-    "preferenceTheme": "佈景主題",
-    "@preferenceTheme": {},
-    "preferenceThemeLight": "淺色",
-    "@preferenceThemeLight": {},
-    "preferenceThemeDark": "深色",
-    "@preferenceThemeDark": {},
-    "preferenceSystemDefault": "系統預設",
-    "@preferenceSystemDefault": {},
-    "preferenceDefault": "預設值",
-    "@preferenceDefault": {},
-    "lockAllFiles": "鎖定所有開啟中的檔案",
-    "@lockAllFiles": {},
-    "preferenceAllowScreenshots": "允許在 App 畫面截圖",
-    "@preferenceAllowScreenshots": {},
-    "preferenceEnableAutoFill": "啟用自動填入",
-    "@preferenceEnableAutoFill": {},
-    "enableAutofillSuggestionBanner": "您可以啟用自動填充來填寫其他應用程序中的字段！",
-    "@enableAutofillSuggestionBanner": {
-        "description": "This text will shown as a banner on top of password list"
-    },
-    "dismissAutofillSuggestionBannerButton": "關閉",
-    "@dismissAutofillSuggestionBannerButton": {
-        "description": "Button that is displayed in autofill suggestion warnings to dismiss the warning"
-    },
-    "enableAutofillSuggestionBannerButton": "啟用！",
-    "@enableAutofillSuggestionBannerButton": {
-        "description": "Button that is displayed in autofill suggestion warnings to enable autofill"
-    },
-    "preferenceAutoFillDescription": "僅 Android Oreo（8.0）以上支援此功能。",
-    "@preferenceAutoFillDescription": {},
-    "preferenceTitle": "偏好設定",
-    "@preferenceTitle": {},
-    "preferencesSearchFields": "自定義搜索字段",
-    "@preferencesSearchFields": {
-        "description": ""
-    },
-    "preferencesSearchFieldPromptTitle": "搜索字段",
-    "@preferencesSearchFieldPromptTitle": {
-        "description": ""
-    },
-    "aboutAppName": "AuthPass",
-    "@aboutAppName": {},
-    "aboutLinkFeedback": "歡迎指教！",
-    "@aboutLinkFeedback": {},
-    "aboutLinkVisitWebsite": "記得上我們的網站",
-    "@aboutLinkVisitWebsite": {},
-    "aboutLinkGitHub": "還有開源專案",
-    "@aboutLinkGitHub": {},
-    "aboutLogFile": "記錄檔： {logFilePath}",
-    "aboutLinkContributors": "顯示貢獻者",
-    "@aboutLinkContributors": {},
-    "@aboutLogFile": {
-        "placeholders": {
-            "logFilePath": {
-                "type": "String",
-                "example": "/Users/mustermann/log.txt"
-            }
-        }
-    },
-    "unableToLaunchUrlTitle": "無法開啟 URL",
-    "@unableToLaunchUrlTitle": {
-        "description": ""
-    },
-    "unableToLaunchUrlDescription": "無法開啟 {url}： {openError}",
-    "@unableToLaunchUrlDescription": {
-        "description": "",
-        "placeholders": {
-            "url": {
-                "description": "URL which we tried to open."
-            },
-            "openError": {
-                "description": "Information about the error"
-            }
-        }
-    },
-    "unableToLaunchUrlNoHandler": "沒有適合開啟該 URL 的軟體",
-    "@unableToLaunchUrlNoHandler": {
-        "description": ""
-    },
-    "launchedUrl": "開啟的 URL：{url}",
-    "@launchedUrl": {
-        "description": "snackbar confirmation after opening a url externally",
-        "placeholders": {
-            "url": {
-                "description": "URL which was just launched."
-            }
-        }
-    },
-    "menuItemGeneratePassword": "產生密碼",
-    "@menuItemGeneratePassword": {},
-    "menuItemPreferences": "偏好設定",
-    "@menuItemPreferences": {},
-    "menuItemOpenAnotherFile": "開啟其他檔案",
-    "@menuItemOpenAnotherFile": {},
-    "menuItemCheckForUpdates": "檢查更新",
-    "@menuItemCheckForUpdates": {},
-    "menuItemSupport": "發送日誌",
-    "@menuItemSupport": {},
-    "menuItemSupportSubtitle": "通過電子郵件發送日誌",
-    "@menuItemSupportSubtitle": {},
-    "menuItemForum": "支援論壇",
-    "@menuItemForum": {},
-    "menuItemForumSubtitle": "報告問題並獲得幫助",
-    "@menuItemForumSubtitle": {},
-    "menuItemHelp": "說明",
-    "@menuItemHelp": {},
-    "menuItemHelpSubtitle": "開啟說明文件",
-    "@menuItemHelpSubtitle": {},
-    "menuItemAbout": "關於",
-    "@menuItemAbout": {},
-    "actionOpenUrl": "開啟 URL",
-    "@actionOpenUrl": {
-        "description": "tooltip for button to open URL/Website of an entry."
-    },
-    "passwordPlainText": "顯示密碼",
-    "@passwordPlainText": {
-        "description": "Master password input: show password as plain text during input. (shown as tooltip)"
-    },
-    "generatorPassword": "密碼",
-    "@generatorPassword": {
-        "description": "Label for generated password"
-    },
-    "generatePassword": "產生密碼",
-    "@generatePassword": {
-        "description": "screen title for password generator"
-    },
-    "doneButtonLabel": "完成",
-    "@doneButtonLabel": {
-        "description": "generic button label for 'Done' action."
-    },
-    "useAsDefault": "存為預設值",
-    "@useAsDefault": {
-        "description": "Button Label for Password generator settings: use as defaults",
-        "context": "Password generator"
-    },
-    "characterSetLowerCase": "小寫英文（a-z）",
-    "@characterSetLowerCase": {
-        "context": "Password generator"
-    },
-    "characterSetUpperCase": "大寫英文（A-Z）",
-    "@characterSetUpperCase": {
-        "context": "Password generator"
-    },
-    "characterSetNumeric": "數字（0-9）",
-    "@characterSetNumeric": {
-        "context": "Password generator"
-    },
-    "characterSetUmlauts": "變音字母（ä）",
-    "@characterSetUmlauts": {
-        "context": "Password generator"
-    },
-    "characterSetSpecial": "特殊字元（@%+）",
-    "@characterSetSpecial": {
-        "context": "Password generator"
-    },
-    "length": "字數",
-    "@length": {
-        "description": "Length of password",
-        "context": "Password generator"
-    },
-    "customLength": "自訂字數",
-    "@customLength": {
-        "description": "Label for custom length field",
-        "context": "Password generator"
-    },
-    "customLengthHelperText": "僅供超過 {customMinLength} 字時使用",
-    "@customLengthHelperText": {
-        "description": "Help text for custom length field",
-        "context": "Password generator",
-        "placeholders": {
-            "customMinLength": {
-                "example": "40"
-            }
-        }
-    },
-    "savedFiles": "{numFiles, plural, other {已儲存 {numFiles} 個檔案： {files}}}",
-    "@savedFiles": {
-        "description": "Message displayed when files were saved. (One or more).",
-        "context": "Password list",
-        "placeholders": {
-            "numFiles": {
-                "description": "Number of files that have been saved (at least 1)",
-                "type": "int",
-                "format": "compactLong"
-            },
-            "files": {
-                "description": "Comma separated list of vault names."
-            }
-        }
-    },
-    "manageGroups": "管理群組",
-    "@manageGroups": {
-        "description": ""
-    },
-    "lockFiles": "鎖住檔案",
-    "@lockFiles": {
-        "description": "Close all files and return to start screen."
-    },
-    "searchHint": "搜尋",
-    "@searchHint": {
-        "description": "Placeholder in the password list search box"
-    },
-    "searchButtonLabel": "搜尋",
-    "@searchButtonLabel": {
-        "description": "search button tooltip/semantic label"
-    },
-    "filterButtonLabel": "篩選群組",
-    "@filterButtonLabel": {
-        "description": "tooltip/semantic label for filter app bar icon."
-    },
-    "clear": "清除篩選條件",
-    "@clear": {
-        "description": "Remove existing group filter from password list"
-    },
-    "autofillFilterPrefix": "篩選：",
-    "@autofillFilterPrefix": {
-        "description": "Label displayed for android auto fill"
-    },
-    "autofillPrompt": "選擇密碼以填入",
-    "@autofillPrompt": {
-        "description": ""
-    },
-    "copiedToClipboard": "複製到剪貼簿。",
-    "@copiedToClipboard": {
-        "description": "Snackbar text when copying text to clipboard."
-    },
-    "noTitle": "（無顯示標題）",
-    "@noTitle": {
-        "description": "Text to display in place of a title, when password entry has no name assigned."
-    },
-    "noUsername": "（無帳號名稱）",
-    "@noUsername": {
-        "description": "Text to display in place of a user name in the password list if none is defined."
-    },
-    "filterCustomize": "自訂篩選 …",
-    "@filterCustomize": {
-        "description": "Customize filter in password list"
-    },
-    "swipeCopyPassword": "複製密碼",
-    "@swipeCopyPassword": {
-        "description": "swipe action in password list to copy password"
-    },
-    "swipeCopyUsername": "複製帳號",
-    "@swipeCopyUsername": {
-        "description": "swipe action in password list to copy username"
-    },
-    "copyUsernameNotExists": "此條目沒有定義用戶名。",
-    "@copyUsernameNotExists": {
-        "description": "Error message when trying to copy username from an entry which has none."
-    },
-    "copyPasswordNotExists": "此條目沒有定義密碼。",
-    "@copyPasswordNotExists": {
-        "description": "Error message when trying to copy password from an entry which has none."
-    },
-    "doneCopiedPassword": "已將密碼複製到剪貼簿。",
-    "@doneCopiedPassword": {
-        "description": "snackbar confirmation that password was copied."
-    },
-    "doneCopiedUsername": "已將帳號複製到剪貼簿。",
-    "@doneCopiedUsername": {
-        "description": "snackbar confirmation that username was copied."
-    },
-    "doneCopiedField": "已複製。",
-    "@doneCopiedField": {
-        "description": ""
-    },
-    "copiedFieldToClipboard": "{fieldName} 已被複製",
-    "@copiedFieldToClipboard": {
-        "description": "",
-        "placeholders": {
-            "fieldName": {}
-        }
-    },
-    "copiedFieldEmpty": "{fieldName} 為空。",
-    "@copiedFieldEmpty": {
-        "description": "Displayed when user wants to copy a field which is empty or not defined.",
-        "placeholders": {
-            "fieldName": {}
-        }
-    },
-    "emptyPasswordVaultPlaceholder": "目前資料庫中沒有任何密碼。",
-    "@emptyPasswordVaultPlaceholder": {
-        "description": "Placeholder text shown when a user opens an empty password file."
-    },
-    "emptyPasswordVaultButtonLabel": "記下第一組密碼",
-    "@emptyPasswordVaultButtonLabel": {
-        "description": "Button shown under placeholder text when password database is empty"
-    },
-    "loading": "正在加載",
-    "@loading": {
-        "description": "generic loading indicator displayed during network request (e.g. when loading file list from cloud storage)"
-    },
-    "loadingFile": "檔案讀取中 …",
-    "@loadingFile": {
-        "description": "credential screen while unlocking file."
-    },
-    "internalFile": "內部檔案",
-    "@internalFile": {
-        "description": "Choose a file previously created in AuthPass app sandbox",
-        "context": "open file picker: internal file vs. file picker"
-    },
-    "internalFileSubtitle": "先前以 AuthPass 建立的資料庫",
-    "@internalFileSubtitle": {
-        "description": "Choose a file previously created in AuthPass app sandbox",
-        "context": "open file picker: internal file vs. file picker"
-    },
-    "filePicker": "選擇檔案",
-    "@filePicker": {
-        "description": "Choose a file with the system's file picker. (ios/android)",
-        "context": "open file picker: internal file vs. file picker"
-    },
-    "filePickerSubtitle": "自本機開啟檔案。",
-    "@filePickerSubtitle": {
-        "description": "Choose a file with the system's file picker. (ios/android)",
-        "context": "open file picker: internal file vs. file picker"
-    },
-    "credentialsAppBarTitle": "驗證資訊",
-    "@credentialsAppBarTitle": {
-        "description": "Credential screen to enter master password when opening kdbx file.",
-        "context": "credential screen"
-    },
-    "credentialLabel": "輸入密碼，開啟資料庫",
-    "@credentialLabel": {
-        "description": "Label for the file/database being opened",
-        "context": "credential screen"
-    },
-    "masterPasswordInputLabel": "密碼",
-    "@masterPasswordInputLabel": {
-        "description": "",
-        "context": "credential screen"
-    },
-    "masterPasswordEmptyValidator": "請輸入密碼。",
-    "@masterPasswordEmptyValidator": {
-        "description": "",
-        "context": "credential screen"
-    },
-    "masterPasswordIncorrectValidator": "密碼錯誤",
-    "@masterPasswordIncorrectValidator": {
-        "description": "",
-        "context": "credential screen"
-    },
-    "useKeyFile": "使用金鑰檔",
-    "@useKeyFile": {
-        "description": "label for a key file in combination with mater password",
-        "context": "credential screen"
-    },
-    "saveMasterPasswordBiometric": "以生物驗證儲存檔案密碼？",
-    "@saveMasterPasswordBiometric": {
-        "description": "Label for the checkbox to save master password for quick unlock.",
-        "context": "credential screen"
-    },
-    "close": "關閉",
-    "@close": {
-        "description": "Tooltip/semantic label for close button"
-    },
-    "addNewPassword": "新增密碼",
-    "@addNewPassword": {
-        "description": "Tooltip for adding new password button (floating action button)"
-    },
-    "errorOpenFileAlreadyOpenTitle": "這個檔案早已開啟了",
-    "@errorOpenFileAlreadyOpenTitle": {
-        "description": "Trying to open a database from a second file source which is already open.",
-        "context": "credential screen"
-    },
-    "errorOpenFileAlreadyOpenBody": "您選的資料庫 {databaseName} 早已自{openFileSource} 開啟（您正試圖從{newFileSource} 再度開啟）",
-    "@errorOpenFileAlreadyOpenBody": {
-        "description": "Trying to open a database from a second file source which is already open.",
-        "context": "credential screen",
-        "placeholders": {
-            "databaseName": {},
-            "openFileSource": {},
-            "newFileSource": {}
-        }
-    },
-    "loadFromUrl": "從網址下載",
-    "@loadFromUrl": {
-        "description": ""
-    },
-    "loadFromUrlEnterUrl": "輸入網址",
-    "@loadFromUrlEnterUrl": {
-        "description": "label for input box to enter url."
-    },
-    "loadFromUrlErrorEnterFullUrl": "請輸入以 http:// 或 https:// 開頭的完整網址",
-    "@loadFromUrlErrorEnterFullUrl": {
-        "description": "validator error message when user does not enter a absolute url."
-    },
-    "loadFromUrlErrorInvalidUrl": "請輸入有效網址。",
-    "@loadFromUrlErrorInvalidUrl": {
-        "description": "validator error message hwen user enters a url which could not be parsed."
-    },
-    "linuxAppArmorWarning": "AuthPass 需要與 Secret Service 通信以存儲雲存儲憑據的權限。\n請運行以下命令：",
-    "@linuxAppArmorWarning": {
-        "description": "On linux when user has not given AuthPass permission to connect to secret service he has to execute a command on the console."
-    },
-    "cancel": "取消",
-    "@cancel": {
-        "description": "button label for cancelling an action."
-    },
-    "errorLoadFileFromSourceTitle": "打開文件時出錯。",
-    "@errorLoadFileFromSourceTitle": {
-        "description": "error title when user selects a file which can't be downloaded."
-    },
-    "errorLoadFileFromSourceBody": "無法打開 {source}\n{error}",
-    "@errorLoadFileFromSourceBody": {
-        "description": "error body when user selects a file which can't be downloaded.",
-        "placeholders": {
-            "source": {},
-            "error": {}
-        }
-    },
-    "errorUnlockFileTitle": "無法開啟檔案",
-    "@errorUnlockFileTitle": {
-        "description": "generic error when opening a file (dialog title)",
-        "context": "credential screen"
-    },
-    "errorUnlockFileBody": "開啟檔案時發生不明錯誤：{error}",
-    "@errorUnlockFileBody": {
-        "description": "generic error when opening a file (description)",
-        "context": "credential screen",
-        "placeholders": {
-            "error": {
-                "description": "Error details."
-            }
-        }
-    },
-    "dialogContinue": "繼續",
-    "@dialogContinue": {
-        "description": "Dialog action to continue to next step (e.g. credential screen when finished with master password)"
-    },
-    "dialogSendErrorReport": "發送錯誤報告",
-    "@dialogSendErrorReport": {
-        "description": "action button in error dialogs to send email to support with log file.",
-        "context": "error dialog"
-    },
-    "dialogReportErrorForum": "在論壇/幫助中報告錯誤",
-    "@dialogReportErrorForum": {
-        "description": "action button in error dialog to open forum and create new topic."
-    },
-    "groupFilterDescription": "選擇要顯示的群組（包含子群組）",
-    "@groupFilterDescription": {
-        "description": "Description shown in the group list for filtering (e.g. app drawer)",
-        "context": "group filter"
-    },
-    "groupFilterSelectAll": "全選",
-    "@groupFilterSelectAll": {
-        "context": "group filter"
-    },
-    "groupFilterDeselectAll": "全部不選",
-    "@groupFilterDeselectAll": {
-        "context": "group filter"
-    },
-    "createSubgroup": "建立子群組",
-    "@createSubgroup": {
-        "description": "menu action: create nested group inside another group"
-    },
-    "editAction": "編輯",
-    "@editAction": {
-        "description": "menu action: edit item (e.g. delete a group)"
-    },
-    "mailboxEnableLabel": "（重新）啟用",
-    "@mailboxEnableLabel": {
-        "description": ""
-    },
-    "mailboxEnableHint": "繼續接收電子郵件",
-    "@mailboxEnableHint": {
-        "description": ""
-    },
-    "mailboxDisableLabel": "禁用",
-    "@mailboxDisableLabel": {
-        "description": ""
-    },
-    "mailboxDisableHint": "不再接收電子郵件",
-    "@mailboxDisableHint": {
-        "description": ""
-    },
-    "mailListNoMail": "您還沒有任何電子郵件。",
-    "@mailListNoMail": {
-        "description": ""
-    },
-    "mailboxLabelPrefixUnknownEntry": "未知條目: {entryUuid}",
-    "@mailboxLabelPrefixUnknownEntry": {
-        "description": "when a mailbox was created for password entry which has been deleted or is otherwise not in the currently opened password files.",
-        "placeholders": {
-            "entryUuid": {
-                "description": "The internal id of the entry which was no tfound"
-            }
-        }
-    },
-    "mailboxLabelPrefixCreatedAt": "創建於: {dateTime}",
-    "@mailboxLabelPrefixCreatedAt": {
-        "description": "When a mailbox was not created for an entry and has no label, the creation date is shown.",
-        "placeholders": {
-            "dateTime": {}
-        }
-    },
-    "masterPasswordDescription": "主密碼用於安全地加密您的密碼數據庫。 請務必記住它，它無法被恢復。",
-    "@masterPasswordDescription": {
-        "description": ""
-    },
-    "unsavedChangesWarningTitle": "未保存的更改",
-    "@unsavedChangesWarningTitle": {
-        "description": ""
-    },
-    "unsavedChangesWarningBody": "仍有未保存的更改。 是否要放棄更改？",
-    "@unsavedChangesWarningBody": {
-        "description": ""
-    },
-    "unsavedChangesDiscardActionLabel": "放棄更改",
-    "@unsavedChangesDiscardActionLabel": {
-        "description": ""
-    },
-    "deletePermanentlyAction": "永久刪除",
-    "@deletePermanentlyAction": {
-        "description": "menu action: delete an item permanently from the file (only shown for entries/groups already in the recycle bin."
-    },
-    "restoreFromRecycleBinAction": "恢復",
-    "@restoreFromRecycleBinAction": {
-        "description": "menu action: restore an entry/group which was moved into the recycle bin."
-    },
-    "deleteAction": "刪除",
-    "@deleteAction": {
-        "description": "menu action: delete item (e.g. delete a group)"
-    },
-    "deletedEntry": "已刪除條目。",
-    "@deletedEntry": {
-        "description": "Confirmation when a password entry was deleted (ie. moved to recycle bin)"
-    },
-    "successfullyDeletedGroup": "群組已刪除。",
-    "@successfullyDeletedGroup": {
-        "description": "snackbar after deleting a group."
-    },
-    "undoButtonLabel": "復原",
-    "@undoButtonLabel": {
-        "description": "undo action label (e.g. in a snackbar after deleting a group, or some other action)"
-    },
-    "saveButtonLabel": "儲存",
-    "@saveButtonLabel": {
-        "description": "save file, for example button displayed in entry details"
-    },
-    "webDavSettings": "WebDAV設定",
-    "@webDavSettings": {
-        "description": "dialog title for entering WebDAV settings."
-    },
-    "webDavUrlLabel": "網址",
-    "@webDavUrlLabel": {
-        "description": ""
-    },
-    "webDavUrlHelperText": "WebDAV 服務的基礎 URL。",
-    "@webDavUrlHelperText": {
-        "description": ""
-    },
-    "webDavUrlValidatorError": "請輸入網址",
-    "@webDavUrlValidatorError": {
-        "description": ""
-    },
-    "webDavUrlValidatorInvalidUrlError": "請輸入以 http:// 或 https:// 開頭的有效網址",
-    "@webDavUrlValidatorInvalidUrlError": {
-        "description": ""
-    },
-    "webDavAuthUser": "用戶名",
-    "@webDavAuthUser": {
-        "description": ""
-    },
-    "webDavAuthPassword": "密碼",
-    "@webDavAuthPassword": {
-        "description": ""
-    },
-    "mergeSuccessDialogTitle": "成功合併密碼數據庫",
-    "@mergeSuccessDialogTitle": {
-        "description": ""
-    },
-    "mergeSuccessDialogMessage": "保存 {fileName} 時檢測到衝突，它與遠程文件成功合併：\n\n{mergeSummary}",
-    "@mergeSuccessDialogMessage": {
-        "description": "",
-        "placeholders": {
-            "fileName": {},
-            "mergeSummary": {}
-        }
-    },
-    "forDetailsVisitUrl": "有關詳細信息，請訪問 {url}",
-    "@forDetailsVisitUrl": {
-        "description": "",
-        "placeholders": {
-            "url": {}
-        }
-    },
-    "authPassCloudAuthEmailInputLabel": "輸入電子郵件地址以註冊或登錄。",
-    "@authPassCloudAuthEmailInputLabel": {
-        "description": ""
-    },
-    "authPassCloudAuthEmailInvalid": "請輸入有效的電子郵件地址。",
-    "@authPassCloudAuthEmailInvalid": {
-        "description": ""
-    },
-    "authPassCloudAuthConfirmEmailButtonLabel": "確認地址",
-    "@authPassCloudAuthConfirmEmailButtonLabel": {
-        "description": ""
-    },
-    "authPassCloudAuthConfirmEmail": "請檢查您的電子郵件以確認您的電子郵件地址。",
-    "@authPassCloudAuthConfirmEmail": {
-        "description": ""
-    },
-    "authPassCloudAuthConfirmEmailExplain": "將此界面保持開啟，直到您已訪問通過電子郵件收到的鏈接。",
-    "@authPassCloudAuthConfirmEmailExplain": {
-        "description": ""
-    },
-    "authPassCloudAuthResendExplain": "如果您沒有收到電子郵件，請檢查您的垃圾郵件文件夾。 否則，您可以嘗試請求新的確認鏈接。",
-    "@authPassCloudAuthResendExplain": {
-        "description": ""
-    },
-    "authPassCloudAuthResendButtonLabel": "請求新的確認鏈接",
-    "@authPassCloudAuthResendButtonLabel": {
-        "description": ""
-    },
-    "permanentlyDeleteEntryConfirm": "這將永久刪除密碼條目 {title} 。這不能被撤消。確認要繼續嗎？",
-    "@permanentlyDeleteEntryConfirm": {
-        "description": "shown to force user to acknowledge delete before a entry will be permanently deleted.",
-        "placeholders": {
-            "title": {}
-        }
-    },
-    "permanentlyDeletedEntrySnackBar": "條目已被永久刪除",
-    "@permanentlyDeletedEntrySnackBar": {
-        "description": "snackbar confirming that the entry was deleted."
-    },
-    "initialNewGroupName": "新群組",
-    "@initialNewGroupName": {
-        "description": "initial name of groups when user creates a new one."
-    },
-    "deleteGroupErrorTitle": "無法刪除群組",
-    "@deleteGroupErrorTitle": {
-        "description": "Title of error dialog when group could not be deleted."
-    },
-    "deleteGroupErrorBodyContainsGroup": "此群組下還有其他子群組，無法刪除。目前只能刪除不含任何內容的群組。",
-    "@deleteGroupErrorBodyContainsGroup": {
-        "description": "Body of error dialog when a group can't be deleted because it is not empty."
-    },
-    "deleteGroupErrorBodyContainsEntries": "此群組下還存有密碼資料，無法刪除。目前只能刪除不含任何內容的群組。",
-    "@deleteGroupErrorBodyContainsEntries": {
-        "description": "Body of error dialog when a group can't be deleted because it is not empty."
-    },
-    "groupListAppBarTitle": "群組清單",
-    "@groupListAppBarTitle": {
-        "description": "title in the app bar for the groups list"
-    },
-    "groupListFilterAppbarTitle": "選擇要顯示的群組",
-    "@groupListFilterAppbarTitle": {
-        "description": "title in the app bar for group lists when displayed for filtering password list"
-    },
-    "clearQuickUnlock": "清除生物辨識資訊",
-    "@clearQuickUnlock": {
-        "description": ""
-    },
-    "clearQuickUnlockSubtitle": "不再記憶主密碼",
-    "@clearQuickUnlockSubtitle": {
-        "description": ""
-    },
-    "unlock": "檔案解鎖",
-    "@unlock": {
-        "description": ""
-    },
-    "closePasswordFiles": "關閉密碼檔",
-    "@closePasswordFiles": {
-        "description": "delete quick unlock (passwords stored in biometric storage)"
-    },
-    "clearQuickUnlockSuccess": "自生物驗證資料裡刪除存下的主密碼。",
-    "@clearQuickUnlockSuccess": {
-        "description": ""
-    },
-    "diacOptIn": "顯示本軟體的新知及問卷調查",
-    "@diacOptIn": {},
-    "diacOptInSubtitle": "啟用後，軟體偶爾會連線擷取最新消息資料",
-    "@diacOptInSubtitle": {},
-    "enableAutofillDebug": "自動填入：除錯模式",
-    "@enableAutofillDebug": {
-        "description": "only visible in debug build. Preference to enable Auto-Fill Debugging."
-    },
-    "enableAutofillDebugSubtitle": "顯示每個輸入欄的資訊",
-    "@enableAutofillDebugSubtitle": {
-        "description": "only visible in debug build. Preference to enable Auto-Fill Debugging."
-    },
-    "createPasswordDatabase": "建立密碼資料庫",
-    "@createPasswordDatabase": {
-        "description": ""
-    },
-    "nameNewPasswordDatabase": "新資料庫名稱",
-    "@nameNewPasswordDatabase": {
-        "description": "creating new kdbx file, prompt"
-    },
-    "validatorNameMissing": "請輸入新資料庫的名稱。",
-    "@validatorNameMissing": {
-        "description": "Error message when no password database name is given."
-    },
-    "masterPasswordHelpText": "選擇安全的資料庫主密碼，並且確實記牢。",
-    "@masterPasswordHelpText": {
-        "description": "DEPRECATED FOR NOW help text for master password when creating new password database"
-    },
-    "inputMasterPasswordText": "主密碼",
-    "@inputMasterPasswordText": {
-        "description": "Creating new file: input field for master password"
-    },
-    "masterPasswordMissingCreate": "請輸入安全、記得著的密碼。",
-    "@masterPasswordMissingCreate": {
-        "description": "Text displayed when master password is empty while creating new password database"
-    },
-    "createDatabaseAction": "建立資料庫",
-    "@createDatabaseAction": {
-        "description": "Label for button to create new database"
-    },
-    "databaseExistsError": "已有同名檔案",
-    "@databaseExistsError": {
-        "description": "dialog title for error message when creating a new database with a name which already exists."
-    },
-    "databaseExistsErrorDescription": "建立資料庫 {filePath} 時發生錯誤：已有同名檔案存在，請換個名字。",
-    "@databaseExistsErrorDescription": {
-        "description": "dialog body for error message when creating a new database with a name which already exists.",
-        "placeholders": {
-            "filePath": {
-                "description": "file path which already existed."
-            }
-        }
-    },
-    "databaseCreateDefaultName": "PersonalPasswords",
-    "@databaseCreateDefaultName": {
-        "description": "Default database name when creating a new database file. (WITHOUT .kdbx extension)"
-    },
-    "preferenceDynamicLoadIcons": "載入網站圖示",
-    "@preferenceDynamicLoadIcons": {
-        "description": "preferences: dynamically load website icons"
-    },
-    "preferenceDynamicLoadIconsSubtitle": "將產生 HTTP 連線到 {urlFieldName} 欄位指定的網站，以讀取網站圖示。",
-    "@preferenceDynamicLoadIconsSubtitle": {
-        "description": "preferences: dynamically load website icons help text.",
-        "placeholders": {
-            "urlFieldName": {
-                "example": "Website"
-            }
-        }
-    },
-    "passwordScore": "密碼強度：{score} （滿分為 4）",
-    "@passwordScore": {
-        "description": "choosing a master password - calculated password strength.",
-        "placeholders": {
-            "score": {
-                "description": "integer of the score.",
-                "example": "3"
-            }
-        }
-    },
-    "entryInfoFile": "檔案：",
-    "@entryInfoFile": {
-        "description": ""
-    },
-    "entryInfoGroup": "群組：",
-    "@entryInfoGroup": {
-        "description": ""
-    },
-    "entryInfoLastModified": "修改時間：",
-    "@entryInfoLastModified": {
-        "description": ""
-    },
-    "movedEntryToGroup": "已將此項目移入{groupName}",
-    "@movedEntryToGroup": {
-        "description": "",
-        "placeholders": {
-            "groupName": {
-                "description": "Name of the group the entry was moved to."
-            }
-        }
-    },
-    "sizeBytes": "{count} 位元組",
-    "@sizeBytes": {
-        "description": "",
-        "placeholders": {
-            "count": {
-                "description": "file size in bytes",
-                "example": "123"
-            }
-        }
-    },
-    "entryAddAttachment": "新增附件",
-    "@entryAddAttachment": {
-        "description": ""
-    },
-    "entryAttachmentSizeWarning": "附件會存入密碼資料庫檔案中，也可能大幅拉長存取密碼所需的時間。",
-    "@entryAttachmentSizeWarning": {
-        "description": ""
-    },
-    "iconPngSizeWarning": "自訂圖示會存入密碼資料庫檔案中，也可能大幅拉長存取密碼所需的時間。",
-    "@iconPngSizeWarning": {
-        "description": "Warning shown when user selects a large png file as custom icon."
-    },
-    "notPngError": "您選擇的檔案並非 PNG 格式",
-    "@notPngError": {
-        "description": "Error when user selects an unsupported file as custom icon."
-    },
-    "entryAddField": "新增欄位",
-    "@entryAddField": {
-        "description": ""
-    },
-    "entryCustomField": "自訂欄位",
-    "@entryCustomField": {
-        "description": ""
-    },
-    "entryCustomFieldTitle": "新增自訂的欄位",
-    "@entryCustomFieldTitle": {
-        "description": ""
-    },
-    "entryCustomFieldInputLabel": "輸入欄位名稱",
-    "@entryCustomFieldInputLabel": {
-        "description": ""
-    },
-    "swipeCopyField": "複製內容",
-    "@swipeCopyField": {
-        "description": ""
-    },
-    "fieldRename": "重新命名",
-    "@fieldRename": {
-        "description": ""
-    },
-    "fieldGeneratePassword": "產生密碼…",
-    "@fieldGeneratePassword": {
-        "description": ""
-    },
-    "fieldProtect": "隱藏內容",
-    "@fieldProtect": {
-        "description": ""
-    },
-    "fieldUnprotect": "不必隱藏內容",
-    "@fieldUnprotect": {
-        "description": ""
-    },
-    "fieldPresent": "展示 QRCode",
-    "@fieldPresent": {
-        "description": ""
-    },
-    "fieldGenerateEmail": "產生 Email",
-    "@fieldGenerateEmail": {
-        "description": ""
-    },
-    "onboardingBackToOnboarding": "概覽",
-    "@onboardingBackToOnboarding": {
-        "description": "Context menu entry which reverts to onboarding"
-    },
-    "onboardingBackToOnboardingSubtitle": "重現新手引領畫面 😅️",
-    "@onboardingBackToOnboardingSubtitle": {
-        "description": "Context menu entry which reverts to onboarding"
-    },
-    "onboardingHeadline": "妥善保護您的密碼！",
-    "@onboardingHeadline": {
-        "description": ""
-    },
-    "onboardingQuestion": "您是否用過密碼管理工具？",
-    "@onboardingQuestion": {
-        "description": ""
-    },
-    "onboardingYesOpenPasswords": "是，我要使用先前的資料",
-    "@onboardingYesOpenPasswords": {
-        "description": ""
-    },
-    "onboardingNoCreate": "沒有，該怎麼開始呢？",
-    "@onboardingNoCreate": {
-        "description": ""
-    },
-    "backupButton": "存到雲端",
-    "@backupButton": {
-        "description": "Button that is displayed in backup warnings"
-    },
-    "dismissBackupButton": "關閉",
-    "@dismissBackupButton": {
-        "description": "Button that is displayed in backup warnings to dismiss the warning"
-    },
-    "backupWarningMessage": "{databasename} 中的密碼僅僅存在本機中！",
-    "@backupWarningMessage": {
-        "description": "Warning message that is displayed in backup warnings",
-        "placeholders": {
-            "databasename": {
-                "example": "PasswordDatabase"
-            }
-        }
-    },
-    "saveAs": "儲存到...",
-    "@saveAs": {
-        "description": "Save as text"
-    },
-    "saving": "儲存中",
-    "@saving": {
-        "description": "Saving text"
-    },
-    "increaseValue": "增加",
-    "@increaseValue": {
-        "description": "Preferences value modifier (Text Scale Factor/Visual Density)"
-    },
-    "decreaseValue": "減少",
-    "@decreaseValue": {
-        "description": "Preferences value modifier (Text Scale Factor/Visual Density)"
-    },
-    "resetValue": "重新設定",
-    "@resetValue": {
-        "description": "Preferences value modifier (Text Scale Factor/Visual Density)"
-    },
-    "cloudStorageLogInCaption": "您將被重定向到驗證 AuthPass 以訪問您的數據。",
-    "@cloudStorageLogInCaption": {
-        "description": ""
-    },
-    "cloudStorageLogInCode": "輸入代碼",
-    "@cloudStorageLogInCode": {
-        "description": "for oauth authentication user has to enter auth code - this is the label for the text field."
-    },
-    "launchUrlError": "無法啟動網址。請訪問{url}",
-    "@launchUrlError": {
-        "description": "",
-        "placeholders": {
-            "url": {}
-        }
-    },
-    "cloudStorageLogInActionLabel": "登錄到 {cloudStorageName}",
-    "@cloudStorageLogInActionLabel": {
-        "description": "when the user has not authenticated yet, he will see this button to start the login flow of a cloud storage backend.",
-        "placeholders": {
-            "cloudStorageName": {
-                "example": "Dropbox"
-            }
-        }
-    },
-    "cloudStorageAuthCodeLabel": "驗證碼",
-    "@cloudStorageAuthCodeLabel": {
-        "description": ""
-    },
-    "cloudStorageAuthErrorTitle": "驗證時出錯",
-    "@cloudStorageAuthErrorTitle": {
-        "description": ""
-    },
-    "cloudStorageSearchBoxLabel": "搜索查詢",
-    "@cloudStorageSearchBoxLabel": {
-        "description": ""
-    },
-    "mailSubject": "主題",
-    "@mailSubject": {
-        "description": ""
-    },
-    "mailFrom": "發件人",
-    "@mailFrom": {
-        "description": ""
-    },
-    "mailDate": "日期",
-    "@mailDate": {
-        "description": ""
-    },
-    "mailMailbox": "郵箱",
-    "@mailMailbox": {
-        "description": ""
-    },
-    "mailNoData": "沒有數據",
-    "@mailNoData": {
-        "description": "Message shown when email text body is empty (or can't be decoded)"
-    },
-    "mailMailboxesTitle": "郵箱",
-    "@mailMailboxesTitle": {
-        "description": "Title of the screen showing all available mailboxes."
-    },
-    "mailboxCreateButtonLabel": "創建",
-    "@mailboxCreateButtonLabel": {
-        "description": "FAB label to create a new mailbox."
-    },
-    "mailScreenTitle": "AuthPass 郵箱",
-    "@mailScreenTitle": {
-        "description": "title for the screen showing available emails"
-    },
-    "mailTabBarTitleMailbox": "郵箱",
-    "@mailTabBarTitleMailbox": {
-        "description": "title for the tab showing list of mailboxes."
-    },
-    "mailTabBarTitleMail": "郵件",
-    "@mailTabBarTitleMail": {
-        "description": "title for the tab showing list of mails."
-    },
-    "mailMailboxListEmpty": "您還沒有任何郵箱。",
-    "@mailMailboxListEmpty": {
-        "description": ""
-    },
-    "mailMailboxAddressCopied": "成功將郵箱地址複製到剪貼板： {mailboxAddress}",
-    "@mailMailboxAddressCopied": {
-        "description": "Success message when mailbox email address was copied to clipboard.",
-        "placeholders": {
-            "mailboxAddress": {
-                "example": "dkasdfiasdfi@mail.authpass.app"
-            }
-        }
-    },
-    "errorWhileSavingTitle": "保存時出錯",
-    "@errorWhileSavingTitle": {
-        "description": "title for error dialog shown when an error occurs while saving"
-    },
-    "errorWhileSavingBody": "無法保存文件： {errorMessage}",
-    "@errorWhileSavingBody": {
-        "description": "",
-        "placeholders": {
-            "errorMessage": {}
-        }
-    },
-    "databaseDoesNotSupportSaving": "抱歉，此數據庫不支持保存。請打開一個本地數據庫文件。或使用“另存為”。",
-    "@databaseDoesNotSupportSaving": {
-        "description": "keepass files loaded through a URL can't be saved."
-    },
-    "otpInvalidKeyTitle": "無效密鑰",
-    "@otpInvalidKeyTitle": {
-        "description": "dialog title for an invalid key of a one time password (OTP/TOTP)"
-    },
-    "otpInvalidKeyBody": "給定的輸入不是有效的 base32 TOTP 代碼。請驗證您的輸入。",
-    "@otpInvalidKeyBody": {
-        "description": ""
-    },
-    "otpPromptTitle": "基於時間的身份驗證",
-    "@otpPromptTitle": {
-        "description": ""
-    },
-    "otpPromptHelperText": "請輸入基於時間的密鑰。",
-    "@otpPromptHelperText": {
-        "description": ""
-    },
-    "entryFieldProtected": "受保護的領域。點擊揭示。",
-    "@entryFieldProtected": {
-        "description": ""
-    },
-    "entryFieldActionRevealField": "顯示受保護的字段",
-    "@entryFieldActionRevealField": {
-        "description": ""
-    },
-    "entryAttachmentOpenActionLabel": "打開",
-    "@entryAttachmentOpenActionLabel": {
-        "description": ""
-    },
-    "entryAttachmentShareActionLabel": "分享",
-    "@entryAttachmentShareActionLabel": {
-        "description": ""
-    },
-    "entryAttachmentShareSubject": "附件",
-    "@entryAttachmentShareSubject": {
-        "description": "the 'subject' passed to the system when sharing an attachment. "
-    },
-    "entryAttachmentSaveActionLabel": "保存到設備",
-    "@entryAttachmentSaveActionLabel": {
-        "description": ""
-    },
-    "entryAttachmentRemoveActionLabel": "移除",
-    "@entryAttachmentRemoveActionLabel": {
-        "description": ""
-    },
-    "entryAttachmentRemoveConfirm": "確定要刪除 {attachmentLabel} 嗎？",
-    "@entryAttachmentRemoveConfirm": {
-        "description": "",
-        "placeholders": {
-            "attachmentLabel": {}
-        }
-    },
-    "entryRenameFieldPromptTitle": "重命名字段",
-    "@entryRenameFieldPromptTitle": {
-        "description": ""
-    },
-    "removerecentfile": "隱藏",
-    "@removerecentfile": {
-        "description": ""
-    },
-    "entryRenameFieldPromptLabel": "輸入字段的新名稱",
-    "@entryRenameFieldPromptLabel": {
-        "description": ""
-    },
-    "promptDialogPasteActionTooltip": "從剪貼板粘貼",
-    "@promptDialogPasteActionTooltip": {
-        "description": ""
-    },
-    "promptDialogPasteHint": "提示：如果您需要粘貼，不妨嘗試左邊的按鈕 ;-)",
-    "@promptDialogPasteHint": {
-        "description": "sometimes the paste shortcut is not working properly, so tell users they can use the paste button from the UI"
-    },
-    "genericErrorDialogTitle": "處理動作時出錯",
-    "@genericErrorDialogTitle": {
-        "description": ""
-    },
-    "genericErrorDialogBody": "發生意外錯誤：{errorMessage}",
-    "@genericErrorDialogBody": {
-        "description": "",
-        "placeholders": {
-            "errorMessage": {}
-        }
-    },
-    "saveAsEntryLocalFile": "本機檔案",
-    "@saveAsEntryLocalFile": {
-        "description": "menu entry in the 'save as' dialog for saving as local file."
-    },
-    "newGroupDialogTitle": "新群組",
-    "@newGroupDialogTitle": {
-        "description": ""
-    },
-    "groupActionDelete": "刪除",
-    "@groupActionDelete": {
-        "description": ""
-    },
-    "shareCodeLoadingProgress": "檔案讀取中 …",
-    "@shareCodeLoadingProgress": {
-        "description": ""
-    },
-    "shortcutCopyUsername": "複製帳號",
-    "@shortcutCopyUsername": {
-        "description": ""
-    },
-    "shortcutCopyPassword": "複製密碼",
-    "@shortcutCopyPassword": {
-        "description": ""
-    },
-    "shortcutGeneratePassword": "產生密碼",
-    "@shortcutGeneratePassword": {
-        "description": ""
-    },
-    "shortcutOpenUrl": "開啟 URL",
-    "@shortcutOpenUrl": {
-        "description": ""
-    },
-    "unexpectedError": "不明錯誤：{error}",
-    "@unexpectedError": {
-        "placeholders": {
-            "error": {
-                "type": "String"
-            }
-        }
+  "@@locale": "zh_TW",
+  "fieldUserName": "帳號名稱",
+  "@fieldUserName": {},
+  "fieldPassword": "密碼",
+  "@fieldPassword": {},
+  "fieldWebsite": "網站",
+  "@fieldWebsite": {},
+  "fieldTitle": "顯示標題",
+  "@fieldTitle": {},
+  "fieldTotp": "單次密碼（OTP，依時間變化）",
+  "@fieldTotp": {
+    "description": "Label for fields of TOTP (Time based one time passwords)"
+  },
+  "english": "英文",
+  "@english": {
+    "description": "language switcher subtitle"
+  },
+  "german": "德文",
+  "@german": {
+    "description": "language switcher subtitle"
+  },
+  "russian": "俄文",
+  "@russian": {
+    "description": "language switcher subtitle"
+  },
+  "ukrainian": "烏克蘭文",
+  "@ukrainian": {
+    "description": "language switcher subtitle"
+  },
+  "lithuanian": "立陶宛文",
+  "@lithuanian": {
+    "description": "language switcher subtitle"
+  },
+  "french": "法文",
+  "@french": {
+    "description": "language switcher subtitle"
+  },
+  "spanish": "西班牙文",
+  "@spanish": {
+    "description": "language switcher subtitle"
+  },
+  "indonesian": "印尼文",
+  "@indonesian": {
+    "description": "language switcher subtitle"
+  },
+  "turkish": "土耳其文",
+  "@turkish": {
+    "description": "Language switcher subtitle"
+  },
+  "hebrew": "希伯來文",
+  "@hebrew": {
+    "description": "Language switcher subtitle"
+  },
+  "italian": "義大利文",
+  "@italian": {
+    "description": "Language switcher subtitle"
+  },
+  "chineseSimplified": "簡體中文",
+  "@chineseSimplified": {
+    "description": "Language switcher subtitle"
+  },
+  "chineseTraditional": "正體中文",
+  "@chineseTraditional": {
+    "description": "Language switcher subtitle"
+  },
+  "portugueseBrazilian": "葡萄牙文（巴西）",
+  "@portugueseBrazilian": {
+    "description": "Language switcher subtitle"
+  },
+  "slovak": "斯洛伐克語",
+  "@slovak": {
+    "description": "Language switcher subtitle"
+  },
+  "dutch": "荷蘭語",
+  "@dutch": {
+    "description": "Language switcher subtitle"
+  },
+  "selectItem": "選取",
+  "@selectItem": {
+    "description": "semantic label for checkboxes to select item."
+  },
+  "selectKeepassFile": "AuthPass - 選取 KeePass 格式檔",
+  "@selectKeepassFile": {
+    "context": "appbar title - select file screen"
+  },
+  "selectKeepassFileLabel": "請選擇 KeePass（.kdbx）格式檔。",
+  "@selectKeepassFileLabel": {
+    "context": "select file screen, used as label."
+  },
+  "createNewFile": "建立新密碼檔",
+  "@createNewFile": {
+    "description": "button on select file screen to create a new password database."
+  },
+  "openLocalFile": "開啟\n本機檔案",
+  "@openLocalFile": {
+    "context": "select file screen, big button open local file."
+  },
+  "openFile": "開啟檔案",
+  "@openFile": {
+    "description": "Displayed as placeholder in password list when no file is open."
+  },
+  "loadFromDropdownMenu": "從其他來源加載...",
+  "@loadFromDropdownMenu": {
+    "description": "label for dropdown menu which shows more cloud storage options."
+  },
+  "quickUnlockingFiles": "快速解鎖…",
+  "@quickUnlockingFiles": {
+    "description": "Status shown while we are loading files and trying to unlock them."
+  },
+  "openFileProgress": "{fileName}",
+  "@openFileProgress": {
+    "description": "Progress shown while files are loaded during quick unlock.",
+    "placeholders": {
+      "fileName": {
+        "description": "Name of the file that is currently loaded."
+      },
+      "current": {
+        "description": "The index/number of file currently loading."
+      },
+      "totalCount": {
+        "description": "Total number of files which are loading."
+      }
     }
+  },
+  "loadFrom": "開啟雲端檔案 {cloudStorageName}",
+  "@loadFrom": {
+    "placeholders": {
+      "cloudStorageName": {
+        "type": "String",
+        "example": "Dropbox"
+      }
+    }
+  },
+  "loadFromRemoteUrl": "自 URL 開啟 kdbx 檔",
+  "@loadFromRemoteUrl": {
+    "description": "Overflow menu option to load KeePass file from URL."
+  },
+  "createNewKeepass": "KeePass 新手嗎？\n建立新的檔案資料庫",
+  "@createNewKeepass": {
+    "description": "deprecated"
+  },
+  "labelLastOpenFiles": "上次開啟檔案：",
+  "@labelLastOpenFiles": {},
+  "noFilesHaveBeenOpenYet": "尚未開啟任何檔案。",
+  "@noFilesHaveBeenOpenYet": {},
+  "preferenceSelectLanguage": "選擇語言",
+  "@preferenceSelectLanguage": {},
+  "preferenceLanguage": "語言設定",
+  "@preferenceLanguage": {},
+  "preferenceTextScaleFactor": "文字尺寸",
+  "@preferenceTextScaleFactor": {},
+  "preferenceVisualDensity": "行距",
+  "@preferenceVisualDensity": {},
+  "preferenceTheme": "佈景主題",
+  "@preferenceTheme": {},
+  "preferenceThemeLight": "淺色",
+  "@preferenceThemeLight": {},
+  "preferenceThemeDark": "深色",
+  "@preferenceThemeDark": {},
+  "preferenceSystemDefault": "系統預設",
+  "@preferenceSystemDefault": {},
+  "preferenceDefault": "預設值",
+  "@preferenceDefault": {},
+  "lockAllFiles": "鎖定所有開啟中的檔案",
+  "@lockAllFiles": {},
+  "preferenceAllowScreenshots": "允許在 App 畫面截圖",
+  "@preferenceAllowScreenshots": {},
+  "preferenceEnableAutoFill": "啟用自動填入",
+  "@preferenceEnableAutoFill": {},
+  "enableAutofillSuggestionBanner": "您可以啟用自動填充來填寫其他應用程序中的字段！",
+  "@enableAutofillSuggestionBanner": {
+    "description": "This text will shown as a banner on top of password list"
+  },
+  "dismissAutofillSuggestionBannerButton": "關閉",
+  "@dismissAutofillSuggestionBannerButton": {
+    "description": "Button that is displayed in autofill suggestion warnings to dismiss the warning"
+  },
+  "enableAutofillSuggestionBannerButton": "啟用！",
+  "@enableAutofillSuggestionBannerButton": {
+    "description": "Button that is displayed in autofill suggestion warnings to enable autofill"
+  },
+  "preferenceAutoFillDescription": "僅 Android Oreo（8.0）以上支援此功能。",
+  "@preferenceAutoFillDescription": {},
+  "preferenceTitle": "偏好設定",
+  "@preferenceTitle": {},
+  "preferencesSearchFields": "自定義搜索字段",
+  "@preferencesSearchFields": {
+    "description": ""
+  },
+  "preferencesSearchFieldPromptTitle": "搜索字段",
+  "@preferencesSearchFieldPromptTitle": {
+    "description": ""
+  },
+  "aboutAppName": "AuthPass",
+  "@aboutAppName": {},
+  "aboutLinkFeedback": "歡迎指教！",
+  "@aboutLinkFeedback": {},
+  "aboutLinkVisitWebsite": "記得上我們的網站",
+  "@aboutLinkVisitWebsite": {},
+  "aboutLinkGitHub": "還有開源專案",
+  "@aboutLinkGitHub": {},
+  "aboutLogFile": "記錄檔： {logFilePath}",
+  "aboutLinkContributors": "顯示貢獻者",
+  "@aboutLinkContributors": {},
+  "@aboutLogFile": {
+    "placeholders": {
+      "logFilePath": {
+        "type": "String",
+        "example": "/Users/mustermann/log.txt"
+      }
+    }
+  },
+  "unableToLaunchUrlTitle": "無法開啟 URL",
+  "@unableToLaunchUrlTitle": {
+    "description": ""
+  },
+  "unableToLaunchUrlDescription": "無法開啟 {url}： {openError}",
+  "@unableToLaunchUrlDescription": {
+    "description": "",
+    "placeholders": {
+      "url": {
+        "description": "URL which we tried to open."
+      },
+      "openError": {
+        "description": "Information about the error"
+      }
+    }
+  },
+  "unableToLaunchUrlNoHandler": "沒有適合開啟該 URL 的軟體",
+  "@unableToLaunchUrlNoHandler": {
+    "description": ""
+  },
+  "launchedUrl": "開啟的 URL：{url}",
+  "@launchedUrl": {
+    "description": "snackbar confirmation after opening a url externally",
+    "placeholders": {
+      "url": {
+        "description": "URL which was just launched."
+      }
+    }
+  },
+  "menuItemGeneratePassword": "產生密碼",
+  "@menuItemGeneratePassword": {},
+  "menuItemPreferences": "偏好設定",
+  "@menuItemPreferences": {},
+  "menuItemOpenAnotherFile": "開啟其他檔案",
+  "@menuItemOpenAnotherFile": {},
+  "menuItemCheckForUpdates": "檢查更新",
+  "@menuItemCheckForUpdates": {},
+  "menuItemSupport": "發送日誌",
+  "@menuItemSupport": {},
+  "menuItemSupportSubtitle": "通過電子郵件發送日誌",
+  "@menuItemSupportSubtitle": {},
+  "menuItemForum": "支援論壇",
+  "@menuItemForum": {},
+  "menuItemForumSubtitle": "報告問題並獲得幫助",
+  "@menuItemForumSubtitle": {},
+  "menuItemHelp": "說明",
+  "@menuItemHelp": {},
+  "menuItemHelpSubtitle": "開啟說明文件",
+  "@menuItemHelpSubtitle": {},
+  "menuItemAbout": "關於",
+  "@menuItemAbout": {},
+  "actionOpenUrl": "開啟 URL",
+  "@actionOpenUrl": {
+    "description": "tooltip for button to open URL/Website of an entry."
+  },
+  "passwordPlainText": "顯示密碼",
+  "@passwordPlainText": {
+    "description": "Master password input: show password as plain text during input. (shown as tooltip)"
+  },
+  "generatorPassword": "密碼",
+  "@generatorPassword": {
+    "description": "Label for generated password"
+  },
+  "generatePassword": "產生密碼",
+  "@generatePassword": {
+    "description": "screen title for password generator"
+  },
+  "doneButtonLabel": "完成",
+  "@doneButtonLabel": {
+    "description": "generic button label for 'Done' action."
+  },
+  "useAsDefault": "存為預設值",
+  "@useAsDefault": {
+    "description": "Button Label for Password generator settings: use as defaults",
+    "context": "Password generator"
+  },
+  "characterSetLowerCase": "小寫英文（a-z）",
+  "@characterSetLowerCase": {
+    "context": "Password generator"
+  },
+  "characterSetUpperCase": "大寫英文（A-Z）",
+  "@characterSetUpperCase": {
+    "context": "Password generator"
+  },
+  "characterSetNumeric": "數字（0-9）",
+  "@characterSetNumeric": {
+    "context": "Password generator"
+  },
+  "characterSetUmlauts": "變音字母（ä）",
+  "@characterSetUmlauts": {
+    "context": "Password generator"
+  },
+  "characterSetSpecial": "特殊字元（@%+）",
+  "@characterSetSpecial": {
+    "context": "Password generator"
+  },
+  "length": "字數",
+  "@length": {
+    "description": "Length of password",
+    "context": "Password generator"
+  },
+  "customLength": "自訂字數",
+  "@customLength": {
+    "description": "Label for custom length field",
+    "context": "Password generator"
+  },
+  "customLengthHelperText": "僅供超過 {customMinLength} 字時使用",
+  "@customLengthHelperText": {
+    "description": "Help text for custom length field",
+    "context": "Password generator",
+    "placeholders": {
+      "customMinLength": {
+        "example": "40"
+      }
+    }
+  },
+  "savedFiles": "{numFiles, plural, other {已儲存 {numFiles} 個檔案： {files}}}",
+  "@savedFiles": {
+    "description": "Message displayed when files were saved. (One or more).",
+    "context": "Password list",
+    "placeholders": {
+      "numFiles": {
+        "description": "Number of files that have been saved (at least 1)",
+        "type": "int",
+        "format": "compactLong"
+      },
+      "files": {
+        "description": "Comma separated list of vault names."
+      }
+    }
+  },
+  "manageGroups": "管理群組",
+  "@manageGroups": {
+    "description": ""
+  },
+  "lockFiles": "鎖住檔案",
+  "@lockFiles": {
+    "description": "Close all files and return to start screen."
+  },
+  "searchHint": "搜尋",
+  "@searchHint": {
+    "description": "Placeholder in the password list search box"
+  },
+  "searchButtonLabel": "搜尋",
+  "@searchButtonLabel": {
+    "description": "search button tooltip/semantic label"
+  },
+  "filterButtonLabel": "篩選群組",
+  "@filterButtonLabel": {
+    "description": "tooltip/semantic label for filter app bar icon."
+  },
+  "clear": "清除篩選條件",
+  "@clear": {
+    "description": "Remove existing group filter from password list"
+  },
+  "autofillFilterPrefix": "篩選：",
+  "@autofillFilterPrefix": {
+    "description": "Label displayed for android auto fill"
+  },
+  "autofillPrompt": "選擇密碼以填入",
+  "@autofillPrompt": {
+    "description": ""
+  },
+  "copiedToClipboard": "複製到剪貼簿。",
+  "@copiedToClipboard": {
+    "description": "Snackbar text when copying text to clipboard."
+  },
+  "noTitle": "（無顯示標題）",
+  "@noTitle": {
+    "description": "Text to display in place of a title, when password entry has no name assigned."
+  },
+  "noUsername": "（無帳號名稱）",
+  "@noUsername": {
+    "description": "Text to display in place of a user name in the password list if none is defined."
+  },
+  "filterCustomize": "自訂篩選 …",
+  "@filterCustomize": {
+    "description": "Customize filter in password list"
+  },
+  "swipeCopyPassword": "複製密碼",
+  "@swipeCopyPassword": {
+    "description": "swipe action in password list to copy password"
+  },
+  "swipeCopyUsername": "複製帳號",
+  "@swipeCopyUsername": {
+    "description": "swipe action in password list to copy username"
+  },
+  "copyUsernameNotExists": "此條目沒有定義用戶名。",
+  "@copyUsernameNotExists": {
+    "description": "Error message when trying to copy username from an entry which has none."
+  },
+  "copyPasswordNotExists": "此條目沒有定義密碼。",
+  "@copyPasswordNotExists": {
+    "description": "Error message when trying to copy password from an entry which has none."
+  },
+  "doneCopiedPassword": "已將密碼複製到剪貼簿。",
+  "@doneCopiedPassword": {
+    "description": "snackbar confirmation that password was copied."
+  },
+  "doneCopiedUsername": "已將帳號複製到剪貼簿。",
+  "@doneCopiedUsername": {
+    "description": "snackbar confirmation that username was copied."
+  },
+  "doneCopiedField": "已複製。",
+  "@doneCopiedField": {
+    "description": ""
+  },
+  "copiedFieldToClipboard": "{fieldName} 已被複製",
+  "@copiedFieldToClipboard": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {}
+    }
+  },
+  "copiedFieldEmpty": "{fieldName} 為空。",
+  "@copiedFieldEmpty": {
+    "description": "Displayed when user wants to copy a field which is empty or not defined.",
+    "placeholders": {
+      "fieldName": {}
+    }
+  },
+  "emptyPasswordVaultPlaceholder": "目前資料庫中沒有任何密碼。",
+  "@emptyPasswordVaultPlaceholder": {
+    "description": "Placeholder text shown when a user opens an empty password file."
+  },
+  "emptyPasswordVaultButtonLabel": "記下第一組密碼",
+  "@emptyPasswordVaultButtonLabel": {
+    "description": "Button shown under placeholder text when password database is empty"
+  },
+  "loading": "正在加載",
+  "@loading": {
+    "description": "generic loading indicator displayed during network request (e.g. when loading file list from cloud storage)"
+  },
+  "loadingFile": "檔案讀取中 …",
+  "@loadingFile": {
+    "description": "credential screen while unlocking file."
+  },
+  "internalFile": "內部檔案",
+  "@internalFile": {
+    "description": "Choose a file previously created in AuthPass app sandbox",
+    "context": "open file picker: internal file vs. file picker"
+  },
+  "internalFileSubtitle": "先前以 AuthPass 建立的資料庫",
+  "@internalFileSubtitle": {
+    "description": "Choose a file previously created in AuthPass app sandbox",
+    "context": "open file picker: internal file vs. file picker"
+  },
+  "filePicker": "選擇檔案",
+  "@filePicker": {
+    "description": "Choose a file with the system's file picker. (ios/android)",
+    "context": "open file picker: internal file vs. file picker"
+  },
+  "filePickerSubtitle": "自本機開啟檔案。",
+  "@filePickerSubtitle": {
+    "description": "Choose a file with the system's file picker. (ios/android)",
+    "context": "open file picker: internal file vs. file picker"
+  },
+  "credentialsAppBarTitle": "驗證資訊",
+  "@credentialsAppBarTitle": {
+    "description": "Credential screen to enter master password when opening kdbx file.",
+    "context": "credential screen"
+  },
+  "credentialLabel": "輸入密碼，開啟資料庫",
+  "@credentialLabel": {
+    "description": "Label for the file/database being opened",
+    "context": "credential screen"
+  },
+  "masterPasswordInputLabel": "密碼",
+  "@masterPasswordInputLabel": {
+    "description": "",
+    "context": "credential screen"
+  },
+  "masterPasswordEmptyValidator": "請輸入密碼。",
+  "@masterPasswordEmptyValidator": {
+    "description": "",
+    "context": "credential screen"
+  },
+  "masterPasswordIncorrectValidator": "密碼錯誤",
+  "@masterPasswordIncorrectValidator": {
+    "description": "",
+    "context": "credential screen"
+  },
+  "useKeyFile": "使用金鑰檔",
+  "@useKeyFile": {
+    "description": "label for a key file in combination with mater password",
+    "context": "credential screen"
+  },
+  "saveMasterPasswordBiometric": "以生物驗證儲存檔案密碼？",
+  "@saveMasterPasswordBiometric": {
+    "description": "Label for the checkbox to save master password for quick unlock.",
+    "context": "credential screen"
+  },
+  "close": "關閉",
+  "@close": {
+    "description": "Tooltip/semantic label for close button"
+  },
+  "addNewPassword": "新增密碼",
+  "@addNewPassword": {
+    "description": "Tooltip for adding new password button (floating action button)"
+  },
+  "errorOpenFileAlreadyOpenTitle": "這個檔案早已開啟了",
+  "@errorOpenFileAlreadyOpenTitle": {
+    "description": "Trying to open a database from a second file source which is already open.",
+    "context": "credential screen"
+  },
+  "errorOpenFileAlreadyOpenBody": "您選的資料庫 {databaseName} 早已自{openFileSource} 開啟（您正試圖從{newFileSource} 再度開啟）",
+  "@errorOpenFileAlreadyOpenBody": {
+    "description": "Trying to open a database from a second file source which is already open.",
+    "context": "credential screen",
+    "placeholders": {
+      "databaseName": {},
+      "openFileSource": {},
+      "newFileSource": {}
+    }
+  },
+  "loadFromUrl": "從網址下載",
+  "@loadFromUrl": {
+    "description": ""
+  },
+  "loadFromUrlEnterUrl": "輸入網址",
+  "@loadFromUrlEnterUrl": {
+    "description": "label for input box to enter url."
+  },
+  "loadFromUrlErrorEnterFullUrl": "請輸入以 http:// 或 https:// 開頭的完整網址",
+  "@loadFromUrlErrorEnterFullUrl": {
+    "description": "validator error message when user does not enter a absolute url."
+  },
+  "loadFromUrlErrorInvalidUrl": "請輸入有效網址。",
+  "@loadFromUrlErrorInvalidUrl": {
+    "description": "validator error message hwen user enters a url which could not be parsed."
+  },
+  "linuxAppArmorWarning": "AuthPass 需要與 Secret Service 通信以存儲雲存儲憑據的權限。\n請運行以下命令：",
+  "@linuxAppArmorWarning": {
+    "description": "On linux when user has not given AuthPass permission to connect to secret service he has to execute a command on the console."
+  },
+  "cancel": "取消",
+  "@cancel": {
+    "description": "button label for cancelling an action."
+  },
+  "errorLoadFileFromSourceTitle": "打開文件時出錯。",
+  "@errorLoadFileFromSourceTitle": {
+    "description": "error title when user selects a file which can't be downloaded."
+  },
+  "errorLoadFileFromSourceBody": "無法打開 {source}\n{error}",
+  "@errorLoadFileFromSourceBody": {
+    "description": "error body when user selects a file which can't be downloaded.",
+    "placeholders": {
+      "source": {},
+      "error": {}
+    }
+  },
+  "errorUnlockFileTitle": "無法開啟檔案",
+  "@errorUnlockFileTitle": {
+    "description": "generic error when opening a file (dialog title)",
+    "context": "credential screen"
+  },
+  "errorUnlockFileBody": "開啟檔案時發生不明錯誤：{error}",
+  "@errorUnlockFileBody": {
+    "description": "generic error when opening a file (description)",
+    "context": "credential screen",
+    "placeholders": {
+      "error": {
+        "description": "Error details."
+      }
+    }
+  },
+  "dialogContinue": "繼續",
+  "@dialogContinue": {
+    "description": "Dialog action to continue to next step (e.g. credential screen when finished with master password)"
+  },
+  "dialogSendErrorReport": "發送錯誤報告",
+  "@dialogSendErrorReport": {
+    "description": "action button in error dialogs to send email to support with log file.",
+    "context": "error dialog"
+  },
+  "dialogReportErrorForum": "在論壇/幫助中報告錯誤",
+  "@dialogReportErrorForum": {
+    "description": "action button in error dialog to open forum and create new topic."
+  },
+  "groupFilterDescription": "選擇要顯示的群組（包含子群組）",
+  "@groupFilterDescription": {
+    "description": "Description shown in the group list for filtering (e.g. app drawer)",
+    "context": "group filter"
+  },
+  "groupFilterSelectAll": "全選",
+  "@groupFilterSelectAll": {
+    "context": "group filter"
+  },
+  "groupFilterDeselectAll": "全部不選",
+  "@groupFilterDeselectAll": {
+    "context": "group filter"
+  },
+  "createSubgroup": "建立子群組",
+  "@createSubgroup": {
+    "description": "menu action: create nested group inside another group"
+  },
+  "editAction": "編輯",
+  "@editAction": {
+    "description": "menu action: edit item (e.g. delete a group)"
+  },
+  "mailboxEnableLabel": "（重新）啟用",
+  "@mailboxEnableLabel": {
+    "description": ""
+  },
+  "mailboxEnableHint": "繼續接收電子郵件",
+  "@mailboxEnableHint": {
+    "description": ""
+  },
+  "mailboxDisableLabel": "禁用",
+  "@mailboxDisableLabel": {
+    "description": ""
+  },
+  "mailboxDisableHint": "不再接收電子郵件",
+  "@mailboxDisableHint": {
+    "description": ""
+  },
+  "mailListNoMail": "您還沒有任何電子郵件。",
+  "@mailListNoMail": {
+    "description": ""
+  },
+  "mailboxLabelPrefixUnknownEntry": "未知條目: {entryUuid}",
+  "@mailboxLabelPrefixUnknownEntry": {
+    "description": "when a mailbox was created for password entry which has been deleted or is otherwise not in the currently opened password files.",
+    "placeholders": {
+      "entryUuid": {
+        "description": "The internal id of the entry which was no tfound"
+      }
+    }
+  },
+  "mailboxLabelPrefixCreatedAt": "創建於: {dateTime}",
+  "@mailboxLabelPrefixCreatedAt": {
+    "description": "When a mailbox was not created for an entry and has no label, the creation date is shown.",
+    "placeholders": {
+      "dateTime": {}
+    }
+  },
+  "masterPasswordDescription": "主密碼用於安全地加密您的密碼數據庫。 請務必記住它，它無法被恢復。",
+  "@masterPasswordDescription": {
+    "description": ""
+  },
+  "unsavedChangesWarningTitle": "未保存的更改",
+  "@unsavedChangesWarningTitle": {
+    "description": ""
+  },
+  "unsavedChangesWarningBody": "仍有未保存的更改。 是否要放棄更改？",
+  "@unsavedChangesWarningBody": {
+    "description": ""
+  },
+  "unsavedChangesDiscardActionLabel": "放棄更改",
+  "@unsavedChangesDiscardActionLabel": {
+    "description": ""
+  },
+  "deletePermanentlyAction": "永久刪除",
+  "@deletePermanentlyAction": {
+    "description": "menu action: delete an item permanently from the file (only shown for entries/groups already in the recycle bin."
+  },
+  "restoreFromRecycleBinAction": "恢復",
+  "@restoreFromRecycleBinAction": {
+    "description": "menu action: restore an entry/group which was moved into the recycle bin."
+  },
+  "deleteAction": "刪除",
+  "@deleteAction": {
+    "description": "menu action: delete item (e.g. delete a group)"
+  },
+  "deletedEntry": "已刪除條目。",
+  "@deletedEntry": {
+    "description": "Confirmation when a password entry was deleted (ie. moved to recycle bin)"
+  },
+  "successfullyDeletedGroup": "群組已刪除。",
+  "@successfullyDeletedGroup": {
+    "description": "snackbar after deleting a group."
+  },
+  "undoButtonLabel": "復原",
+  "@undoButtonLabel": {
+    "description": "undo action label (e.g. in a snackbar after deleting a group, or some other action)"
+  },
+  "saveButtonLabel": "儲存",
+  "@saveButtonLabel": {
+    "description": "save file, for example button displayed in entry details"
+  },
+  "webDavSettings": "WebDAV設定",
+  "@webDavSettings": {
+    "description": "dialog title for entering WebDAV settings."
+  },
+  "webDavUrlLabel": "網址",
+  "@webDavUrlLabel": {
+    "description": ""
+  },
+  "webDavUrlHelperText": "WebDAV 服務的基礎 URL。",
+  "@webDavUrlHelperText": {
+    "description": ""
+  },
+  "webDavUrlValidatorError": "請輸入網址",
+  "@webDavUrlValidatorError": {
+    "description": ""
+  },
+  "webDavUrlValidatorInvalidUrlError": "請輸入以 http:// 或 https:// 開頭的有效網址",
+  "@webDavUrlValidatorInvalidUrlError": {
+    "description": ""
+  },
+  "webDavAuthUser": "用戶名",
+  "@webDavAuthUser": {
+    "description": ""
+  },
+  "webDavAuthPassword": "密碼",
+  "@webDavAuthPassword": {
+    "description": ""
+  },
+  "mergeSuccessDialogTitle": "成功合併密碼數據庫",
+  "@mergeSuccessDialogTitle": {
+    "description": ""
+  },
+  "mergeSuccessDialogMessage": "保存 {fileName} 時檢測到衝突，它與遠程文件成功合併：\n\n{mergeSummary}",
+  "@mergeSuccessDialogMessage": {
+    "description": "",
+    "placeholders": {
+      "fileName": {},
+      "mergeSummary": {}
+    }
+  },
+  "forDetailsVisitUrl": "有關詳細信息，請訪問 {url}",
+  "@forDetailsVisitUrl": {
+    "description": "",
+    "placeholders": {
+      "url": {}
+    }
+  },
+  "authPassCloudAuthEmailInputLabel": "輸入電子郵件地址以註冊或登錄。",
+  "@authPassCloudAuthEmailInputLabel": {
+    "description": ""
+  },
+  "authPassCloudAuthEmailInvalid": "請輸入有效的電子郵件地址。",
+  "@authPassCloudAuthEmailInvalid": {
+    "description": ""
+  },
+  "authPassCloudAuthConfirmEmailButtonLabel": "確認地址",
+  "@authPassCloudAuthConfirmEmailButtonLabel": {
+    "description": ""
+  },
+  "authPassCloudAuthConfirmEmail": "請檢查您的電子郵件以確認您的電子郵件地址。",
+  "@authPassCloudAuthConfirmEmail": {
+    "description": ""
+  },
+  "authPassCloudAuthConfirmEmailExplain": "將此界面保持開啟，直到您已訪問通過電子郵件收到的鏈接。",
+  "@authPassCloudAuthConfirmEmailExplain": {
+    "description": ""
+  },
+  "authPassCloudAuthResendExplain": "如果您沒有收到電子郵件，請檢查您的垃圾郵件文件夾。 否則，您可以嘗試請求新的確認鏈接。",
+  "@authPassCloudAuthResendExplain": {
+    "description": ""
+  },
+  "authPassCloudAuthResendButtonLabel": "請求新的確認鏈接",
+  "@authPassCloudAuthResendButtonLabel": {
+    "description": ""
+  },
+  "permanentlyDeleteEntryConfirm": "這將永久刪除密碼條目 {title} 。這不能被撤消。確認要繼續嗎？",
+  "@permanentlyDeleteEntryConfirm": {
+    "description": "shown to force user to acknowledge delete before a entry will be permanently deleted.",
+    "placeholders": {
+      "title": {}
+    }
+  },
+  "permanentlyDeletedEntrySnackBar": "條目已被永久刪除",
+  "@permanentlyDeletedEntrySnackBar": {
+    "description": "snackbar confirming that the entry was deleted."
+  },
+  "initialNewGroupName": "新群組",
+  "@initialNewGroupName": {
+    "description": "initial name of groups when user creates a new one."
+  },
+  "deleteGroupErrorTitle": "無法刪除群組",
+  "@deleteGroupErrorTitle": {
+    "description": "Title of error dialog when group could not be deleted."
+  },
+  "deleteGroupErrorBodyContainsGroup": "此群組下還有其他子群組，無法刪除。目前只能刪除不含任何內容的群組。",
+  "@deleteGroupErrorBodyContainsGroup": {
+    "description": "Body of error dialog when a group can't be deleted because it is not empty."
+  },
+  "deleteGroupErrorBodyContainsEntries": "此群組下還存有密碼資料，無法刪除。目前只能刪除不含任何內容的群組。",
+  "@deleteGroupErrorBodyContainsEntries": {
+    "description": "Body of error dialog when a group can't be deleted because it is not empty."
+  },
+  "groupListAppBarTitle": "群組清單",
+  "@groupListAppBarTitle": {
+    "description": "title in the app bar for the groups list"
+  },
+  "groupListFilterAppbarTitle": "選擇要顯示的群組",
+  "@groupListFilterAppbarTitle": {
+    "description": "title in the app bar for group lists when displayed for filtering password list"
+  },
+  "clearQuickUnlock": "清除生物辨識資訊",
+  "@clearQuickUnlock": {
+    "description": ""
+  },
+  "clearQuickUnlockSubtitle": "不再記憶主密碼",
+  "@clearQuickUnlockSubtitle": {
+    "description": ""
+  },
+  "unlock": "檔案解鎖",
+  "@unlock": {
+    "description": ""
+  },
+  "closePasswordFiles": "關閉密碼檔",
+  "@closePasswordFiles": {
+    "description": "delete quick unlock (passwords stored in biometric storage)"
+  },
+  "clearQuickUnlockSuccess": "自生物驗證資料裡刪除存下的主密碼。",
+  "@clearQuickUnlockSuccess": {
+    "description": ""
+  },
+  "diacOptIn": "顯示本軟體的新知及問卷調查",
+  "@diacOptIn": {},
+  "diacOptInSubtitle": "啟用後，軟體偶爾會連線擷取最新消息資料",
+  "@diacOptInSubtitle": {},
+  "enableAutofillDebug": "自動填入：除錯模式",
+  "@enableAutofillDebug": {
+    "description": "only visible in debug build. Preference to enable Auto-Fill Debugging."
+  },
+  "enableAutofillDebugSubtitle": "顯示每個輸入欄的資訊",
+  "@enableAutofillDebugSubtitle": {
+    "description": "only visible in debug build. Preference to enable Auto-Fill Debugging."
+  },
+  "createPasswordDatabase": "建立密碼資料庫",
+  "@createPasswordDatabase": {
+    "description": ""
+  },
+  "nameNewPasswordDatabase": "新資料庫名稱",
+  "@nameNewPasswordDatabase": {
+    "description": "creating new kdbx file, prompt"
+  },
+  "validatorNameMissing": "請輸入新資料庫的名稱。",
+  "@validatorNameMissing": {
+    "description": "Error message when no password database name is given."
+  },
+  "masterPasswordHelpText": "選擇安全的資料庫主密碼，並且確實記牢。",
+  "@masterPasswordHelpText": {
+    "description": "DEPRECATED FOR NOW help text for master password when creating new password database"
+  },
+  "inputMasterPasswordText": "主密碼",
+  "@inputMasterPasswordText": {
+    "description": "Creating new file: input field for master password"
+  },
+  "masterPasswordMissingCreate": "請輸入安全、記得著的密碼。",
+  "@masterPasswordMissingCreate": {
+    "description": "Text displayed when master password is empty while creating new password database"
+  },
+  "createDatabaseAction": "建立資料庫",
+  "@createDatabaseAction": {
+    "description": "Label for button to create new database"
+  },
+  "databaseExistsError": "已有同名檔案",
+  "@databaseExistsError": {
+    "description": "dialog title for error message when creating a new database with a name which already exists."
+  },
+  "databaseExistsErrorDescription": "建立資料庫 {filePath} 時發生錯誤：已有同名檔案存在，請換個名字。",
+  "@databaseExistsErrorDescription": {
+    "description": "dialog body for error message when creating a new database with a name which already exists.",
+    "placeholders": {
+      "filePath": {
+        "description": "file path which already existed."
+      }
+    }
+  },
+  "databaseCreateDefaultName": "PersonalPasswords",
+  "@databaseCreateDefaultName": {
+    "description": "Default database name when creating a new database file. (WITHOUT .kdbx extension)"
+  },
+  "preferenceDynamicLoadIcons": "載入網站圖示",
+  "@preferenceDynamicLoadIcons": {
+    "description": "preferences: dynamically load website icons"
+  },
+  "preferenceDynamicLoadIconsSubtitle": "將產生 HTTP 連線到 {urlFieldName} 欄位指定的網站，以讀取網站圖示。",
+  "@preferenceDynamicLoadIconsSubtitle": {
+    "description": "preferences: dynamically load website icons help text.",
+    "placeholders": {
+      "urlFieldName": {
+        "example": "Website"
+      }
+    }
+  },
+  "passwordScore": "密碼強度：{score} （滿分為 4）",
+  "@passwordScore": {
+    "description": "choosing a master password - calculated password strength.",
+    "placeholders": {
+      "score": {
+        "description": "integer of the score.",
+        "example": "3"
+      }
+    }
+  },
+  "entryInfoFile": "檔案：",
+  "@entryInfoFile": {
+    "description": ""
+  },
+  "entryInfoGroup": "群組：",
+  "@entryInfoGroup": {
+    "description": ""
+  },
+  "entryInfoLastModified": "修改時間：",
+  "@entryInfoLastModified": {
+    "description": ""
+  },
+  "movedEntryToGroup": "已將此項目移入{groupName}",
+  "@movedEntryToGroup": {
+    "description": "",
+    "placeholders": {
+      "groupName": {
+        "description": "Name of the group the entry was moved to."
+      }
+    }
+  },
+  "sizeBytes": "{count} 位元組",
+  "@sizeBytes": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "description": "file size in bytes",
+        "example": "123"
+      }
+    }
+  },
+  "entryAddAttachment": "新增附件",
+  "@entryAddAttachment": {
+    "description": ""
+  },
+  "entryAttachmentSizeWarning": "附件會存入密碼資料庫檔案中，也可能大幅拉長存取密碼所需的時間。",
+  "@entryAttachmentSizeWarning": {
+    "description": ""
+  },
+  "iconPngSizeWarning": "自訂圖示會存入密碼資料庫檔案中，也可能大幅拉長存取密碼所需的時間。",
+  "@iconPngSizeWarning": {
+    "description": "Warning shown when user selects a large png file as custom icon."
+  },
+  "notPngError": "您選擇的檔案並非 PNG 格式",
+  "@notPngError": {
+    "description": "Error when user selects an unsupported file as custom icon."
+  },
+  "entryAddField": "新增欄位",
+  "@entryAddField": {
+    "description": ""
+  },
+  "entryCustomField": "自訂欄位",
+  "@entryCustomField": {
+    "description": ""
+  },
+  "entryCustomFieldTitle": "新增自訂的欄位",
+  "@entryCustomFieldTitle": {
+    "description": ""
+  },
+  "entryCustomFieldInputLabel": "輸入欄位名稱",
+  "@entryCustomFieldInputLabel": {
+    "description": ""
+  },
+  "swipeCopyField": "複製內容",
+  "@swipeCopyField": {
+    "description": ""
+  },
+  "fieldRename": "重新命名",
+  "@fieldRename": {
+    "description": ""
+  },
+  "fieldGeneratePassword": "產生密碼…",
+  "@fieldGeneratePassword": {
+    "description": ""
+  },
+  "fieldProtect": "隱藏內容",
+  "@fieldProtect": {
+    "description": ""
+  },
+  "fieldUnprotect": "不必隱藏內容",
+  "@fieldUnprotect": {
+    "description": ""
+  },
+  "fieldPresent": "展示 QRCode",
+  "@fieldPresent": {
+    "description": ""
+  },
+  "fieldGenerateEmail": "產生 Email",
+  "@fieldGenerateEmail": {
+    "description": ""
+  },
+  "onboardingBackToOnboarding": "概覽",
+  "@onboardingBackToOnboarding": {
+    "description": "Context menu entry which reverts to onboarding"
+  },
+  "onboardingBackToOnboardingSubtitle": "重現新手引領畫面 😅️",
+  "@onboardingBackToOnboardingSubtitle": {
+    "description": "Context menu entry which reverts to onboarding"
+  },
+  "onboardingHeadline": "妥善保護您的密碼！",
+  "@onboardingHeadline": {
+    "description": ""
+  },
+  "onboardingQuestion": "您是否用過密碼管理工具？",
+  "@onboardingQuestion": {
+    "description": ""
+  },
+  "onboardingYesOpenPasswords": "是，我要使用先前的資料",
+  "@onboardingYesOpenPasswords": {
+    "description": ""
+  },
+  "onboardingNoCreate": "沒有，該怎麼開始呢？",
+  "@onboardingNoCreate": {
+    "description": ""
+  },
+  "backupButton": "存到雲端",
+  "@backupButton": {
+    "description": "Button that is displayed in backup warnings"
+  },
+  "dismissBackupButton": "關閉",
+  "@dismissBackupButton": {
+    "description": "Button that is displayed in backup warnings to dismiss the warning"
+  },
+  "backupWarningMessage": "{databasename} 中的密碼僅僅存在本機中！",
+  "@backupWarningMessage": {
+    "description": "Warning message that is displayed in backup warnings",
+    "placeholders": {
+      "databasename": {
+        "example": "PasswordDatabase"
+      }
+    }
+  },
+  "saveAs": "儲存到...",
+  "@saveAs": {
+    "description": "Save as text"
+  },
+  "saving": "儲存中",
+  "@saving": {
+    "description": "Saving text"
+  },
+  "increaseValue": "增加",
+  "@increaseValue": {
+    "description": "Preferences value modifier (Text Scale Factor/Visual Density)"
+  },
+  "decreaseValue": "減少",
+  "@decreaseValue": {
+    "description": "Preferences value modifier (Text Scale Factor/Visual Density)"
+  },
+  "resetValue": "重新設定",
+  "@resetValue": {
+    "description": "Preferences value modifier (Text Scale Factor/Visual Density)"
+  },
+  "cloudStorageLogInCaption": "您將被重定向到驗證 AuthPass 以訪問您的數據。",
+  "@cloudStorageLogInCaption": {
+    "description": ""
+  },
+  "cloudStorageLogInCode": "輸入代碼",
+  "@cloudStorageLogInCode": {
+    "description": "for oauth authentication user has to enter auth code - this is the label for the text field."
+  },
+  "launchUrlError": "無法啟動網址。請訪問{url}",
+  "@launchUrlError": {
+    "description": "",
+    "placeholders": {
+      "url": {}
+    }
+  },
+  "cloudStorageLogInActionLabel": "登錄到 {cloudStorageName}",
+  "@cloudStorageLogInActionLabel": {
+    "description": "when the user has not authenticated yet, he will see this button to start the login flow of a cloud storage backend.",
+    "placeholders": {
+      "cloudStorageName": {
+        "example": "Dropbox"
+      }
+    }
+  },
+  "cloudStorageAuthCodeLabel": "驗證碼",
+  "@cloudStorageAuthCodeLabel": {
+    "description": ""
+  },
+  "cloudStorageAuthErrorTitle": "驗證時出錯",
+  "@cloudStorageAuthErrorTitle": {
+    "description": ""
+  },
+  "cloudStorageSearchBoxLabel": "搜索查詢",
+  "@cloudStorageSearchBoxLabel": {
+    "description": ""
+  },
+  "mailSubject": "主題",
+  "@mailSubject": {
+    "description": ""
+  },
+  "mailFrom": "發件人",
+  "@mailFrom": {
+    "description": ""
+  },
+  "mailDate": "日期",
+  "@mailDate": {
+    "description": ""
+  },
+  "mailMailbox": "郵箱",
+  "@mailMailbox": {
+    "description": ""
+  },
+  "mailNoData": "沒有數據",
+  "@mailNoData": {
+    "description": "Message shown when email text body is empty (or can't be decoded)"
+  },
+  "mailMailboxesTitle": "郵箱",
+  "@mailMailboxesTitle": {
+    "description": "Title of the screen showing all available mailboxes."
+  },
+  "mailboxCreateButtonLabel": "創建",
+  "@mailboxCreateButtonLabel": {
+    "description": "FAB label to create a new mailbox."
+  },
+  "mailScreenTitle": "AuthPass 郵箱",
+  "@mailScreenTitle": {
+    "description": "title for the screen showing available emails"
+  },
+  "mailTabBarTitleMailbox": "郵箱",
+  "@mailTabBarTitleMailbox": {
+    "description": "title for the tab showing list of mailboxes."
+  },
+  "mailTabBarTitleMail": "郵件",
+  "@mailTabBarTitleMail": {
+    "description": "title for the tab showing list of mails."
+  },
+  "mailMailboxListEmpty": "您還沒有任何郵箱。",
+  "@mailMailboxListEmpty": {
+    "description": ""
+  },
+  "mailMailboxAddressCopied": "成功將郵箱地址複製到剪貼板： {mailboxAddress}",
+  "@mailMailboxAddressCopied": {
+    "description": "Success message when mailbox email address was copied to clipboard.",
+    "placeholders": {
+      "mailboxAddress": {
+        "example": "dkasdfiasdfi@mail.authpass.app"
+      }
+    }
+  },
+  "errorWhileSavingTitle": "保存時出錯",
+  "@errorWhileSavingTitle": {
+    "description": "title for error dialog shown when an error occurs while saving"
+  },
+  "errorWhileSavingBody": "無法保存文件： {errorMessage}",
+  "@errorWhileSavingBody": {
+    "description": "",
+    "placeholders": {
+      "errorMessage": {}
+    }
+  },
+  "databaseDoesNotSupportSaving": "抱歉，此數據庫不支持保存。請打開一個本地數據庫文件。或使用“另存為”。",
+  "@databaseDoesNotSupportSaving": {
+    "description": "keepass files loaded through a URL can't be saved."
+  },
+  "otpInvalidKeyTitle": "無效密鑰",
+  "@otpInvalidKeyTitle": {
+    "description": "dialog title for an invalid key of a one time password (OTP/TOTP)"
+  },
+  "otpInvalidKeyBody": "給定的輸入不是有效的 base32 TOTP 代碼。請驗證您的輸入。",
+  "@otpInvalidKeyBody": {
+    "description": ""
+  },
+  "otpPromptTitle": "基於時間的身份驗證",
+  "@otpPromptTitle": {
+    "description": ""
+  },
+  "otpPromptHelperText": "請輸入基於時間的密鑰。",
+  "@otpPromptHelperText": {
+    "description": ""
+  },
+  "entryFieldProtected": "受保護的領域。點擊揭示。",
+  "@entryFieldProtected": {
+    "description": ""
+  },
+  "entryFieldActionRevealField": "顯示受保護的字段",
+  "@entryFieldActionRevealField": {
+    "description": ""
+  },
+  "entryAttachmentOpenActionLabel": "打開",
+  "@entryAttachmentOpenActionLabel": {
+    "description": ""
+  },
+  "entryAttachmentShareActionLabel": "分享",
+  "@entryAttachmentShareActionLabel": {
+    "description": ""
+  },
+  "entryAttachmentShareSubject": "附件",
+  "@entryAttachmentShareSubject": {
+    "description": "the 'subject' passed to the system when sharing an attachment. "
+  },
+  "entryAttachmentSaveActionLabel": "保存到設備",
+  "@entryAttachmentSaveActionLabel": {
+    "description": ""
+  },
+  "entryAttachmentRemoveActionLabel": "移除",
+  "@entryAttachmentRemoveActionLabel": {
+    "description": ""
+  },
+  "entryAttachmentRemoveConfirm": "確定要刪除 {attachmentLabel} 嗎？",
+  "@entryAttachmentRemoveConfirm": {
+    "description": "",
+    "placeholders": {
+      "attachmentLabel": {}
+    }
+  },
+  "entryRenameFieldPromptTitle": "重命名字段",
+  "@entryRenameFieldPromptTitle": {
+    "description": ""
+  },
+  "removerecentfile": "隱藏",
+  "@removerecentfile": {
+    "description": ""
+  },
+  "entryRenameFieldPromptLabel": "輸入字段的新名稱",
+  "@entryRenameFieldPromptLabel": {
+    "description": ""
+  },
+  "promptDialogPasteActionTooltip": "從剪貼板粘貼",
+  "@promptDialogPasteActionTooltip": {
+    "description": ""
+  },
+  "promptDialogPasteHint": "提示：如果您需要粘貼，不妨嘗試左邊的按鈕 ;-)",
+  "@promptDialogPasteHint": {
+    "description": "sometimes the paste shortcut is not working properly, so tell users they can use the paste button from the UI"
+  },
+  "genericErrorDialogTitle": "處理動作時出錯",
+  "@genericErrorDialogTitle": {
+    "description": ""
+  },
+  "genericErrorDialogBody": "發生意外錯誤：{errorMessage}",
+  "@genericErrorDialogBody": {
+    "description": "",
+    "placeholders": {
+      "errorMessage": {}
+    }
+  },
+  "saveAsEntryLocalFile": "本機檔案",
+  "@saveAsEntryLocalFile": {
+    "description": "menu entry in the 'save as' dialog for saving as local file."
+  },
+  "newGroupDialogTitle": "新群組",
+  "@newGroupDialogTitle": {
+    "description": ""
+  },
+  "groupActionDelete": "刪除",
+  "@groupActionDelete": {
+    "description": ""
+  },
+  "shareCodeLoadingProgress": "檔案讀取中 …",
+  "@shareCodeLoadingProgress": {
+    "description": ""
+  },
+  "shortcutCopyUsername": "複製帳號",
+  "@shortcutCopyUsername": {
+    "description": ""
+  },
+  "shortcutCopyPassword": "複製密碼",
+  "@shortcutCopyPassword": {
+    "description": ""
+  },
+  "shortcutGeneratePassword": "產生密碼",
+  "@shortcutGeneratePassword": {
+    "description": ""
+  },
+  "shortcutOpenUrl": "開啟 URL",
+  "@shortcutOpenUrl": {
+    "description": ""
+  },
+  "unexpectedError": "不明錯誤：{error}",
+  "@unexpectedError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  }
 }
