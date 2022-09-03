@@ -213,5 +213,558 @@
     }
   },
   "aboutAppName": "AuthPass",
-  "@aboutAppName": {}
+  "@aboutAppName": {},
+  "aboutLinkFeedback": "Toivotamme tervetulleeksi kaikenlaisen palautteen!",
+  "@aboutLinkFeedback": {},
+  "aboutLinkVisitWebsite": "Muista myös vierailla sivuillamme",
+  "@aboutLinkVisitWebsite": {},
+  "aboutLinkGitHub": "Ja Avoimen Lähdekoodin Projekti",
+  "@aboutLinkGitHub": {},
+  "aboutLogFile": "Lokitiedosto: {logFilePath}",
+  "aboutLinkContributors": "Näytä Avustajat",
+  "@aboutLinkContributors": {},
+  "@aboutLogFile": {
+    "placeholders": {
+      "logFilePath": {
+        "type": "String",
+        "example": "/Users/mustermann/log.txt"
+      }
+    }
+  },
+  "unableToLaunchUrlTitle": "Url-osoitetta ei voi avata",
+  "@unableToLaunchUrlTitle": {
+    "description": ""
+  },
+  "unableToLaunchUrlDescription": "Ei voida käynnistää {url}: {openError}",
+  "@unableToLaunchUrlDescription": {
+    "description": "",
+    "placeholders": {
+      "url": {
+        "description": "URL which we tried to open."
+      },
+      "openError": {
+        "description": "Information about the error"
+      }
+    }
+  },
+  "unableToLaunchUrlNoHandler": "Url-osoitteelle ei ole saatavilla sovellusta.",
+  "@unableToLaunchUrlNoHandler": {
+    "description": ""
+  },
+  "launchedUrl": "Avattu URL-osoite: {url}",
+  "@launchedUrl": {
+    "description": "snackbar confirmation after opening a url externally",
+    "placeholders": {
+      "url": {
+        "description": "URL which was just launched."
+      }
+    }
+  },
+  "menuItemGeneratePassword": "Luo Salasana",
+  "@menuItemGeneratePassword": {},
+  "menuItemPreferences": "Asetukset",
+  "@menuItemPreferences": {},
+  "menuItemOpenAnotherFile": "Avaa toinen tiedosto",
+  "@menuItemOpenAnotherFile": {},
+  "menuItemCheckForUpdates": "Tarkista päivitykset",
+  "@menuItemCheckForUpdates": {},
+  "menuItemSupport": "Lähetä lokitiedot",
+  "@menuItemSupport": {},
+  "menuItemSupportSubtitle": "Lähetä lokitiedot sähköpostitse",
+  "@menuItemSupportSubtitle": {},
+  "menuItemForum": "Tuki Foorumi",
+  "@menuItemForum": {},
+  "menuItemForumSubtitle": "Ilmoita ongelmista ja saa apua",
+  "@menuItemForumSubtitle": {},
+  "menuItemHelp": "Ohje",
+  "@menuItemHelp": {},
+  "menuItemHelpSubtitle": "Näytä dokumentaatio",
+  "@menuItemHelpSubtitle": {},
+  "menuItemAbout": "Tietoja",
+  "@menuItemAbout": {},
+  "actionOpenUrl": "Avaa URL-osoite",
+  "@actionOpenUrl": {
+    "description": "tooltip for button to open URL/Website of an entry."
+  },
+  "passwordPlainText": "Näytä salasana",
+  "@passwordPlainText": {
+    "description": "Master password input: show password as plain text during input. (shown as tooltip)"
+  },
+  "generatorPassword": "Salasana",
+  "@generatorPassword": {
+    "description": "Label for generated password"
+  },
+  "generatePassword": "Luo Salasana",
+  "@generatePassword": {
+    "description": "screen title for password generator"
+  },
+  "doneButtonLabel": "Valmis",
+  "@doneButtonLabel": {
+    "description": "generic button label for 'Done' action."
+  },
+  "useAsDefault": "Käytä oletuksena",
+  "@useAsDefault": {
+    "description": "Button Label for Password generator settings: use as defaults",
+    "context": "Password generator"
+  },
+  "characterSetLowerCase": "Pienet kirjaimet (a-z)",
+  "@characterSetLowerCase": {
+    "context": "Password generator"
+  },
+  "characterSetUpperCase": "Isot kirjaimet (A-Z)",
+  "@characterSetUpperCase": {
+    "context": "Password generator"
+  },
+  "characterSetNumeric": "Numerot (0-9)",
+  "@characterSetNumeric": {
+    "context": "Password generator"
+  },
+  "characterSetUmlauts": "Umlautit (ä)",
+  "@characterSetUmlauts": {
+    "context": "Password generator"
+  },
+  "characterSetSpecial": "Erikois (@%+)",
+  "@characterSetSpecial": {
+    "context": "Password generator"
+  },
+  "length": "Pituus",
+  "@length": {
+    "description": "Length of password",
+    "context": "Password generator"
+  },
+  "customLength": "Muokattu Pituus",
+  "@customLength": {
+    "description": "Label for custom length field",
+    "context": "Password generator"
+  },
+  "customLengthHelperText": "Käytetään vain pituudeltaan > {customMinLength}",
+  "@customLengthHelperText": {
+    "description": "Help text for custom length field",
+    "context": "Password generator",
+    "placeholders": {
+      "customMinLength": {
+        "example": "40"
+      }
+    }
+  },
+  "savedFiles": "{numFiles, plural, one {}=1 {Yksi tiedosto tallennettu: {files}} other {{numFiles} tiedostot tallennettu: {files}}}",
+  "@savedFiles": {
+    "description": "Message displayed when files were saved. (One or more).",
+    "context": "Password list",
+    "placeholders": {
+      "numFiles": {
+        "description": "Number of files that have been saved (at least 1)",
+        "type": "int",
+        "format": "compactLong"
+      },
+      "files": {
+        "description": "Comma separated list of vault names."
+      }
+    }
+  },
+  "manageGroups": "Hallitse Ryhmiä",
+  "@manageGroups": {
+    "description": ""
+  },
+  "lockFiles": "Lukitse Tiedostot",
+  "@lockFiles": {
+    "description": "Close all files and return to start screen."
+  },
+  "searchHint": "Etsi",
+  "@searchHint": {
+    "description": "Placeholder in the password list search box"
+  },
+  "searchButtonLabel": "Etsi",
+  "@searchButtonLabel": {
+    "description": "search button tooltip/semantic label"
+  },
+  "filterButtonLabel": "Suodata ryhmän mukaan",
+  "@filterButtonLabel": {
+    "description": "tooltip/semantic label for filter app bar icon."
+  },
+  "clear": "Tyhjennä",
+  "@clear": {
+    "description": "Remove existing group filter from password list"
+  },
+  "autofillFilterPrefix": "Suodatin:",
+  "@autofillFilterPrefix": {
+    "description": "Label displayed for android auto fill"
+  },
+  "autofillPrompt": "Valitse salasanan syöttö automaattista täyttöä varten.",
+  "@autofillPrompt": {
+    "description": ""
+  },
+  "copiedToClipboard": "Kopioitu leikepöydälle.",
+  "@copiedToClipboard": {
+    "description": "Snackbar text when copying text to clipboard."
+  },
+  "noTitle": "(ei otsikkoa)",
+  "@noTitle": {
+    "description": "Text to display in place of a title, when password entry has no name assigned."
+  },
+  "noUsername": "(ei käyttäjänimeä)",
+  "@noUsername": {
+    "description": "Text to display in place of a user name in the password list if none is defined."
+  },
+  "filterCustomize": "Muokkaa …",
+  "@filterCustomize": {
+    "description": "Customize filter in password list"
+  },
+  "swipeCopyPassword": "Kopioi Salasana",
+  "@swipeCopyPassword": {
+    "description": "swipe action in password list to copy password"
+  },
+  "swipeCopyUsername": "Kopioi Käyttäjänimi",
+  "@swipeCopyUsername": {
+    "description": "swipe action in password list to copy username"
+  },
+  "copyUsernameNotExists": "Käyttäjänimeä ei ole määritelty.",
+  "@copyUsernameNotExists": {
+    "description": "Error message when trying to copy username from an entry which has none."
+  },
+  "copyPasswordNotExists": "Merkinnässä ei ole määritetty salasanaa.",
+  "@copyPasswordNotExists": {
+    "description": "Error message when trying to copy password from an entry which has none."
+  },
+  "doneCopiedPassword": "Salasana kopioitu leikepöydälle.",
+  "@doneCopiedPassword": {
+    "description": "snackbar confirmation that password was copied."
+  },
+  "mailboxLabelPrefixCreatedAt": "Luotu osoitteessa: {dateTime}",
+  "@mailboxLabelPrefixCreatedAt": {
+    "description": "When a mailbox was not created for an entry and has no label, the creation date is shown.",
+    "placeholders": {
+      "dateTime": {}
+    }
+  },
+  "masterPasswordDescription": "Pääsalasanaa käytetään salaamaan turvallisesti salasanatietokantasi. Varmista, että muistat sen, sitä ei voi palauttaa.",
+  "@masterPasswordDescription": {
+    "description": ""
+  },
+  "unsavedChangesWarningTitle": "Tallentamattomat Muutokset",
+  "@unsavedChangesWarningTitle": {
+    "description": ""
+  },
+  "unsavedChangesWarningBody": "Tallentamattomia muutoksia on edelleen. Haluatko hylätä muutokset?",
+  "@unsavedChangesWarningBody": {
+    "description": ""
+  },
+  "unsavedChangesDiscardActionLabel": "Hylkää Muutokset",
+  "@unsavedChangesDiscardActionLabel": {
+    "description": ""
+  },
+  "deletePermanentlyAction": "Poista Pysyvästi",
+  "@deletePermanentlyAction": {
+    "description": "menu action: delete an item permanently from the file (only shown for entries/groups already in the recycle bin."
+  },
+  "restoreFromRecycleBinAction": "Palauta",
+  "@restoreFromRecycleBinAction": {
+    "description": "menu action: restore an entry/group which was moved into the recycle bin."
+  },
+  "deleteAction": "Poista",
+  "@deleteAction": {
+    "description": "menu action: delete item (e.g. delete a group)"
+  },
+  "deletedEntry": "Poistettu merkintä.",
+  "@deletedEntry": {
+    "description": "Confirmation when a password entry was deleted (ie. moved to recycle bin)"
+  },
+  "successfullyDeletedGroup": "Poistettu ryhmä.",
+  "@successfullyDeletedGroup": {
+    "description": "snackbar after deleting a group."
+  },
+  "undoButtonLabel": "Kumoa",
+  "@undoButtonLabel": {
+    "description": "undo action label (e.g. in a snackbar after deleting a group, or some other action)"
+  },
+  "saveButtonLabel": "Tallenna",
+  "@saveButtonLabel": {
+    "description": "save file, for example button displayed in entry details"
+  },
+  "webDavSettings": "WebDAV asetukset",
+  "@webDavSettings": {
+    "description": "dialog title for entering WebDAV settings."
+  },
+  "webDavUrlLabel": "URL-osoite",
+  "@webDavUrlLabel": {
+    "description": ""
+  },
+  "webDavUrlHelperText": "WebDAV palvelun Url-osoite.",
+  "@webDavUrlHelperText": {
+    "description": ""
+  },
+  "webDavUrlValidatorError": "Anna URL-osoite",
+  "@webDavUrlValidatorError": {
+    "description": ""
+  },
+  "webDavUrlValidatorInvalidUrlError": "Syötä kelvollinen Url-osoite http:// tai http://",
+  "@webDavUrlValidatorInvalidUrlError": {
+    "description": ""
+  },
+  "webDavAuthUser": "Käyttäjätunnus",
+  "@webDavAuthUser": {
+    "description": ""
+  },
+  "webDavAuthPassword": "Salasana",
+  "@webDavAuthPassword": {
+    "description": ""
+  },
+  "mergeSuccessDialogTitle": "Salasanan tietokanta yhdistetty onnistuneesti",
+  "@mergeSuccessDialogTitle": {
+    "description": ""
+  },
+  "mergeSuccessDialogMessage": "Ristiriita havaittu tallennettaessa {fileName}, se yhdistettiin onnistuneesti etätiedostoon: \n\n{mergeSummary}",
+  "@mergeSuccessDialogMessage": {
+    "description": "",
+    "placeholders": {
+      "fileName": {},
+      "mergeSummary": {}
+    }
+  },
+  "forDetailsVisitUrl": "Tarkemmat tiedot {url}",
+  "@forDetailsVisitUrl": {
+    "description": "",
+    "placeholders": {
+      "url": {}
+    }
+  },
+  "authPassCloudAuthEmailInputLabel": "Anna sähköpostiosoite rekisteröityäksesi tai kirjautuaksesi sisään.",
+  "@authPassCloudAuthEmailInputLabel": {
+    "description": ""
+  },
+  "authPassCloudAuthEmailInvalid": "Ole hyvä ja syötä toimiva sähköpostiosoite.",
+  "@authPassCloudAuthEmailInvalid": {
+    "description": ""
+  },
+  "authPassCloudAuthConfirmEmailButtonLabel": "Vahvista osoite",
+  "@authPassCloudAuthConfirmEmailButtonLabel": {
+    "description": ""
+  },
+  "authPassCloudAuthConfirmEmail": "Tarkista sähköpostisi ja vahvista sähköpostiosoitteesi.",
+  "@authPassCloudAuthConfirmEmail": {
+    "description": ""
+  },
+  "authPassCloudAuthConfirmEmailExplain": "Pidä tämä näyttö auki, kunnes vierailet sähköpostissa saamassasi linkissä.",
+  "@authPassCloudAuthConfirmEmailExplain": {
+    "description": ""
+  },
+  "authPassCloudAuthResendExplain": "Jos et ole saanut sähköpostia, tarkista roskapostikansio. Muussa tapauksessa voit yrittää pyytää uuden vahvistuslinkin.",
+  "@authPassCloudAuthResendExplain": {
+    "description": ""
+  },
+  "authPassCloudAuthResendButtonLabel": "Pyydä uusi vahvistuslinkki",
+  "@authPassCloudAuthResendButtonLabel": {
+    "description": ""
+  },
+  "permanentlyDeleteEntryConfirm": "Tämä poistaa salasanan merkinnän {title} pysyvästi. Tätä ei voi perua. Haluatko jatkaa?",
+  "@permanentlyDeleteEntryConfirm": {
+    "description": "shown to force user to acknowledge delete before a entry will be permanently deleted.",
+    "placeholders": {
+      "title": {}
+    }
+  },
+  "permanentlyDeletedEntrySnackBar": "Poistettu pysyvästi.",
+  "@permanentlyDeletedEntrySnackBar": {
+    "description": "snackbar confirming that the entry was deleted."
+  },
+  "initialNewGroupName": "Uusi Ryhmä",
+  "@initialNewGroupName": {
+    "description": "initial name of groups when user creates a new one."
+  },
+  "deleteGroupErrorTitle": "Ryhmää ei voi poistaa",
+  "@deleteGroupErrorTitle": {
+    "description": "Title of error dialog when group could not be deleted."
+  },
+  "deleteGroupErrorBodyContainsGroup": "Tämä ryhmä sisältää edelleen muita ryhmiä. Voit tällä hetkellä poistaa vain tyhjiä ryhmiä.",
+  "@deleteGroupErrorBodyContainsGroup": {
+    "description": "Body of error dialog when a group can't be deleted because it is not empty."
+  },
+  "deleteGroupErrorBodyContainsEntries": "Tämä ryhmä sisältää edelleen salasanamerkintöjä. Tällä hetkellä voit poistaa vain tyhjiä ryhmiä.",
+  "@deleteGroupErrorBodyContainsEntries": {
+    "description": "Body of error dialog when a group can't be deleted because it is not empty."
+  },
+  "groupListAppBarTitle": "Ryhmät",
+  "@groupListAppBarTitle": {
+    "description": "title in the app bar for the groups list"
+  },
+  "groupListFilterAppbarTitle": "Suodata ryhmien mukaan",
+  "@groupListFilterAppbarTitle": {
+    "description": "title in the app bar for group lists when displayed for filtering password list"
+  },
+  "clearQuickUnlock": "Tyhjennä Biometrinen Tallennustila",
+  "@clearQuickUnlock": {
+    "description": ""
+  },
+  "clearQuickUnlockSubtitle": "Poista tallennetut pääsalasanat",
+  "@clearQuickUnlockSubtitle": {
+    "description": ""
+  },
+  "unlock": "Lukitse Tiedostot",
+  "@unlock": {
+    "description": ""
+  },
+  "closePasswordFiles": "sulje salasanatiedostot",
+  "@closePasswordFiles": {
+    "description": "delete quick unlock (passwords stored in biometric storage)"
+  },
+  "clearQuickUnlockSuccess": "Tallennetut pääsalasanat poistettiin biometrisesta tallennustilasta.",
+  "@clearQuickUnlockSuccess": {
+    "description": ""
+  },
+  "diacOptIn": "Valitse sovelluksen sisäiset uutiset, kyselyt.",
+  "@diacOptIn": {},
+  "diacOptInSubtitle": "Lähettää toisinaan verkkopyynnön noutaakseen uutisia.",
+  "@diacOptInSubtitle": {},
+  "enableAutofillDebug": "Automaattinen täyttö: Ota virheenkorjaus käyttöön",
+  "@enableAutofillDebug": {
+    "description": "only visible in debug build. Preference to enable Auto-Fill Debugging."
+  },
+  "enableAutofillDebugSubtitle": "Näyttää kaikkien syöttökenttien tiedot",
+  "@enableAutofillDebugSubtitle": {
+    "description": "only visible in debug build. Preference to enable Auto-Fill Debugging."
+  },
+  "createPasswordDatabase": "Luo salasanatietokanta",
+  "@createPasswordDatabase": {
+    "description": ""
+  },
+  "nameNewPasswordDatabase": "Uuden tietokannan nimi",
+  "@nameNewPasswordDatabase": {
+    "description": "creating new kdbx file, prompt"
+  },
+  "validatorNameMissing": "Ole hyvä ja syötä nimi uudelle tietokannalle.",
+  "@validatorNameMissing": {
+    "description": "Error message when no password database name is given."
+  },
+  "masterPasswordHelpText": "Valitse turvallinen pääsalasana. Varmista, että muistat sen.",
+  "@masterPasswordHelpText": {
+    "description": "DEPRECATED FOR NOW help text for master password when creating new password database"
+  },
+  "cloudStorageAuthCodeLabel": "Todennuskoodi",
+  "@cloudStorageAuthCodeLabel": {
+    "description": ""
+  },
+  "cloudStorageAuthErrorTitle": "Virhe todennuksen aikana",
+  "@cloudStorageAuthErrorTitle": {
+    "description": ""
+  },
+  "cloudStorageAuthErrorMessage": "Virhe, kun yritetään tunnistautua {cloudStorageName}: {errorMessage}",
+  "@cloudStorageAuthErrorMessage": {
+    "description": "",
+    "placeholders": {
+      "cloudStorageName": {
+        "example": "Dropbox"
+      },
+      "errorMessage": {}
+    }
+  },
+  "cloudStorageSearchBoxLabel": "Hakukysely",
+  "@cloudStorageSearchBoxLabel": {
+    "description": ""
+  },
+  "cloudStorageItemsInFolder": "{itemCount} kohdetta tässä kansiossa.",
+  "@cloudStorageItemsInFolder": {
+    "description": "",
+    "placeholders": {
+      "itemCount": {}
+    }
+  },
+  "mailSubject": "Aihe",
+  "@mailSubject": {
+    "description": ""
+  },
+  "mailFrom": "Alkaen",
+  "@mailFrom": {
+    "description": ""
+  },
+  "mailDate": "Päivämäärä",
+  "@mailDate": {
+    "description": ""
+  },
+  "mailMailbox": "Sähköpostilaatikko",
+  "@mailMailbox": {
+    "description": ""
+  },
+  "mailNoData": "Ei Dataa",
+  "@mailNoData": {
+    "description": "Message shown when email text body is empty (or can't be decoded)"
+  },
+  "mailMailboxesTitle": "Sähköpostilaatikko",
+  "@mailMailboxesTitle": {
+    "description": "Title of the screen showing all available mailboxes."
+  },
+  "mailboxCreateButtonLabel": "Luo",
+  "@mailboxCreateButtonLabel": {
+    "description": "FAB label to create a new mailbox."
+  },
+  "mailboxNameInputDialogTitle": "Valinnainen merkintä uudelle postilaatikolle",
+  "@mailboxNameInputDialogTitle": {
+    "description": "title of the dialog asking for a mailbox label/name"
+  },
+  "mailboxNameInputLabel": "(Sisäinen) Merkki",
+  "@mailboxNameInputLabel": {
+    "description": "Label for the text field asking for a label for a mailbox, while creating it."
+  },
+  "mailScreenTitle": "AuthPass Sähköposti",
+  "@mailScreenTitle": {
+    "description": "title for the screen showing available emails"
+  },
+  "mailTabBarTitleMailbox": "Sähköpostilaatikko",
+  "@mailTabBarTitleMailbox": {
+    "description": "title for the tab showing list of mailboxes."
+  },
+  "mailTabBarTitleMail": "Sähköposti",
+  "@mailTabBarTitleMail": {
+    "description": "title for the tab showing list of mails."
+  },
+  "mailMailboxListEmpty": "Sinulla ei ole vielä yhtään sähköpostipostilaatikkoa.",
+  "@mailMailboxListEmpty": {
+    "description": ""
+  },
+  "mailMailboxAddressCopied": "Kopioi postilaatikon osoite leikepöydälle: {mailboxAddress}",
+  "@mailMailboxAddressCopied": {
+    "description": "Success message when mailbox email address was copied to clipboard.",
+    "placeholders": {
+      "mailboxAddress": {
+        "example": "dkasdfiasdfi@mail.authpass.app"
+      }
+    }
+  },
+  "errorWhileSavingTitle": "Virhe tallennettaessa",
+  "@errorWhileSavingTitle": {
+    "description": "title for error dialog shown when an error occurs while saving"
+  },
+  "errorWhileSavingBody": "Tiedostoa ei voi tallentaa: {errorMessage}",
+  "@errorWhileSavingBody": {
+    "description": "",
+    "placeholders": {
+      "errorMessage": {}
+    }
+  },
+  "databaseDoesNotSupportSaving": "Valitettavasti tämä tietokanta ei tue tallennusta. Avaa paikallinen tietokantatiedosto. Tai käytä \"Tallenna nimellä\".",
+  "@databaseDoesNotSupportSaving": {
+    "description": "keepass files loaded through a URL can't be saved."
+  },
+  "otpInvalidKeyTitle": "Virheellinen Avain",
+  "@otpInvalidKeyTitle": {
+    "description": "dialog title for an invalid key of a one time password (OTP/TOTP)"
+  },
+  "otpInvalidKeyBody": "Annettu syöte ei ole kelvollinen base32 TOTP koodi. Tarkista syötteesi.",
+  "@otpInvalidKeyBody": {
+    "description": ""
+  },
+  "otpPromptTitle": "Aikaperusteinen Todennus",
+  "@otpPromptTitle": {
+    "description": ""
+  },
+  "otpPromptHelperText": "Ole hyvä ja syötä aikaperusteinen avain.",
+  "@otpPromptHelperText": {
+    "description": ""
+  },
+  "otpErrorMessageGeneration": "Virhe luotaessa kutsukoodia: {errorMessage}",
+  "@otpErrorMessageGeneration": {
+    "description": "",
+    "placeholders": {
+      "errorMessage": {}
+    }
+  }
 }
