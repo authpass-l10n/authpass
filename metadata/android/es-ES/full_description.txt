@@ -9,7 +9,7 @@ Almacene sus contraseñas, comparta en todos sus dispositivos y encuentrelas fá
 <li>Desbloqueo rápido asegurado con bloqueo biométrico (sólo android por ahora)</li>
 <li>Mantén un seguimiento de tus cuentas a través de la web.</li>
 <li>Aplicación disponible para Mac, iOS, Android, Linux y Windows.</li>
-<li>Código Abierto disponible en https://github. om/authpass/authpass/</li>
+<li>Código Abierto disponible en https://github.
 <li>Contribuciones bienvenidas y alentadas ;-) (Siempre buscando desarrolladores, traductores, escritores de documentación, diseñadores de interfaz de usuario, etc. :) ), simplemente únete a nuestro canal de discord.</li>
 </ul>
 
