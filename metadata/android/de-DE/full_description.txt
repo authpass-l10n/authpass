@@ -1,20 +1,16 @@
-<p>Sichere und einfache Verwahrung all Deiner Passwörter! Finde schnell all Deine Zugriffsdaten und erstelle neue Passwörter.</p>
+<p>Easily and securely keep track of all your Passwords!</p>
 
-<p>AuthPass ist ein lokaler Passwort Manager der das populäre (und bewährte) Format von KeePass (kdbx) unterstützt/verwendet.
-Dies erlaubt das Weiterverwenden von bestehenden Passwort Datenbanken aus anderen kompatiblen Apps sowie bietet die 
-Sicherheit eines erprobten, sicheren Formats.</p>
-
-<p>Mithilfe von AuthPass kannst Du auf all Deinen Geräten mit der selben App all deine Benutzerkonten und Passwörter verwalten,
-neue Passwörter (und Email Adressen) generieren und über Cloud storage (z.b. WebDav) synchronisieren.</p>
+<p>AuthPass is a stand alone password manager with support for the popular and proven Keepass (kdbx) format. 
+Store your passwords, share across all your devices and easily find them whenever you need to login.</p>
 
 <ul>
-<li>All deine Benutzerkonten und Passwörter an einer Stelle.</li>
-<li>Auto-Fill ab Android 9 und mit Browser support ab Android 10.</li>
-<li>Generiere sichere, Zufallspasswörter für all deine Konten.</li>
-<li>Quick Unlock von Passwortdatenbanken gesichert mit Biometric Lock (Fingerabdruck oder Face Unlock).</li>
-<li>Verfügbar auf all deinen Geräten: Für MacOS, iOS, iPadOS, Android, Linux and Windows.</li>
-<li>Open Source und verfügbar unter https://github.com/authpass/authpass/ - Mehr Informationen unter https://authpass.app/</li>
-<li>Contributions welcome ;-) (Für Entwickler, Übersetzer, Dokumentation, Grafiker, etc. immer gerne gesehen ;-) )</li>
+<li>All your passwords in one place.<li>
+<li>Generate secure random passwords for each of your accounts.</li>
+<li>Quick Unlock secured with biometric lock (android only right now)</li>
+<li>Keep track of your accounts across the web.</li>
+<li>App available for Mac, iOS, Android, Linux and Windows.</li>
+<li>Open Source available on https://github.com/authpass/authpass/</li>
+<li>Contributions welcome and encouraged ;-) (Always looking for developers, translators, documentation writers, UI designer, etcc. :) ), just join our discord channel.</li>
 </ul>
 
-<p>Besuche unseren Discord channel! https://authpass.app/go/discord Bei Problemen, Fragen oder Feature requests.</p>
+<p>Join our discord channel at https://authpass.app/go/discord - In case of any Problems, Feedback, etc. or just to hang out.</p>
