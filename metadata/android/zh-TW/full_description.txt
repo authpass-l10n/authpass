@@ -1,16 +1,16 @@
-<p>記錄所有的密碼，輕鬆寫意！</p>
+<p>Easily and securely keep track of all your Passwords!</p>
 
-<p>AuthPass 支援知名密碼檔格式 Keepass （kdbx），是社群獨立開發的密碼管理工具。 
-儲存密碼、輕鬆搜尋、跨機分享，任何需要登入的地方，都少不了他。</p>
+<p>AuthPass is a stand alone password manager with support for the popular and proven Keepass (kdbx) format. 
+Store your passwords, share across all your devices and easily find them whenever you need to login.</p>
 
 <ul>
-<li>將所有密碼都存進來。<li>
-<li>為帳號隨機建立安全的密碼。</li>
-<li>以生物辨識快速解鎖</li>
-<li>在網路上追蹤使用的帳號。</li>
-<li>支援 macOS、iOS、Android、Linux 及 Windows。</li>
-<li>開放原始碼： https://github.com/authpass/authpass/</li>
-<li>歡迎大家協助補綴！無限期徵求開發、翻譯、介面設計、文件寫手等等，請加入我們的 Discord 頻道。</li>
+<li>All your passwords in one place.<li>
+<li>Generate secure random passwords for each of your accounts.</li>
+<li>Quick Unlock secured with biometric lock (android only right now)</li>
+<li>Keep track of your accounts across the web.</li>
+<li>App available for Mac, iOS, Android, Linux and Windows.</li>
+<li>Open Source available on https://github.com/authpass/authpass/</li>
+<li>Contributions welcome and encouraged ;-) (Always looking for developers, translators, documentation writers, UI designer, etcc. :) ), just join our discord channel.</li>
 </ul>
 
-<p>我們的 Discord 頻道就在https://authpass.app/go/discord ，有話想問、有意見想說、想閒聊 say hi，都歡迎加入。</p>
+<p>Join our discord channel at https://authpass.app/go/discord - In case of any Problems, Feedback, etc. or just to hang out.</p>
