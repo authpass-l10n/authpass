@@ -9,8 +9,8 @@ Stockez vos mots de passe, partagez-les sur tous vos appareils et trouvez-les fa
 <li>Déverrouillage rapide sécurisé avec verrou biométrique (Android uniquement)</li>
 <li>Gardez une trace de vos comptes sur le Web.</li>
 <li>Appli disponible sous Mac, iOS, Android, Linux et Windows.</li>
-<li>Code Open Source, disponible sur https://github. om/authpass/authpass/</li>
+<li>Code Open Source, disponible sur https://github.
 <li>Contributions bienvenues et encouragées ;-) (en constante recherche de développeurs, traducteurs, rédacteurs de documentation, designer d'interface, etc. :) ), rejoignez notre canal discord.</li>
 </ul>
 
-<p>Rejoignez notre canal discord sur https://authpass. pp/go/discord - En cas de problèmes, de retour, etc. ou simplement pour flâner.</p>
+<p>Rejoignez notre canal discord sur https://authpass. ou simplement pour flâner.</p>
