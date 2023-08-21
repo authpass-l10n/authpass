@@ -1,16 +1,16 @@
-<p>Memorizza facilmente e in sicurezza le tue password!</p>
+<p>Easily and securely keep track of all your Passwords!</p>
 
-<p>AuthPass è un Password Manager indipendente che supporta l'ormai popolare e sicuro formato KeePass (kdbx). 
-Salva le tue password, accessibili da ogni tuo dispositivo e facili da trovare per ogni volta che devi fare un login.</p>
+<p>AuthPass is a stand alone password manager with support for the popular and proven Keepass (kdbx) format. 
+Store your passwords, share across all your devices and easily find them whenever you need to login.</p>
 
 <ul>
-<li>Tutte le tue passowrd in un unico posto sicuro.<li>
-<li>Genera password ad alto livello di sicurezza per ogni tuo account.</li>
-<li>Usa il riconoscimento facciale e l'impronta digitale per sbloccare rapidamente ma in sicurezza (solo su Android per ora).</li>
-<li>Tieni traccia di tutti i tuoi account sul web.</li>
-<li>App avviabile per tutte le piattaforme: Mac, iOS, Android, Linux e Windows</li>
-<li>Software libero, codice sorgente su: https://github.com/authpass/authpass/</li>
-<li>I volontari sono sempre i benvenuti 😉, abbiamo sempre bisogno di sviluppatori, traduttori, persone che scrivono la documentazione, designer per l'UI, etc. 😃 Entra nel nostro server Discord!</li>
+<li>All your passwords in one place.<li>
+<li>Generate secure random passwords for each of your accounts.</li>
+<li>Quick Unlock secured with biometric lock (android only right now)</li>
+<li>Keep track of your accounts across the web.</li>
+<li>App available for Mac, iOS, Android, Linux and Windows.</li>
+<li>Open Source available on https://github.com/authpass/authpass/</li>
+<li>Contributions welcome and encouraged ;-) (Always looking for developers, translators, documentation writers, UI designer, etcc. :) ), just join our discord channel.</li>
 </ul>
 
-<p>Entra nel nostro server Discord qui: https://authpass.app/go/discord - anche in caso di problemi, suggerimenti o solo per fare due chiacchere.</p>
+<p>Join our discord channel at https://authpass.app/go/discord - In case of any Problems, Feedback, etc. or just to hang out.</p>
