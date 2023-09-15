@@ -241,6 +241,10 @@
   "@emptyPasswordVaultButtonLabel": {
     "description": "Button shown under placeholder text when password database is empty"
   },
+  "loading": "Завантаження",
+  "@loading": {
+    "description": "generic loading indicator displayed during network request (e.g. when loading file list from cloud storage)"
+  },
   "loadingFile": "Завантаження файлу …",
   "@loadingFile": {
     "description": "credential screen while unlocking file."
@@ -299,6 +303,22 @@
   "@saveMasterPasswordBiometric": {
     "description": "Label for the checkbox to save master password for quick unlock.",
     "context": "credential screen"
+  },
+  "close": "Закрити",
+  "@close": {
+    "description": "Tooltip/semantic label for close button"
+  },
+  "addNewPassword": "Додати новий пароль",
+  "@addNewPassword": {
+    "description": "Tooltip for adding new password button (floating action button)"
+  },
+  "errorOpenFileInvalidFileStructureTitle": "Спроба відкрити невірний тип файлу",
+  "@errorOpenFileInvalidFileStructureTitle": {
+    "description": "Title of error dialog when trying to open an invalid/unsupported file type"
+  },
+  "loadFromUrlEnterUrl": "Введіть URL-адресу",
+  "@loadFromUrlEnterUrl": {
+    "description": "label for input box to enter url."
   },
   "errorUnlockFileTitle": "Не вдалося відкрити файл",
   "@errorUnlockFileTitle": {
