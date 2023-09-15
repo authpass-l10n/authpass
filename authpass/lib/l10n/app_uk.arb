@@ -24,6 +24,10 @@
   "@selectKeepassFileLabel": {
     "context": "select file screen, used as label."
   },
+  "createNewFile": "Створити новий файл",
+  "@createNewFile": {
+    "description": "button on select file screen to create a new password database."
+  },
   "openLocalFile": "Відкрити\nлокальний файл",
   "@openLocalFile": {
     "context": "select file screen, big button open local file."
@@ -31,6 +35,29 @@
   "openFile": "Відкрити файл",
   "@openFile": {
     "description": "Displayed as placeholder in password list when no file is open."
+  },
+  "loadFromDropdownMenu": "Завантажити з …",
+  "@loadFromDropdownMenu": {
+    "description": "label for dropdown menu which shows more cloud storage options."
+  },
+  "quickUnlockingFiles": "Швидке розблокування файлів …",
+  "@quickUnlockingFiles": {
+    "description": "Status shown while we are loading files and trying to unlock them."
+  },
+  "openFileProgress": "Відкриття {fileName} … ({current} / {totalCount})",
+  "@openFileProgress": {
+    "description": "Progress shown while files are loaded during quick unlock.",
+    "placeholders": {
+      "fileName": {
+        "description": "Name of the file that is currently loaded."
+      },
+      "current": {
+        "description": "The index/number of file currently loading."
+      },
+      "totalCount": {
+        "description": "Total number of files which are loading."
+      }
+    }
   },
   "loadFrom": "Завантажити з {cloudStorageName}",
   "@loadFrom": {
@@ -77,10 +104,50 @@
   "@preferenceAllowScreenshots": {},
   "preferenceEnableAutoFill": "Увімкнути автозаповнення",
   "@preferenceEnableAutoFill": {},
+  "enableAutofillSuggestionBanner": "Ви можете заповнювати поля в інших додатках якщо включите автозаповнення!",
+  "@enableAutofillSuggestionBanner": {
+    "description": "This text will shown as a banner on top of password list"
+  },
+  "dismissAutofillSuggestionBannerButton": "ВІДХИЛИТИ",
+  "@dismissAutofillSuggestionBannerButton": {
+    "description": "Button that is displayed in autofill suggestion warnings to dismiss the warning"
+  },
+  "enableAutofillSuggestionBannerButton": "ВВІМКНУТИ!",
+  "@enableAutofillSuggestionBannerButton": {
+    "description": "Button that is displayed in autofill suggestion warnings to enable autofill"
+  },
   "preferenceAutoFillDescription": "Підтримується лише на Android Oreo (8.0) або новіше.",
   "@preferenceAutoFillDescription": {},
   "preferenceTitle": "Налаштування",
   "@preferenceTitle": {},
+  "preferenceEnableSystemWideShortcuts": "Ввімкнути гарячі клавіші всюди",
+  "@preferenceEnableSystemWideShortcuts": {
+    "description": ""
+  },
+  "preferenceEnableSystemWideShortcutsHelp": "Реєструє ctrl+alt+f в усій системі для відкриття пошуку.",
+  "@preferenceEnableSystemWideShortcutsHelp": {
+    "description": ""
+  },
+  "preferencesSearchFields": "Налаштувати поля пошуку",
+  "@preferencesSearchFields": {
+    "description": ""
+  },
+  "preferencesSearchFieldPromptTitle": "Поля пошуку",
+  "@preferencesSearchFieldPromptTitle": {
+    "description": ""
+  },
+  "preferencesSearchFieldPromptLabel": "Список полів за якими буде здійснюватися пошук паролів. Розділені комою.",
+  "@preferencesSearchFieldPromptLabel": {
+    "description": ""
+  },
+  "preferencesSearchFieldPromptHelp": "Використовуйте {wildCardCharacter}, щоб включити всі поля або залиште порожнім для використання полів за замовчуванням ({defaultSearchFields})",
+  "@preferencesSearchFieldPromptHelp": {
+    "description": "",
+    "placeholders": {
+      "wildCardCharacter": {},
+      "defaultSearchFields": {}
+    }
+  },
   "aboutAppName": "AuthPass",
   "@aboutAppName": {},
   "aboutLinkFeedback": "Ми раді будь-яким відгукам!",
@@ -90,11 +157,42 @@
   "aboutLinkGitHub": "І джерельний код програми",
   "@aboutLinkGitHub": {},
   "aboutLogFile": "Файл журналу: {logFilePath}",
+  "aboutLinkContributors": "Показати учасників проекту",
+  "@aboutLinkContributors": {},
   "@aboutLogFile": {
     "placeholders": {
       "logFilePath": {
         "type": "String",
         "example": "/Users/mustermann/log.txt"
+      }
+    }
+  },
+  "unableToLaunchUrlTitle": "Не вдалося відкрити URL-адресу",
+  "@unableToLaunchUrlTitle": {
+    "description": ""
+  },
+  "unableToLaunchUrlDescription": "Не вдалося запустити {url}: {openError}",
+  "@unableToLaunchUrlDescription": {
+    "description": "",
+    "placeholders": {
+      "url": {
+        "description": "URL which we tried to open."
+      },
+      "openError": {
+        "description": "Information about the error"
+      }
+    }
+  },
+  "unableToLaunchUrlNoHandler": "Додаток для цієї URL-адреси не зареєстровано.",
+  "@unableToLaunchUrlNoHandler": {
+    "description": ""
+  },
+  "launchedUrl": "Відкрито посилання: {url}",
+  "@launchedUrl": {
+    "description": "snackbar confirmation after opening a url externally",
+    "placeholders": {
+      "url": {
+        "description": "URL which was just launched."
       }
     }
   },
@@ -106,12 +204,24 @@
   "@menuItemOpenAnotherFile": {},
   "menuItemCheckForUpdates": "Перевірити наявність оновлень",
   "@menuItemCheckForUpdates": {},
+  "menuItemSupport": "Надіслати логи",
+  "@menuItemSupport": {},
+  "menuItemSupportSubtitle": "Надіслати логи електронною поштою",
+  "@menuItemSupportSubtitle": {},
+  "menuItemForum": "Форум підтримки",
+  "@menuItemForum": {},
+  "menuItemForumSubtitle": "Повідомити про проблему й отримати допомогу",
+  "@menuItemForumSubtitle": {},
   "menuItemHelp": "Допомога",
   "@menuItemHelp": {},
   "menuItemHelpSubtitle": "Показати документацію",
   "@menuItemHelpSubtitle": {},
   "menuItemAbout": "Про програму",
   "@menuItemAbout": {},
+  "actionOpenUrl": "Відкрити URL-адресу",
+  "@actionOpenUrl": {
+    "description": "tooltip for button to open URL/Website of an entry."
+  },
   "passwordPlainText": "Показати пароль",
   "@passwordPlainText": {
     "description": "Master password input: show password as plain text during input. (shown as tooltip)"
@@ -173,6 +283,21 @@
       }
     }
   },
+  "savedFiles": "{numFiles, plural, =1 {Збережено один файл: {files}} other {Всі файли збережено ({numFiles}): {files}}}",
+  "@savedFiles": {
+    "description": "Message displayed when files were saved. (One or more).",
+    "context": "Password list",
+    "placeholders": {
+      "numFiles": {
+        "description": "Number of files that have been saved (at least 1)",
+        "type": "int",
+        "format": "compactLong"
+      },
+      "files": {
+        "description": "Comma separated list of vault names."
+      }
+    }
+  },
   "manageGroups": "Керування групами",
   "@manageGroups": {
     "description": ""
@@ -188,6 +313,10 @@
   "searchButtonLabel": "Пошук",
   "@searchButtonLabel": {
     "description": "search button tooltip/semantic label"
+  },
+  "filterButtonLabel": "Фільтрувати за групою",
+  "@filterButtonLabel": {
+    "description": "tooltip/semantic label for filter app bar icon."
   },
   "clear": "Очистити",
   "@clear": {
@@ -225,6 +354,14 @@
   "@swipeCopyUsername": {
     "description": "swipe action in password list to copy username"
   },
+  "copyUsernameNotExists": "Цей запис не має ім'я користувача.",
+  "@copyUsernameNotExists": {
+    "description": "Error message when trying to copy username from an entry which has none."
+  },
+  "copyPasswordNotExists": "Цей запис не має пароля.",
+  "@copyPasswordNotExists": {
+    "description": "Error message when trying to copy password from an entry which has none."
+  },
   "doneCopiedPassword": "Пароль скопійовано до буфера обміну.",
   "@doneCopiedPassword": {
     "description": "snackbar confirmation that password was copied."
@@ -232,6 +369,24 @@
   "doneCopiedUsername": "Ім'я користувача було скопійовано до буфера обміну.",
   "@doneCopiedUsername": {
     "description": "snackbar confirmation that username was copied."
+  },
+  "doneCopiedField": "Скопійовано.",
+  "@doneCopiedField": {
+    "description": ""
+  },
+  "copiedFieldToClipboard": "{fieldName} зкопійовано.",
+  "@copiedFieldToClipboard": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {}
+    }
+  },
+  "copiedFieldEmpty": "Поле \"{fieldName}\" порожнє.",
+  "@copiedFieldEmpty": {
+    "description": "Displayed when user wants to copy a field which is empty or not defined.",
+    "placeholders": {
+      "fieldName": {}
+    }
   },
   "emptyPasswordVaultPlaceholder": "Ви ще не маєте жодного пароля в базі даних.",
   "@emptyPasswordVaultPlaceholder": {
@@ -316,9 +471,63 @@
   "@errorOpenFileInvalidFileStructureTitle": {
     "description": "Title of error dialog when trying to open an invalid/unsupported file type"
   },
+  "errorOpenFileInvalidFileStructureBody": "Файл ({fileName}) не є коректним файлом KDBX. Будь ласка, виберіть правильний файл KDBX або створіть нову базу паролів.",
+  "@errorOpenFileInvalidFileStructureBody": {
+    "description": "Body of error dialog when trying to open an invalid/unsupported file type",
+    "placeholders": {
+      "fileName": {}
+    }
+  },
+  "errorOpenFileAlreadyOpenTitle": "Цей файл вже відкритий",
+  "@errorOpenFileAlreadyOpenTitle": {
+    "description": "Trying to open a database from a second file source which is already open.",
+    "context": "credential screen"
+  },
+  "errorOpenFileAlreadyOpenBody": "Обрана база даних {databaseName} вже відкрита з {openFileSource} (Спроба відкрити з {newFileSource})",
+  "@errorOpenFileAlreadyOpenBody": {
+    "description": "Trying to open a database from a second file source which is already open.",
+    "context": "credential screen",
+    "placeholders": {
+      "databaseName": {},
+      "openFileSource": {},
+      "newFileSource": {}
+    }
+  },
+  "loadFromUrl": "Завантажити з URL-адреси",
+  "@loadFromUrl": {
+    "description": ""
+  },
   "loadFromUrlEnterUrl": "Введіть URL-адресу",
   "@loadFromUrlEnterUrl": {
     "description": "label for input box to enter url."
+  },
+  "loadFromUrlErrorEnterFullUrl": "Будь ласка, введіть повне посилання починаючи з http:// або https://",
+  "@loadFromUrlErrorEnterFullUrl": {
+    "description": "validator error message when user does not enter a absolute url."
+  },
+  "loadFromUrlErrorInvalidUrl": "Будь ласка, введіть правильний URL.",
+  "@loadFromUrlErrorInvalidUrl": {
+    "description": "validator error message hwen user enters a url which could not be parsed."
+  },
+  "linuxAppArmorWarning": "AuthPass потребує дозволу на зв'язок зі Службою Паролів для зберігання облікових даних для хмарного сховища.\nБудь ласка, виконайте наступну команду:",
+  "@linuxAppArmorWarning": {
+    "description": "On linux when user has not given AuthPass permission to connect to secret service he has to execute a command on the console."
+  },
+  "cancel": "Скасувати",
+  "@cancel": {
+    "description": "button label for cancelling an action."
+  },
+  "errorLoadFileFromSourceTitle": "Помилка під час відкриття файлу.",
+  "@errorLoadFileFromSourceTitle": {
+    "description": "error title when user selects a file which can't be downloaded."
+  },
+  "errorLoadFileFromSourceBody": "Не вдалося відкрити {source}.\n{error}",
+  "@errorLoadFileFromSourceBody": {
+    "description": "error body when user selects a file which can't be downloaded.",
+    "placeholders": {
+      "source": {},
+      "error": {}
+    }
   },
   "errorUnlockFileTitle": "Не вдалося відкрити файл",
   "@errorUnlockFileTitle": {
@@ -338,6 +547,15 @@
   "dialogContinue": "Продовжити",
   "@dialogContinue": {
     "description": "Dialog action to continue to next step (e.g. credential screen when finished with master password)"
+  },
+  "dialogSendErrorReport": "Надіслати звіт про помилки",
+  "@dialogSendErrorReport": {
+    "description": "action button in error dialogs to send email to support with log file.",
+    "context": "error dialog"
+  },
+  "dialogReportErrorForum": "Повідомити про помилку на форумі/центрі допомоги",
+  "@dialogReportErrorForum": {
+    "description": "action button in error dialog to open forum and create new topic."
   },
   "groupFilterDescription": "Виберіть, які групи показувати (рекурсивно)",
   "@groupFilterDescription": {
@@ -359,6 +577,67 @@
   "editAction": "Редагувати",
   "@editAction": {
     "description": "menu action: edit item (e.g. delete a group)"
+  },
+  "mailboxEnableLabel": "ввімкнути (знову)",
+  "@mailboxEnableLabel": {
+    "description": ""
+  },
+  "mailboxEnableHint": "Продовжити отримувати листи",
+  "@mailboxEnableHint": {
+    "description": ""
+  },
+  "mailboxDisableLabel": "Вимкнути",
+  "@mailboxDisableLabel": {
+    "description": ""
+  },
+  "mailboxDisableHint": "Більше не отримувати листів",
+  "@mailboxDisableHint": {
+    "description": ""
+  },
+  "mailListNoMail": "Ви ще не отримували жодних листів.",
+  "@mailListNoMail": {
+    "description": ""
+  },
+  "mailboxLabelPrefixForEntry": "Запис: {entryLabel}",
+  "@mailboxLabelPrefixForEntry": {
+    "description": "when a mailbox was created for a (password) entry.",
+    "placeholders": {
+      "entryLabel": {
+        "description": "The label of the entry this mailbox was created for"
+      }
+    }
+  },
+  "mailboxLabelPrefixUnknownEntry": "Невідомий запис: {entryUuid}",
+  "@mailboxLabelPrefixUnknownEntry": {
+    "description": "when a mailbox was created for password entry which has been deleted or is otherwise not in the currently opened password files.",
+    "placeholders": {
+      "entryUuid": {
+        "description": "The internal id of the entry which was no tfound"
+      }
+    }
+  },
+  "mailboxLabelPrefixCreatedAt": "Створено: {dateTime}",
+  "@mailboxLabelPrefixCreatedAt": {
+    "description": "When a mailbox was not created for an entry and has no label, the creation date is shown.",
+    "placeholders": {
+      "dateTime": {}
+    }
+  },
+  "masterPasswordDescription": "Головний пароль використовується для безпечного шифрування бази паролів. Його неможливо відновити, тож переконайтеся що ви його пам'ятаєте.",
+  "@masterPasswordDescription": {
+    "description": ""
+  },
+  "unsavedChangesWarningTitle": "Не всі зміни збережено",
+  "@unsavedChangesWarningTitle": {
+    "description": ""
+  },
+  "unsavedChangesWarningBody": "Дані ще не збережені. Ви бажаєте відхилити зміни?",
+  "@unsavedChangesWarningBody": {
+    "description": ""
+  },
+  "unsavedChangesDiscardActionLabel": "Скасувати зміни",
+  "@unsavedChangesDiscardActionLabel": {
+    "description": ""
   },
   "deleteAction": "Видалити",
   "@deleteAction": {
