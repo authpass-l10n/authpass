@@ -16,6 +16,10 @@
   "@indonesian": {
     "description": "language switcher subtitle"
   },
+  "selectItem": "Вибрати",
+  "@selectItem": {
+    "description": "semantic label for checkboxes to select item."
+  },
   "selectKeepassFile": "AuthPass - виберіть KeePass файл",
   "@selectKeepassFile": {
     "context": "appbar title - select file screen"
@@ -738,6 +742,17 @@
   "@authPassCloudAuthResendButtonLabel": {
     "description": ""
   },
+  "permanentlyDeleteEntryConfirm": "Це призведе до остаточного видалення запису пароля {title}. Це не може бути скасовано. Ви хочете продовжити?",
+  "@permanentlyDeleteEntryConfirm": {
+    "description": "shown to force user to acknowledge delete before a entry will be permanently deleted.",
+    "placeholders": {
+      "title": {}
+    }
+  },
+  "permanentlyDeletedEntrySnackBar": "Запис видалено назавжди.",
+  "@permanentlyDeletedEntrySnackBar": {
+    "description": "snackbar confirming that the entry was deleted."
+  },
   "initialNewGroupName": "Нова група",
   "@initialNewGroupName": {
     "description": "initial name of groups when user creates a new one."
@@ -761,6 +776,34 @@
   "groupListFilterAppbarTitle": "Фільтрувати за групами",
   "@groupListFilterAppbarTitle": {
     "description": "title in the app bar for group lists when displayed for filtering password list"
+  },
+  "clearQuickUnlock": "Очистити сховище біометричних даних",
+  "@clearQuickUnlock": {
+    "description": ""
+  },
+  "clearQuickUnlockSubtitle": "Видалити збережені головні майстер-паролі",
+  "@clearQuickUnlockSubtitle": {
+    "description": ""
+  },
+  "unlock": "Розблокувати файли",
+  "@unlock": {
+    "description": ""
+  },
+  "closePasswordFiles": "закрити файли паролів",
+  "@closePasswordFiles": {
+    "description": "delete quick unlock (passwords stored in biometric storage)"
+  },
+  "clearQuickUnlockSuccess": "Збережені майстер-паролі з біометричного сховища вилучено.",
+  "@clearQuickUnlockSuccess": {
+    "description": ""
+  },
+  "diacOptIn": "Підпишіться на новини в додатку, опитування.",
+  "@diacOptIn": {},
+  "diacOptInSubtitle": "Час від часу надсилатиме мережевий запит для отримання новин.",
+  "@diacOptInSubtitle": {},
+  "enableAutofillDebug": "Автозаповнення: увімкнути налагодження (debug)",
+  "@enableAutofillDebug": {
+    "description": "only visible in debug build. Preference to enable Auto-Fill Debugging."
   },
   "entryAddField": "Створити поле",
   "@entryAddField": {
