@@ -805,12 +805,169 @@
   "@enableAutofillDebug": {
     "description": "only visible in debug build. Preference to enable Auto-Fill Debugging."
   },
+  "enableAutofillDebugSubtitle": "Показує інформаційні шари для кожного поля введення",
+  "@enableAutofillDebugSubtitle": {
+    "description": "only visible in debug build. Preference to enable Auto-Fill Debugging."
+  },
+  "createPasswordDatabase": "Створити базу паролів",
+  "@createPasswordDatabase": {
+    "description": ""
+  },
+  "nameNewPasswordDatabase": "Назва нової бази паролів",
+  "@nameNewPasswordDatabase": {
+    "description": "creating new kdbx file, prompt"
+  },
+  "validatorNameMissing": "Будь ласка, введіть назву для нової бази даних.",
+  "@validatorNameMissing": {
+    "description": "Error message when no password database name is given."
+  },
+  "masterPasswordHelpText": "Виберіть надійний головний пароль. Запам'ятайте його.",
+  "@masterPasswordHelpText": {
+    "description": "DEPRECATED FOR NOW help text for master password when creating new password database"
+  },
+  "inputMasterPasswordText": "Головний пароль",
+  "@inputMasterPasswordText": {
+    "description": "Creating new file: input field for master password"
+  },
+  "masterPasswordMissingCreate": "Будь ласка, введіть надійний пароль, що легко запам'ятовується.",
+  "@masterPasswordMissingCreate": {
+    "description": "Text displayed when master password is empty while creating new password database"
+  },
+  "createDatabaseAction": "Створити базу даних",
+  "@createDatabaseAction": {
+    "description": "Label for button to create new database"
+  },
+  "databaseExistsError": "Файл вже існує",
+  "@databaseExistsError": {
+    "description": "dialog title for error message when creating a new database with a name which already exists."
+  },
+  "databaseExistsErrorDescription": "Помилка при спробі створити базу даних {filePath}. Файл вже існує. Будь ласка, виберіть іншу назву.",
+  "@databaseExistsErrorDescription": {
+    "description": "dialog body for error message when creating a new database with a name which already exists.",
+    "placeholders": {
+      "filePath": {
+        "description": "file path which already existed."
+      }
+    }
+  },
+  "databaseCreateDefaultName": "ОсобистіПаролі",
+  "@databaseCreateDefaultName": {
+    "description": "Default database name when creating a new database file. (WITHOUT .kdbx extension)"
+  },
+  "preferenceDynamicLoadIcons": "Завантажувати іконки динамічно",
+  "@preferenceDynamicLoadIcons": {
+    "description": "preferences: dynamically load website icons"
+  },
+  "preferenceDynamicLoadIconsSubtitle": "Буде робити http-запити зі значенням у полі {urlFieldName} для завантаження іконок сайтів.",
+  "@preferenceDynamicLoadIconsSubtitle": {
+    "description": "preferences: dynamically load website icons help text.",
+    "placeholders": {
+      "urlFieldName": {
+        "example": "Website"
+      }
+    }
+  },
+  "passwordScore": "Міцність: {score} з 4",
+  "@passwordScore": {
+    "description": "choosing a master password - calculated password strength.",
+    "placeholders": {
+      "score": {
+        "description": "integer of the score.",
+        "example": "3"
+      }
+    }
+  },
+  "entryInfoFile": "Файл:",
+  "@entryInfoFile": {
+    "description": ""
+  },
+  "entryInfoGroup": "Група:",
+  "@entryInfoGroup": {
+    "description": ""
+  },
+  "entryInfoLastModified": "Остання зміна:",
+  "@entryInfoLastModified": {
+    "description": ""
+  },
+  "movedEntryToGroup": "Переміщено запис до {groupName}",
+  "@movedEntryToGroup": {
+    "description": "",
+    "placeholders": {
+      "groupName": {
+        "description": "Name of the group the entry was moved to."
+      }
+    }
+  },
+  "sizeBytesStoredAuthPassCloud": "{count} байт, що зберігаються в AuthPass Cloud",
+  "@sizeBytesStoredAuthPassCloud": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "description": "file size in bytes",
+        "example": "123"
+      }
+    }
+  },
+  "sizeBytes": "{count} байт",
+  "@sizeBytes": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "description": "file size in bytes",
+        "example": "123"
+      }
+    }
+  },
+  "entryAddAttachment": "Прикріпити файл",
+  "@entryAddAttachment": {
+    "description": ""
+  },
+  "entryAttachmentSizeWarning": "Прикріплені файли будуть вбудовані у файл паролів. Це може значно збільшити час, необхідний для відкриття/збереження паролів.",
+  "@entryAttachmentSizeWarning": {
+    "description": ""
+  },
+  "iconPngSizeWarning": "У файл пароля будуть вбудовані користувацькі іконки. Це може значно збільшити час, необхідний для відкриття/збереження паролів.",
+  "@iconPngSizeWarning": {
+    "description": "Warning shown when user selects a large png file as custom icon."
+  },
+  "notPngError": "Обраний файл не є PNG.",
+  "@notPngError": {
+    "description": "Error when user selects an unsupported file as custom icon."
+  },
   "entryAddField": "Створити поле",
   "@entryAddField": {
     "description": ""
   },
+  "entryCustomField": "Власне поле",
+  "@entryCustomField": {
+    "description": ""
+  },
+  "entryCustomFieldTitle": "Додавання нового користувацького поля",
+  "@entryCustomFieldTitle": {
+    "description": ""
+  },
+  "entryCustomFieldInputLabel": "Введіть нове ім'я для поля",
+  "@entryCustomFieldInputLabel": {
+    "description": ""
+  },
+  "swipeCopyField": "Копіювати поле",
+  "@swipeCopyField": {
+    "description": ""
+  },
   "fieldRename": "Перейменувати",
   "@fieldRename": {
+    "description": ""
+  },
+  "fieldGeneratePassword": "Згенерувати пароль …",
+  "@fieldGeneratePassword": {
+    "description": ""
+  },
+  "fieldProtect": "Захистити Значення",
+  "@fieldProtect": {
+    "description": ""
+  },
+  "fieldUnprotect": "Прибрати Захист",
+  "@fieldUnprotect": {
     "description": ""
   },
   "fieldPresent": "QR код",
@@ -821,17 +978,327 @@
   "@fieldGenerateEmail": {
     "description": ""
   },
+  "onboardingBackToOnboarding": "Тур",
+  "@onboardingBackToOnboarding": {
+    "description": "Context menu entry which reverts to onboarding"
+  },
+  "onboardingBackToOnboardingSubtitle": "Переживіть досвід першого запуску 😅️",
+  "@onboardingBackToOnboardingSubtitle": {
+    "description": "Context menu entry which reverts to onboarding"
+  },
+  "onboardingHeadline": "Зробимо ваші паролі безпечними!",
+  "@onboardingHeadline": {
+    "description": ""
+  },
+  "onboardingQuestion": "Чи користувалися ви раніше менеджером паролів?",
+  "@onboardingQuestion": {
+    "description": ""
+  },
   "onboardingYesOpenPasswords": "Так, відкрити мої паролі",
   "@onboardingYesOpenPasswords": {
+    "description": ""
+  },
+  "onboardingNoCreate": "Я зовсім новачок! Нумо почнімо.",
+  "@onboardingNoCreate": {
+    "description": ""
+  },
+  "backupButton": "ЗБЕРЕГТИ В КЛАУД",
+  "@backupButton": {
+    "description": "Button that is displayed in backup warnings"
+  },
+  "dismissBackupButton": "ВІДХИЛИТИ",
+  "@dismissBackupButton": {
+    "description": "Button that is displayed in backup warnings to dismiss the warning"
+  },
+  "backupWarningMessage": "Ваші паролі в {databasename} збережені тільки локально!",
+  "@backupWarningMessage": {
+    "description": "Warning message that is displayed in backup warnings",
+    "placeholders": {
+      "databasename": {
+        "example": "PasswordDatabase"
+      }
+    }
+  },
+  "saveAs": "Зберегти В...",
+  "@saveAs": {
+    "description": "Save as text"
+  },
+  "saving": "Збереження",
+  "@saving": {
+    "description": "Saving text"
+  },
+  "increaseValue": "Збільшити",
+  "@increaseValue": {
+    "description": "Preferences value modifier (Text Scale Factor/Visual Density)"
+  },
+  "decreaseValue": "Зменшити",
+  "@decreaseValue": {
+    "description": "Preferences value modifier (Text Scale Factor/Visual Density)"
+  },
+  "resetValue": "Скинути",
+  "@resetValue": {
+    "description": "Preferences value modifier (Text Scale Factor/Visual Density)"
+  },
+  "cloudStorageAppBarTitle": "Хмарне сховище - {cloudStorageName}",
+  "@cloudStorageAppBarTitle": {
+    "description": "app bar title for opening/saving to cloud storage.",
+    "placeholders": {
+      "cloudStorageName": {
+        "example": "Dropbox"
+      }
+    }
+  },
+  "mailMailbox": "Поштова скринька",
+  "@mailMailbox": {
+    "description": ""
+  },
+  "mailNoData": "Немає даних",
+  "@mailNoData": {
+    "description": "Message shown when email text body is empty (or can't be decoded)"
+  },
+  "mailMailboxesTitle": "Поштові скриньки",
+  "@mailMailboxesTitle": {
+    "description": "Title of the screen showing all available mailboxes."
+  },
+  "mailboxCreateButtonLabel": "Створити",
+  "@mailboxCreateButtonLabel": {
+    "description": "FAB label to create a new mailbox."
+  },
+  "mailboxNameInputDialogTitle": "Назва поштової скриньки (не обовʼязково)",
+  "@mailboxNameInputDialogTitle": {
+    "description": "title of the dialog asking for a mailbox label/name"
+  },
+  "mailboxNameInputLabel": "(Внутрішня) Назва",
+  "@mailboxNameInputLabel": {
+    "description": "Label for the text field asking for a label for a mailbox, while creating it."
+  },
+  "mailScreenTitle": "Електронна пошта AuthPass",
+  "@mailScreenTitle": {
+    "description": "title for the screen showing available emails"
+  },
+  "mailTabBarTitleMailbox": "Поштова скринька",
+  "@mailTabBarTitleMailbox": {
+    "description": "title for the tab showing list of mailboxes."
+  },
+  "mailTabBarTitleMail": "Пошта",
+  "@mailTabBarTitleMail": {
+    "description": "title for the tab showing list of mails."
+  },
+  "mailMailboxListEmpty": "У вас поки що немає поштових скриньок.",
+  "@mailMailboxListEmpty": {
+    "description": ""
+  },
+  "mailMailboxAddressCopied": "Скопійовано адресу поштової скриньки: {mailboxAddress}",
+  "@mailMailboxAddressCopied": {
+    "description": "Success message when mailbox email address was copied to clipboard.",
+    "placeholders": {
+      "mailboxAddress": {
+        "example": "dkasdfiasdfi@mail.authpass.app"
+      }
+    }
+  },
+  "errorWhileSavingTitle": "Помилка збереження",
+  "@errorWhileSavingTitle": {
+    "description": "title for error dialog shown when an error occurs while saving"
+  },
+  "errorWhileSavingBody": "Неможливо зберегти файл: {errorMessage}",
+  "@errorWhileSavingBody": {
+    "description": "",
+    "placeholders": {
+      "errorMessage": {}
+    }
+  },
+  "databaseDoesNotSupportSaving": "На жаль, ця база даних не підтримує збереження. Будь ласка, відкрийте локальний файл бази даних. Або скористайтеся кнопкою \"Зберегти як\".",
+  "@databaseDoesNotSupportSaving": {
+    "description": "keepass files loaded through a URL can't be saved."
+  },
+  "otpInvalidKeyTitle": "Недійсний ключ",
+  "@otpInvalidKeyTitle": {
+    "description": "dialog title for an invalid key of a one time password (OTP/TOTP)"
+  },
+  "otpInvalidKeyBody": "Введене значення не є коректним base32 TOTP кодом. Будь ласка, перевірте введені дані.",
+  "@otpInvalidKeyBody": {
+    "description": ""
+  },
+  "otpUnsupportedMigrationTitle": "Непідтримувана міграція ОТР",
+  "otpUnsupportedMigrationBody": "Наразі ми підтримуємо лише перенесення одного елемента. Отримано {uriCount}",
+  "@otpUnsupportedMigrationBody": {
+    "placeholders": {
+      "uriCount": {}
+    }
+  },
+  "otpPromptTitle": "Автентифікація на основі часу",
+  "@otpPromptTitle": {
+    "description": ""
+  },
+  "otpPromptHelperText": "Будь ласка, введіть ключ, заснований на часі.",
+  "@otpPromptHelperText": {
+    "description": ""
+  },
+  "otpErrorMessageGeneration": "Помилка генерування коду запрошення: {errorMessage}",
+  "@otpErrorMessageGeneration": {
+    "description": "",
+    "placeholders": {
+      "errorMessage": {}
+    }
+  },
+  "otpCopySecretActionLabel": "Копіювати секрет",
+  "@otpCopySecretActionLabel": {
+    "description": ""
+  },
+  "otpEntryLabel": "Одноразовий Токен",
+  "@otpEntryLabel": {
+    "description": "The label for entries which show a one time token for a TOTP"
+  },
+  "entryFieldProtected": "Захищене поле. Клацніть, щоб відкрити.",
+  "@entryFieldProtected": {
+    "description": ""
+  },
+  "entryFieldActionRevealField": "Показати захищене поле",
+  "@entryFieldActionRevealField": {
+    "description": ""
+  },
+  "entryAttachmentOpenActionLabel": "Відкрити",
+  "@entryAttachmentOpenActionLabel": {
+    "description": ""
+  },
+  "entryAttachmentShareActionLabel": "Поділитись",
+  "@entryAttachmentShareActionLabel": {
+    "description": ""
+  },
+  "entryAttachmentShareSubject": "Вкладення",
+  "@entryAttachmentShareSubject": {
+    "description": "the 'subject' passed to the system when sharing an attachment. "
+  },
+  "entryAttachmentSaveActionLabel": "Зберегти на пристрій",
+  "@entryAttachmentSaveActionLabel": {
+    "description": ""
+  },
+  "entryAttachmentRemoveActionLabel": "Видалити",
+  "@entryAttachmentRemoveActionLabel": {
+    "description": ""
+  },
+  "entryAttachmentRemoveConfirm": "Ви дійсно бажаєте вилучити {attachmentLabel}?",
+  "@entryAttachmentRemoveConfirm": {
+    "description": "",
+    "placeholders": {
+      "attachmentLabel": {}
+    }
+  },
+  "entryRenameFieldPromptTitle": "Перейменування поля",
+  "@entryRenameFieldPromptTitle": {
+    "description": ""
+  },
+  "removerecentfile": "Приховати",
+  "@removerecentfile": {
+    "description": ""
+  },
+  "entryRenameFieldPromptLabel": "Введіть нове ім'я для поля",
+  "@entryRenameFieldPromptLabel": {
+    "description": ""
+  },
+  "promptDialogPasteActionTooltip": "Вставити із буферу обміну",
+  "@promptDialogPasteActionTooltip": {
+    "description": ""
+  },
+  "promptDialogPasteHint": "Підказка: якщо потрібно вставити, спробуйте кнопку ліворуч ;-)",
+  "@promptDialogPasteHint": {
+    "description": "sometimes the paste shortcut is not working properly, so tell users they can use the paste button from the UI"
+  },
+  "genericErrorDialogTitle": "Помилка під час обробки дії",
+  "@genericErrorDialogTitle": {
+    "description": ""
+  },
+  "genericErrorDialogBody": "Виникла несподівана помилка. {errorMessage}",
+  "@genericErrorDialogBody": {
+    "description": "",
+    "placeholders": {
+      "errorMessage": {}
+    }
+  },
+  "saveAsEntryLocalFile": "Локальний Файл",
+  "@saveAsEntryLocalFile": {
+    "description": "menu entry in the 'save as' dialog for saving as local file."
+  },
+  "fileTypePngs": "Зображення (png)",
+  "@fileTypePngs": {
+    "description": "When selecting custom icons, users can choose a png image. This is the name of the 'file group'"
+  },
+  "selectIconDialogAction": "ВИБРАТИ ІКОНКУ",
+  "@selectIconDialogAction": {
+    "description": ""
+  },
+  "retryDialogActionLabel": "ПОВТОРИТИ",
+  "@retryDialogActionLabel": {
+    "description": ""
+  },
+  "errorDuringNetworkCall": "Помилка під час виклику api. {errorMessage}",
+  "@errorDuringNetworkCall": {
+    "description": "",
+    "placeholders": {
+      "errorMessage": {}
+    }
+  },
+  "passwordFilterHideDeleted": "Приховати вилучені записи",
+  "@passwordFilterHideDeleted": {
+    "description": "filter name to show only password entries which are not deleted"
+  },
+  "passwordFilterOnlyDeleted": "Вилучені Записи",
+  "@passwordFilterOnlyDeleted": {
+    "description": "filter name to show only deleted password entries"
+  },
+  "passwordFilterPrefixForOneGroup": "Група: {groupName}",
+  "@passwordFilterPrefixForOneGroup": {
+    "description": "The label for a password filter for one specific group",
+    "placeholders": {
+      "groupName": {}
+    }
+  },
+  "passwordFilterPrefixForMultipleGroups": "Власний фільтр ({groupCount} груп(и))",
+  "@passwordFilterPrefixForMultipleGroups": {
+    "description": "The label for a password filter for multiple groups",
+    "placeholders": {
+      "groupCount": {}
+    }
+  },
+  "menuItemAuthPassCloudAuthenticate": "Авторизуватись з AuthPass Cloud",
+  "@menuItemAuthPassCloudAuthenticate": {
+    "description": "menu entry in password list to allow users to authenticate with AuthPass Cloud"
+  },
+  "menuItemAuthPassCloudMailboxes": "Електронні скриньки AuthPass",
+  "@menuItemAuthPassCloudMailboxes": {
+    "description": ""
+  },
+  "changesWithoutSaving": "У вас є зміни в \"{fileName}\", який не підтримує запис змін.",
+  "@changesWithoutSaving": {
+    "description": "",
+    "placeholders": {
+      "fileName": {}
+    }
+  },
+  "files": "Файли",
+  "@files": {
     "description": ""
   },
   "newGroupDialogTitle": "Нова група",
   "@newGroupDialogTitle": {
     "description": ""
   },
+  "groupActionShowPasswords": "Показати паролі",
+  "@groupActionShowPasswords": {
+    "description": ""
+  },
   "groupActionDelete": "Видалити",
   "@groupActionDelete": {
     "description": ""
+  },
+  "logoutTooltip": "Вихід із системи",
+  "@logoutTooltip": {
+    "description": "Tooltip for logging out of a cloud storage provider."
+  },
+  "successfullyDeletedFileCloudStorage": "Файл успішно видалено.",
+  "@successfullyDeletedFileCloudStorage": {
+    "description": "deleted file from cloud storage."
   },
   "shareCodeLoadingProgress": "Завантаження файлу …",
   "@shareCodeLoadingProgress": {
