@@ -1167,6 +1167,25 @@
   "@cloudStorageSearchBoxLabel": {
     "description": ""
   },
+  "cloudStorageItemsInFolder": "{itemCount} елементів у цій теці.",
+  "@cloudStorageItemsInFolder": {
+    "description": "",
+    "placeholders": {
+      "itemCount": {}
+    }
+  },
+  "mailSubject": "Тема",
+  "@mailSubject": {
+    "description": ""
+  },
+  "mailFrom": "Від",
+  "@mailFrom": {
+    "description": ""
+  },
+  "mailDate": "Дата",
+  "@mailDate": {
+    "description": ""
+  },
   "mailMailbox": "Поштова скринька",
   "@mailMailbox": {
     "description": ""
@@ -1395,12 +1414,105 @@
       "fileName": {}
     }
   },
+  "changesSaveLocally": "Зберегти локально",
+  "@changesSaveLocally": {
+    "description": ""
+  },
+  "clearColor": "Скинути колір",
+  "@clearColor": {
+    "description": "Action to remove a selected color and reset to default."
+  },
+  "databaseRenameInputLabel": "Введіть ім'я бази даних",
+  "@databaseRenameInputLabel": {
+    "description": ""
+  },
+  "databasePath": "Шлях до файлу",
+  "@databasePath": {
+    "description": ""
+  },
+  "databaseColor": "Колір",
+  "@databaseColor": {
+    "description": ""
+  },
+  "databaseColorChoose": "Виберіть колір, щоб розрізняти файли.",
+  "@databaseColorChoose": {
+    "description": ""
+  },
+  "databaseKdbxVersion": "Версія файлу KDBX",
+  "@databaseKdbxVersion": {
+    "description": ""
+  },
+  "databaseKdbxUpgradeVersion": "Оновити до {versionName}",
+  "@databaseKdbxUpgradeVersion": {
+    "description": "",
+    "placeholders": {
+      "versionName": {}
+    }
+  },
+  "databaseKdbxUpgradeSuccessful": "Файл успішно оновлено та збережено.",
+  "@databaseKdbxUpgradeSuccessful": {
+    "description": ""
+  },
+  "databaseReload": "Перезавантажити та злити",
+  "@databaseReload": {
+    "description": ""
+  },
+  "progressStatus": "Статус: {statusProgress}",
+  "@progressStatus": {
+    "description": "While an action is running this is displayed as status message. Don't worry too much, users should typically not see this for too long (if at all)",
+    "placeholders": {
+      "statusProgress": {}
+    }
+  },
+  "finishedMerge": "Завершено злиття {status}",
+  "@finishedMerge": {
+    "description": "",
+    "placeholders": {
+      "status": {}
+    }
+  },
+  "closeAndLockFile": "Закрити/Заблокувати",
+  "@closeAndLockFile": {
+    "description": ""
+  },
+  "authPassHomeScreenTagline": "менеджер паролів, з відкритим кодом, доступний на всіх платформах.",
+  "@authPassHomeScreenTagline": {
+    "description": ""
+  },
+  "addNewPasswordButtonLabel": "Додати новий пароль",
+  "@addNewPasswordButtonLabel": {
+    "description": ""
+  },
+  "unnamedEntryPlaceholder": "(Без назви)",
+  "@unnamedEntryPlaceholder": {
+    "description": "displayed instead of entry label, if entry has no name or it is blank."
+  },
+  "unnamedGroupPlaceholder": "(Без назви)",
+  "@unnamedGroupPlaceholder": {
+    "description": "displayed instead of a groups name, it is unnamed or it's name is empty"
+  },
+  "unnamedFilePlaceholder": "(Без назви)",
+  "@unnamedFilePlaceholder": {
+    "description": ""
+  },
+  "editGroupScreenTitle": "Редагувати групу",
+  "@editGroupScreenTitle": {
+    "description": ""
+  },
+  "editGroupGroupNameLabel": "Назва групи",
+  "@editGroupGroupNameLabel": {
+    "description": ""
+  },
   "files": "Файли",
   "@files": {
     "description": ""
   },
   "newGroupDialogTitle": "Нова група",
   "@newGroupDialogTitle": {
+    "description": ""
+  },
+  "newGroupDialogInputLabel": "Ім'я для нової групи",
+  "@newGroupDialogInputLabel": {
     "description": ""
   },
   "groupActionShowPasswords": "Показати паролі",
@@ -1419,8 +1531,167 @@
   "@successfullyDeletedFileCloudStorage": {
     "description": "deleted file from cloud storage."
   },
+  "shareDialogTitle": "Параметри спільного доступу до {fileName}",
+  "@shareDialogTitle": {
+    "description": "",
+    "placeholders": {
+      "fileName": {}
+    }
+  },
+  "shareFileActionLabel": "Поділіться …",
+  "@shareFileActionLabel": {
+    "description": ""
+  },
+  "shareTokenListEmptyScreenPlaceholder": "До файлу ще не надано доступ.",
+  "@shareTokenListEmptyScreenPlaceholder": {
+    "description": ""
+  },
+  "shareTokenNoLabel": "Без мітки/опису",
+  "@shareTokenNoLabel": {
+    "description": "User did not specify a description for a given share code."
+  },
+  "shareTokenReadWrite": "Читання/запис",
+  "@shareTokenReadWrite": {
+    "description": "Share Code allows reading and writing"
+  },
+  "shareTokenReadOnly": "Лише для читання",
+  "@shareTokenReadOnly": {
+    "description": "Share code only allows reading."
+  },
+  "shareCreateTokenDialogTitle": "Поділитися файлом",
+  "@shareCreateTokenDialogTitle": {
+    "description": ""
+  },
+  "shareCreateTokenReadOnly": "Тільки для читання",
+  "@shareCreateTokenReadOnly": {
+    "description": "switch between read only and read/write"
+  },
+  "shareCreateTokenReadOnlyHelpText": "Не дозволяти збереження змін",
+  "@shareCreateTokenReadOnlyHelpText": {
+    "description": "help text for the switch between read only and read/write"
+  },
+  "shareCreateTokenLabelText": "Опис",
+  "@shareCreateTokenLabelText": {
+    "description": "Allows users to add a description/label to a share code."
+  },
+  "shareCreateTokenLabelHint": "Поширення для Залужного",
+  "@shareCreateTokenLabelHint": {
+    "description": "the placeholder/hint text displayed when the user has not yet entered a label"
+  },
+  "shareCreateTokenLabelHelp": "Необов'язкова мітка для розрізнення коду спільного доступу.",
+  "@shareCreateTokenLabelHelp": {
+    "description": ""
+  },
+  "shareCreateTokenSuccess": "Код поширення успішно створено.",
+  "@shareCreateTokenSuccess": {
+    "description": "snackbar when share code was created successfully."
+  },
+  "sharePresentDialogTitle": "Поділитися файлом з секретним кодом поширення",
+  "@sharePresentDialogTitle": {
+    "description": ""
+  },
+  "sharePresentDialogHelp": "Використовуючи наступний код доступу, користувачі можуть отримати доступ до файлу з паролями. Щоб відкрити його, їм знадобиться пароль та/або ключ-файл.",
+  "@sharePresentDialogHelp": {
+    "description": ""
+  },
+  "sharePresentToken": "Код для поширення",
+  "@sharePresentToken": {
+    "description": ""
+  },
+  "sharePresentCopied": "Скопійовано код поширення.",
+  "@sharePresentCopied": {
+    "description": ""
+  },
+  "authPassCloudOpenWithShareCodeTooltip": "Відкрити за допомогою коду спільного доступу",
+  "@authPassCloudOpenWithShareCodeTooltip": {
+    "description": "Allows users to open cloud files using a share code/token."
+  },
+  "authPassCloudShareFileActionLabel": "Поділитись",
+  "@authPassCloudShareFileActionLabel": {
+    "description": ""
+  },
+  "preferenceAuthPassCloudAttachmentTitle": "Використовувати вкладення AuthPass Cloud",
+  "@preferenceAuthPassCloudAttachmentTitle": {
+    "description": ""
+  },
+  "preferenceAuthPassCloudAttachmentSubtitle": "Зберігати зашифровані вкладення в AuthPass Cloud окремо.",
+  "@preferenceAuthPassCloudAttachmentSubtitle": {
+    "description": ""
+  },
+  "shareCodeInputDialogTitle": "Введіть секретний код спільного доступу",
+  "@shareCodeInputDialogTitle": {
+    "description": "input dialog for inputting secret share code to access password file in AuthPassCloud"
+  },
+  "shareCodeInputDialogScan": "Проскануйте QR-код",
+  "@shareCodeInputDialogScan": {
+    "description": "button label for triggering QR code scanner"
+  },
+  "shareCodeInputLabel": "Секретний код поширення",
+  "@shareCodeInputLabel": {
+    "description": ""
+  },
+  "shareCodeInputHelperText": "Якщо ви отримали код поширення, будь ласка, вставте його вище.",
+  "@shareCodeInputHelperText": {
+    "description": ""
+  },
+  "shareCodeOpen": "Отримали код доступу до AuthPass Cloud?",
+  "@shareCodeOpen": {
+    "description": ""
+  },
+  "shareCodeOpenScreenTitle": "Завантаження файлу за допомогою коду спільного доступу",
+  "@shareCodeOpenScreenTitle": {
+    "description": ""
+  },
   "shareCodeLoadingProgress": "Завантаження файлу …",
   "@shareCodeLoadingProgress": {
+    "description": ""
+  },
+  "shareCodeOpenFileButtonLabel": "ВІДКРИТИ",
+  "@shareCodeOpenFileButtonLabel": {
+    "description": ""
+  },
+  "shareCodeOpenInstallAppCaption": "Хочете відкрити цей файл за допомогою однієї з наших програм?",
+  "@shareCodeOpenInstallAppCaption": {
+    "description": ""
+  },
+  "shareCodeOpenAnotherAppCaption": "Хочете відкрити цей файл на іншому пристрої?",
+  "@shareCodeOpenAnotherAppCaption": {
+    "description": ""
+  },
+  "shareCodeOpenInstallAppButtonLabel": "Встановити додаток",
+  "@shareCodeOpenInstallAppButtonLabel": {
+    "description": ""
+  },
+  "shareCodeOpenShowCodeButtonLabel": "Показати код поширення",
+  "@shareCodeOpenShowCodeButtonLabel": {
+    "description": ""
+  },
+  "changeMasterPasswordActionLabel": "Змінити головний пароль",
+  "@changeMasterPasswordActionLabel": {
+    "description": "label for the button to show the dialog for changing master password."
+  },
+  "changeMasterPasswordFormSubmit": "Зберегти з новим паролем",
+  "@changeMasterPasswordFormSubmit": {
+    "description": ""
+  },
+  "changeMasterPasswordSuccess": "Головний пароль успішно збережено.",
+  "@changeMasterPasswordSuccess": {
+    "description": ""
+  },
+  "changeMasterPasswordScreenTitle": "Змінити головний пароль",
+  "@changeMasterPasswordScreenTitle": {
+    "description": "app bar title for change password screen."
+  },
+  "authPassCloudAuthClickedLink": "Я отримав листа і відкрив посилання",
+  "@authPassCloudAuthClickedLink": {
+    "description": ""
+  },
+  "authPassCloudAuthNotConfirmed": "Адреса електронної пошти ще не підтверджена. Обов'язково перейдіть за посиланням в отриманому листі та розгадайте капчу, щоб підтвердити свою електронну адресу.",
+  "@authPassCloudAuthNotConfirmed": {
+    "description": ""
+  },
+  "getHelpButton": "Отримати допомогу на форумі",
+  "@getHelpButton": {
     "description": ""
   },
   "shortcutCopyUsername": "Копіювати ім'я користувача",
@@ -1431,9 +1702,41 @@
   "@shortcutCopyPassword": {
     "description": ""
   },
+  "shortcutCopyTotp": "Копіювати TOTP",
+  "@shortcutCopyTotp": {
+    "description": ""
+  },
+  "shortcutMoveUp": "Вибрати попередній пароль",
+  "@shortcutMoveUp": {
+    "description": ""
+  },
+  "shortcutMoveDown": "Вибрати наступний пароль",
+  "@shortcutMoveDown": {
+    "description": ""
+  },
   "shortcutGeneratePassword": "Згенерувати пароль",
   "@shortcutGeneratePassword": {
     "description": ""
+  },
+  "shortcutCopyUrl": "Копіювати URL-адресу",
+  "@shortcutCopyUrl": {
+    "description": ""
+  },
+  "shortcutOpenUrl": "Відкрити URL-адресу",
+  "@shortcutOpenUrl": {
+    "description": ""
+  },
+  "shortcutCancelSearch": "Скасувати пошук",
+  "@shortcutCancelSearch": {
+    "description": ""
+  },
+  "shortcutShortcutHelp": "Довідка по гарячих клавішах",
+  "@shortcutShortcutHelp": {
+    "description": ""
+  },
+  "shortcutHelpTitle": "Гарячі Клавіші",
+  "@shortcutHelpTitle": {
+    "description": "title of dialog showing keyboard shortcuts."
   },
   "unexpectedError": "Неочікувана помилка: {error}",
   "@unexpectedError": {
@@ -1442,5 +1745,6 @@
         "type": "String"
       }
     }
-  }
+  },
+  "scanQrCodeTitle": "Сканувати QR-код."
 }
