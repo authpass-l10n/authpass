@@ -12,9 +12,69 @@
   "@fieldTotp": {
     "description": "Label for fields of TOTP (Time based one time passwords)"
   },
+  "english": "Англійська",
+  "@english": {
+    "description": "language switcher subtitle"
+  },
+  "german": "Німецька",
+  "@german": {
+    "description": "language switcher subtitle"
+  },
+  "russian": "російська",
+  "@russian": {
+    "description": "language switcher subtitle"
+  },
+  "ukrainian": "Українська",
+  "@ukrainian": {
+    "description": "language switcher subtitle"
+  },
+  "lithuanian": "Литовська",
+  "@lithuanian": {
+    "description": "language switcher subtitle"
+  },
+  "french": "Французька",
+  "@french": {
+    "description": "language switcher subtitle"
+  },
+  "spanish": "Іспанська",
+  "@spanish": {
+    "description": "language switcher subtitle"
+  },
   "indonesian": "Indonesian",
   "@indonesian": {
     "description": "language switcher subtitle"
+  },
+  "turkish": "Турецька",
+  "@turkish": {
+    "description": "Language switcher subtitle"
+  },
+  "hebrew": "Іврит",
+  "@hebrew": {
+    "description": "Language switcher subtitle"
+  },
+  "italian": "Італійська",
+  "@italian": {
+    "description": "Language switcher subtitle"
+  },
+  "chineseSimplified": "Китайська (спрощена)",
+  "@chineseSimplified": {
+    "description": "Language switcher subtitle"
+  },
+  "chineseTraditional": "Китайська (традиційна)",
+  "@chineseTraditional": {
+    "description": "Language switcher subtitle"
+  },
+  "portugueseBrazilian": "Португальська, Бразилія",
+  "@portugueseBrazilian": {
+    "description": "Language switcher subtitle"
+  },
+  "slovak": "Словацька",
+  "@slovak": {
+    "description": "Language switcher subtitle"
+  },
+  "dutch": "Нідерландська",
+  "@dutch": {
+    "description": "Language switcher subtitle"
   },
   "selectItem": "Вибрати",
   "@selectItem": {
@@ -679,6 +739,10 @@
   "@webDavUrlLabel": {
     "description": ""
   },
+  "webDavUrlHelperText": "Базове посилання на Вашу службу WebDAV.",
+  "@webDavUrlHelperText": {
+    "description": ""
+  },
   "webDavUrlValidatorError": "Введіть URL-адресу",
   "@webDavUrlValidatorError": {
     "description": ""
@@ -1046,6 +1110,21 @@
       "cloudStorageName": {
         "example": "Dropbox"
       }
+    }
+  },
+  "cloudStorageLogInCaption": "Вас буде перенаправлено на сторінку автентифікації AuthPass для доступу до ваших даних.",
+  "@cloudStorageLogInCaption": {
+    "description": ""
+  },
+  "cloudStorageLogInCode": "Введіть код",
+  "@cloudStorageLogInCode": {
+    "description": "for oauth authentication user has to enter auth code - this is the label for the text field."
+  },
+  "launchUrlError": "Не вдалося відкрити URL-адресу. Будь ласка, перейдіть за посиланням {url}",
+  "@launchUrlError": {
+    "description": "",
+    "placeholders": {
+      "url": {}
     }
   },
   "mailMailbox": "Поштова скринька",
