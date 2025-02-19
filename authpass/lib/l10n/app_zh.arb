@@ -1258,6 +1258,13 @@
   "@otpInvalidKeyBody": {
     "description": ""
   },
+  "otpUnsupportedMigrationTitle": "不支持OTP迁移",
+  "otpUnsupportedMigrationBody": "我们目前仅支持单个项目迁移。得到{uricount}",
+  "@otpUnsupportedMigrationBody": {
+    "placeholders": {
+      "uriCount": {}
+    }
+  },
   "otpPromptTitle": "基于时间的身份认证",
   "@otpPromptTitle": {
     "description": ""
@@ -1738,5 +1745,8 @@
         "type": "String"
       }
     }
-  }
+  },
+  "googleDriveMorePermissionsRequired": "访问Google Drive所需的其他权限。",
+  "googleDriveRequestPermissionButtonLabel": "请求权限",
+  "scanQrCodeTitle": "扫描二维码."
 }
